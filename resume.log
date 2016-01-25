@@ -1,0 +1,149 @@
+open source     > 1 > 1 > /usr/local/texlive/2014/texmf-dist/tex/context/base/cont-yes.mkiv
+
+ConTeXt  ver: 2014.05.21 22:04 MKIV beta  fmt: 2015.9.7  int: english/english
+
+system          > 'cont-new.mkiv' loaded
+open source     > 2 > 2 > /usr/local/texlive/2014/texmf-dist/tex/context/base/cont-new.mkiv
+close source    > 2 > 2 > /usr/local/texlive/2014/texmf-dist/tex/context/base/cont-new.mkiv
+system          > files > jobname 'resume', input './resume', result 'resume'
+fonts           > latin modern fonts are not preloaded
+languages       > language 'en' is active
+open source     > 2 > 3 > /Users/guangchuangyu/github/resume/resume.tex
+colors          > defining > unknown library 'hex'
+open source     > 3 > 4 > /usr/local/texlive/2014/texmf-dist/tex/context/base/type-imp-texgyre.mkiv
+close source    > 3 > 4 > /usr/local/texlive/2014/texmf-dist/tex/context/base/type-imp-texgyre.mkiv
+structure       > sectioning > section @ level 3 : 0.0.1 -> Guangchuang Yu
+
+Overfull \hbox (12.45166pt too wide) in alignment at lines 76--87
+[][] [] [] [] [][] 
+
+\hbox(0.0+0.0)x483.69687, glue set - 1.0, direction TLT
+.\glue(\tabskip) 0.0
+.\unsetbox(0.0+0.0)x0.0
+.\glue(\tabskip) 0.0
+.\unsetbox(0.0+0.0)x0.0
+.\glue(\tabskip) 8.25 plus 1.5fil minus 4.125
+.etc.
+
+floatblocks     > '1' placed
+structure       > sectioning > subsection @ level 4 : 0.0.1.1 -> Education
+structure       > sectioning > subsection @ level 4 : 0.0.1.2 -> Professional Experience
+structure       > sectioning > subsection @ level 4 : 0.0.1.3 -> Software Development
+structure       > sectioning > subsection @ level 4 : 0.0.1.4 -> Awards
+structure       > sectioning > subsection @ level 4 : 0.0.1.5 -> Grants
+structure       > sectioning > subsection @ level 4 : 0.0.1.6 -> Publications
+backend         > xmp > using file '/usr/local/texlive/2014/texmf-dist/tex/context/base/lpdf-pdx.xml'
+pages           > flushing realpage 1, userpage 1
+
+Overfull \hbox (37.3886pt too wide) in paragraph at lines 210--216
+ \3>helvetica-11pt-ss-bf-0--0 nickel-bind-ing pro-teins and mo-tifs in \3>helvetica-11pt-ss-bs-0--0 Strep-to-coc-cus pneu-mo-nia\3>helvetica-11pt-ss-tf-0--0 . \3>helvetica-11pt-ss-bs-0--0 Met-al-lomics\3>helvetica-11pt-ss-tf-0--0 . 2013, 5(7):928-935. 
+
+\hbox(8.195+2.398)x483.69687, glue set - 1.0, direction TLT
+.\glue(\leftskip) 22.0
+.\3>helvetica-11pt-ss-bf-0--0 n
+.\3>helvetica-11pt-ss-bf-0--0 i
+.\3>helvetica-11pt-ss-bf-0--0 c
+.\kern 0.055
+.etc.
+
+
+Overfull \hbox (5.95692pt too wide) in paragraph at lines 229--235
+ \3>helvetica-11pt-ss-bf-0--0 themes among gene clus-ters\3>helvetica-11pt-ss-tf-0--0 . \3>helvetica-11pt-ss-bs-0--0 OMICS: A Jour-nal of In-te-gra-tive Bi-ol-ogy\3>helvetica-11pt-ss-tf-0--0 . 2012, 16(5):284-287. 
+
+\hbox(8.151+2.409)x483.69687, glue set - 1.0, direction TLT
+.\glue(\leftskip) 22.0
+.\3>helvetica-11pt-ss-bf-0--0 t
+.\3>helvetica-11pt-ss-bf-0--0 h
+.\3>helvetica-11pt-ss-bf-0--0 e
+.\3>helvetica-11pt-ss-bf-0--0 m
+.etc.
+
+pages           > flushing realpage 2, userpage 2
+
+Overfull \hbox (1.6523pt too wide) in paragraph at lines 340--347
+ \3>helvetica-11pt-ss-bf-0--0 cu-racy Mass Spec-trom-e-try\3>helvetica-11pt-ss-tf-0--0 . \3>helvetica-11pt-ss-bs-0--0 OMICS: A Jour-nal of In-te-gra-tive Bi-ol-ogy\3>helvetica-11pt-ss-tf-0--0 . 2011, 15(10):683-694. 
+
+\hbox(8.151+2.409)x483.69687, glue set - 1.0, direction TLT
+.\glue(\leftskip) 22.0
+.\3>helvetica-11pt-ss-bf-0--0 c
+.\3>helvetica-11pt-ss-bf-0--0 u
+.\discretionary
+..\3>helvetica-11pt-ss-bf-0--0 -
+.\3>helvetica-11pt-ss-bf-0--0 r
+.etc.
+
+structure       > sectioning > subsection @ level 4 : 0.0.1.7 -> Book Chapters
+pages           > flushing realpage 3, userpage 3
+close source    > 2 > 4 > /Users/guangchuangyu/github/resume/resume.tex
+close source    > 1 > 4 > /usr/local/texlive/2014/texmf-dist/tex/context/base/cont-yes.mkiv
+
+system          > structure > start used structure
+
+used structure  > text: resume
+
+system          > structure > stop used structure
+
+
+system          > files > start used files
+
+used file       >    1: filename=cont-yes.mkiv filetype=tex foundname=/usr/local/texlive/2014/texmf-dist/tex/context/base/cont-yes.mkiv usedmethod=database
+used file       >    2: filename=cont-new.mkiv filetype=tex foundname=/usr/local/texlive/2014/texmf-dist/tex/context/base/cont-new.mkiv usedmethod=database
+used file       >    3: filename=lang-us.lua filetype=scripts foundname=/usr/local/texlive/2014/texmf-dist/tex/context/patterns/lang-us.lua usedmethod=database
+used file       >    4: filename=/Users/guangchuangyu/github/resume/resume.tex foundname=/Users/guangchuangyu/github/resume/resume.tex usedmethod=direct
+used file       >    5: filename=type-imp-texgyre.mkiv filetype=tex foundname=/usr/local/texlive/2014/texmf-dist/tex/context/base/type-imp-texgyre.mkiv usedmethod=database
+used file       >    6: filename=lm.lfg filetype=tex foundname=/usr/local/texlive/2014/texmf-dist/tex/context/fonts/lm.lfg usedmethod=database
+used file       >    7: filename=texgyreheros-regular filetype=otf format=otf foundname=/usr/local/texlive/2014/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-regular.otf usedmethod=database
+used file       >    8: filename=latinmodern-math.otf filetype=opentypefonts foundname=/usr/local/texlive/2014/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf usedmethod=database
+used file       >    9: filename=latinmodern-math.otf filetype=otf format=otf foundname=/usr/local/texlive/2014/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf usedmethod=database
+used file       >   10: filename=texgyreheros-bold filetype=otf format=otf foundname=/usr/local/texlive/2014/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf usedmethod=database
+used file       >   11: filename=lmmonolt10-bold filetype=otf format=otf foundname=/usr/local/texlive/2014/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf usedmethod=database
+used file       >   12: filename=texgyreheros-italic filetype=otf format=otf foundname=/usr/local/texlive/2014/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-italic.otf usedmethod=database
+used file       >   13: filename=lpdf-pdx.xml filetype=tex foundname=/usr/local/texlive/2014/texmf-dist/tex/context/base/lpdf-pdx.xml usedmethod=database
+used file       >   14: filename=texgyreheros-bolditalic filetype=otf format=otf foundname=/usr/local/texlive/2014/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-bolditalic.otf usedmethod=database
+
+system          > files > stop used files
+
+
+system          > options > start commandline options
+
+used option     > currentrun="1"
+used option     > fulljobname="./resume.tex"
+used option     > input="./resume.tex"
+used option     > kindofrun="1"
+used option     > maxnofruns="8"
+used option     > no-parse-first-line="true"
+
+system          > options > stop commandline options
+
+system          > options > start commandline files
+
+used file       >    1: ./resume.tex
+
+system          > options > stop commandline files
+
+
+mkiv lua stats  > used config file: selfautoparent:/texmfcnf.lua;selfautoparent:/texmf-dist/web2c/texmfcnf.lua
+mkiv lua stats  > used cache path: readable+writable: '/usr/local/texlive/2014/texmf-var/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9' | readable: '/Users/guangchuangyu/Library/texlive/2014/texmf-var/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9'
+mkiv lua stats  > resource resolver: loadtime 0.079 seconds, 3 scans with scantime 0.124 seconds, 0 shared scans, 14 found files, scanned paths: /Library/Fonts /System/Library/Fonts /Users/guangchuangyu/Library/Fonts
+mkiv lua stats  > stored bytecode data: 350 modules (0.157 sec), 69 tables (0.002 sec), 419 chunks (0.159 sec)
+mkiv lua stats  > running in nuts mode: yes
+mkiv lua stats  > cleaned up reserved nodes: 53 nodes, 443 lists of 442
+mkiv lua stats  > node memory usage: 2 glue, 3 penalty, 12 attribute, 45 glue_spec, 3 attribute_list, 2 temp
+mkiv lua stats  > node list callback tasks: 6 unique task lists, 6 instances (re)created, 706 calls
+mkiv lua stats  > h-node processing time: 0.030 seconds including kernel
+mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
+mkiv lua stats  > loaded patterns: en::2, load time: 0.000
+mkiv lua stats  > jobdata time: 0.002 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: 1442 direct, 826 indirect, 2268 total
+mkiv lua stats  > randomizer: resumed with value 0.63069549046024
+mkiv lua stats  > interactive elements: 54 references, 15 destinations
+mkiv lua stats  > result saved in file: resume.pdf, compresslevel 3, objectcompresslevel 3
+mkiv lua stats  > loaded fonts: 6 files: latinmodern-math.otf, lmmonolt10-bold.otf, texgyreheros-bold.otf, texgyreheros-bolditalic.otf, texgyreheros-italic.otf, texgyreheros-regular.otf
+mkiv lua stats  > fonts load time: 0.451 seconds for 13 fonts, 6 shared in backend, 1 common vectors, 5 common hashes
+mkiv lua stats  > pdf annotations: 54 links (54 unique), 0 special
+mkiv lua stats  > used platform: osx-64, type: unix, binary subtree: bin
+mkiv lua stats  > luatex banner: this is luatex, version beta-0.79.1 (tex live 2014) (rev 4971)
+mkiv lua stats  > control sequences: 39075 of 65536 + 100000
+mkiv lua stats  > lua properties: engine: lua, used memory: 85 MB (ctx: 85 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 1.109 seconds, 3 processed pages, 3 shipped pages, 2.705 pages/second
+
