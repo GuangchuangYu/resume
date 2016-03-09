@@ -41,12 +41,13 @@ Professional Experience
 Software Development
 --------------------
 
-* [ChIPseeker](https://github.com/GuangchuangYu/ChIPseeker): ChIP peak Annotation, Comparison and Visualization
-* [clusterProfiler](https://github.com/GuangchuangYu/clusterProfiler): Comparing biological themes among gene clusters
-* [DOSE](https://github.com/GuangchuangYu/DOSE): Disease Ontology Semantic and Enrichment analysis
-* [ggtree](https://github.com/GuangchuangYu/ggtree): Phylogenetic tree viewer for different types of tree annotations
-* [GOSemSim](https://github.com/GuangchuangYu/GOSemSim): GO-terms and gene samantic similarity measures
-* [ReactomePA](https://github.com/GuangchuangYu/ReactomePA): Reactome pathway analysis
+* [ChIPseeker](http://www.bioconductor.org/packages/ChIPseeker): ChIP peak Annotation, Comparison and Visualization
+* [clusterProfiler](http://www.bioconductor.org/packages/clusterProfiler): Comparing biological themes among gene clusters
+* [DOSE](http://www.bioconductor.org/packages/DOSE): Disease Ontology Semantic and Enrichment analysis
+* [emojifont](https://cran.r-project.org/web/packages/emojifont/index.html): Using emoji font in both base and ggplot2 graphics
+* [ggtree](http://www.bioconductor.org/packages/ggtree): Phylogenetic tree viewer for different types of tree annotations
+* [GOSemSim](http://www.bioconductor.org/packages/GOSemSim): GO-terms and gene samantic similarity measures
+* [ReactomePA](http://www.bioconductor.org/packages/ReactomePA): Reactome pathway analysis
 
 
 Awards
@@ -72,11 +73,11 @@ Publications
 ![](citation.pdf)
 -->
 
-> Citation = 457,
+> Citation = 470,
 > H-index = 11,
 > I10-index = 12
 
-> (data from [Google Scholar](https://scholar.google.com/citations?user=DO5oG40AAAAJ&hl=en), Feb 2016)
+> (data from [Google Scholar](https://scholar.google.com/citations?user=DO5oG40AAAAJ&hl=en), Mar 2016)
 
 1. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. ggtree: an R package for visualization and annotation of phylogenetic tree with different types of meta-data. __*Methods in Ecology and Evolution*__. Submitted.
 92. __G Yu__, QY He^\*^. [ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization](http://pubs.rsc.org/en/Content/ArticleLanding/2016/MB/C5MB00663E). __*Molecular BioSystems*__. 2016, 12(2):477-479.
