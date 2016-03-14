@@ -73,7 +73,7 @@ Publications
 ![](citation.pdf)
 -->
 
-> Citation = 470,
+> Citation = 472,
 > H-index = 11,
 > I10-index = 12
 
@@ -108,3 +108,11 @@ Publications
 Book Chapters
 -----------------
 * __G Yu__, "Bioinformatics II", in "Functional Protein Research", 385-425, Qing-Yu He (Eds), __*Science Press*__, 2012. (China’s Twelfth Five-Year National Important Books Project, in Chinese)
+
+
+Conference posters
+-----------------
+
+2015. **ggtree: an *R* package for visualization and annotation of phylogenetic tree with different types of meta-data**
+
+	The 20^th^ Research Postgraduate Symposium, The University of Hong Kong, Hong Kong, Dec. 2015
