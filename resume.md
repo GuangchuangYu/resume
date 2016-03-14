@@ -41,13 +41,26 @@ Professional Experience
 Software Development
 --------------------
 
-* [ChIPseeker](http://www.bioconductor.org/packages/ChIPseeker): ChIP peak Annotation, Comparison and Visualization
-* [clusterProfiler](http://www.bioconductor.org/packages/clusterProfiler): Comparing biological themes among gene clusters
-* [DOSE](http://www.bioconductor.org/packages/DOSE): Disease Ontology Semantic and Enrichment analysis
-* [emojifont](https://cran.r-project.org/web/packages/emojifont/index.html): Using emoji font in both base and ggplot2 graphics
-* [ggtree](http://www.bioconductor.org/packages/ggtree): Phylogenetic tree viewer for different types of tree annotations
-* [GOSemSim](http://www.bioconductor.org/packages/GOSemSim): GO-terms and gene samantic similarity measures
-* [ReactomePA](http://www.bioconductor.org/packages/ReactomePA): Reactome pathway analysis
+[ChIPseeker](http://www.bioconductor.org/packages/ChIPseeker)
+:   ChIP peak Annotation, Comparison and Visualization
+
+[clusterProfiler](http://www.bioconductor.org/packages/clusterProfiler)
+:   Comparing biological themes among gene clusters
+
+[DOSE](http://www.bioconductor.org/packages/DOSE)
+:   Disease Ontology Semantic and Enrichment analysis
+
+[emojifont](https://cran.r-project.org/web/packages/emojifont/index.html)
+:   Using emoji font in both base and ggplot2 graphics
+
+[ggtree](http://www.bioconductor.org/packages/ggtree)
+:   Phylogenetic tree viewer for different types of tree annotations
+
+[GOSemSim](http://www.bioconductor.org/packages/GOSemSim)
+:   GO-terms and gene samantic similarity measures
+
+[ReactomePA](http://www.bioconductor.org/packages/ReactomePA)
+:   Reactome pathway analysis
 
 
 Awards
@@ -110,8 +123,10 @@ Book Chapters
 * __G Yu__, "Bioinformatics II", in "Functional Protein Research", 385-425, Qing-Yu He (Eds), __*Science Press*__, 2012. (China’s Twelfth Five-Year National Important Books Project, in Chinese)
 
 
-Conference posters
+Conference presentations & posters
 -----------------
+
+### Posters
 
 2015. **ggtree: an *R* package for visualization and annotation of phylogenetic tree with different types of meta-data**
 
