@@ -66,14 +66,20 @@ Software Development
 Awards
 ------
 
-* 2013-2017, Postgraduate Studentships (for PhD students at The University of Hong Kong)
-* 2012, Best paper of the year 2010, Journal of Integrated OMICS.
+2013-2017
+:   Postgraduate Studentships (for PhD students at The University of Hong Kong)
+
+2012
+:   Best paper of the year 2010, Journal of Integrated OMICS.
 
 
 Grants
 ------
-* 2013 (completed), PI, Investigate functions of hnRNPK in regulating cytokinesis of human lung cancer cell, Fundamental Research Funds for the Central Universities (21613414), ￥100,000
-* 2011 (completed), PI, Dynamic proteomic analysis of HeLa cell cycle, Fundamental Research Funds for the Central Universities (21611303), ￥20,000
+2013 (completed)
+:   PI, Investigate functions of hnRNPK in regulating cytokinesis of human lung cancer cell, Fundamental Research Funds for the Central Universities (21613414), ￥100,000
+
+2011 (completed)
+:   PI, Dynamic proteomic analysis of HeLa cell cycle, Fundamental Research Funds for the Central Universities (21611303), ￥20,000
 
 
 
@@ -91,6 +97,7 @@ Publications
 > I10-index = 12
 
 > (data from [Google Scholar](https://scholar.google.com/citations?user=DO5oG40AAAAJ&hl=en), Mar 2016)
+
 
 1. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. ggtree: an R package for visualization and annotation of phylogenetic tree with different types of meta-data. __*Methods in Ecology and Evolution*__. Submitted.
 92. __G Yu__, QY He^\*^. [ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization](http://pubs.rsc.org/en/Content/ArticleLanding/2016/MB/C5MB00663E). __*Molecular BioSystems*__. 2016, 12(2):477-479.
@@ -112,7 +119,8 @@ Publications
 993. N Wang^†^, J Zhang^†^, L Zhang, XY Yang, N Li, __G Yu__, J Han, K Cao, Z Guo, X Sun^\*^, QY He^\*^. [Proteomic analysis of putative heme-binding proteins in *Streptococcus pyogenes*](http://pubs.rsc.org/en/content/articlelanding/2014/mt/c4mt00027g). __*Metallomics*__. 2014, 6(8):1451-1459.
 994. H Sun^\*^, J Weng, __G Yu__, RH Massawe. [A DNA-Based Semantic Fusion Model for Remote Sensing Data](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0077090). __*PLoS One*__. 2013, 8(10):e77090.
 995. GR Yan^†^, Z Tan^†^, Y Wang, ML Xu, __G Yu__, Y Li^\*^, QY He^\*^. [Quantitative Proteomics Characterization on the Anti-tumor Effects of Isodexyelephantopin against Nasopharyngeal Carcinoma](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201300152/abstract). __*Proteomics*__. 2013, 13(21):3222-3232.
-996. J Li, X Lu, Q Wu, __G Yu__, Z Xu, L Qiu, Z Pei, Y Lin, J Pang^\*^. [Design, SAR, angiogenic activities evaluation and pro-angiogenic mechanism of new marine cyclopeptide analogs](http://www.eurekaselect.com/107734/article). __*Current Medicinal Chemistry*__. 2013, 20(9):1183-1194. 
+996. J Li, X Lu, Q Wu, __G Yu__, Z Xu, L Qiu, Z Pei, Y Lin, J Pang^\*^. [Design, SAR, angiogenic activities evaluation and pro-angiogenic mechanism of new m
+arine cyclopeptide analogs](http://www.eurekaselect.com/107734/article). __*Current Medicinal Chemistry*__. 2013, 20(9):1183-1194. 
 997. Y Han, __G Yu__, H Sarioglu, A Caballero-Martinez, F Schlott, M Ueffing, H Haase, C Peschel, AM Krackhardt^\*^. [Proteomic investigation of the interactome of FMNL1 in hematopoietic cells unveils a role in calcium-dependent membrane plasticity](http://www.sciencedirect.com/science/article/pii/S1874391912007567). __*Journal of Proteomics*__. 2013, 78:72-82.
 998. Y Ma^†^, J Yang^†^, X Fan^†^, H Zhao, W Hu, Z Li, __G Yu__, X Ding, J Wang, X Bo, X Zheng, Z Zhou^\*^, S Wang^\*^. [Cellular MicroRNA let-7c Inhibits M1 Protein Expression of the H1N1 Influenza A Virus in Infected Human Lung Epithelial Cells](http://onlinelibrary.wiley.com/doi/10.1111/j.1582-4934.2012.01572.x/abstract). __*Journal of Cellular and Molecular Medicine*__. 2012, 16(10):2539-2546.
 999. GR Yan^†^, FY Zhou^†^, BL Dang, Y Zhang, __G Yu__, X Liu, QY He^\*^. [Genistein-induced mitotic arrest of gastric cancer cells by downregulating KIF20A, a proteomics study](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201100652/abstract). __*Proteomics*__. 2012, 12(14):2391-2399. 
@@ -120,13 +128,13 @@ Publications
 
 Book Chapters
 -----------------
-* __G Yu__, "Bioinformatics II", in "Functional Protein Research", 385-425, Qing-Yu He (Eds), __*Science Press*__, 2012. (China’s Twelfth Five-Year National Important Books Project, in Chinese)
+1. __G Yu__, "Bioinformatics II", in "Functional Protein Research", 385-425, Qing-Yu He (Eds), __*Science Press*__, 2012.
+
+    (China’s Twelfth Five-Year National Important Books Project, in Chinese)
 
 
-Conference presentations & posters
+Conference posters
 -----------------
-
-### Posters
 
 2015. **ggtree: an *R* package for visualization and annotation of phylogenetic tree with different types of meta-data**
 
