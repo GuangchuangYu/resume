@@ -5,8 +5,8 @@ Guangchuang Yu
 
 -------------------------------------------------------------    --------------------------
 School of Public Health, The University of Hong Kong                         (852)-62269693
-L5-14, 5/F, Laboratory Block, Faculty of Medicine Building       [gcyu@connect.hku.hk](mailto:gcyu@connect.hku.hk)
-21 Sassoon Road, Pokfulam, Hong Kong                             [http://guangchuangyu.github.io](http://guangchuangyu.github.io)
+L5-14, 5/F, Laboratory Block, Faculty of Medicine Building       <guangchuangyu@gmail.com>
+21 Sassoon Road, Pokfulam, Hong Kong                             <http://guangchuangyu.github.io>
 -------------------------------------------------------------    --------------------------
 ----
 
@@ -82,6 +82,43 @@ Grants
 :   PI, Dynamic proteomic analysis of HeLa cell cycle, Fundamental Research Funds for the Central Universities (21611303), ￥20,000
 
 
+Professional Services
+------------------
+**Reviewer**. BMC Bioinformatics, Computational Biology and Chemistry, R Journal 
+
+Programming Skills
+-----------------
+
+### R
+
++ More than 8 years of experience programming in R.
++ developed packages in font support (emojifont), semantic similarity measure (GOSemSim, DOSE), ontology & pathway analysis (DOSE, clusterProfiler, ReactomePA), ChIP-seq analysis (ChIPseeker), phylogenetic data import and visualization (ggtree).
++ Contribution to MSnbase (MS-based Proteomics).
+
+### Unix
+
++ More than 14 years of experience (Linux & BSD).
++ Server setup, management and application deployment.
+
+### Other
+
++ Good knowledge of Git, $\LaTeX$ Bash and Java.
++ Basic knowledge of C, Perl, Python and Matlab.
+
+Languages
+--------------
+Teochew
+:   Native language
+
+Chinese Mandarin
+:   Very fluent. Complete professional competence.
+
+Cantoese
+:   Very fluent.
+
+English
+:   fluent.
+
 
 Publications
 ------------
@@ -92,11 +129,11 @@ Publications
 ![](citation.pdf)
 -->
 
-> Citation = 472,
+> Citation = 484,
 > H-index = 11,
 > I10-index = 12
 
-> (data from [Google Scholar](https://scholar.google.com/citations?user=DO5oG40AAAAJ&hl=en), Mar 2016)
+> (data from [Google Scholar](https://scholar.google.com/citations?user=DO5oG40AAAAJ&hl=en), Apr 2016)
 
 
 1. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. ggtree: an R package for visualization and annotation of phylogenetic tree with different types of meta-data. __*Methods in Ecology and Evolution*__. Submitted.
@@ -133,7 +170,7 @@ Book Chapters
     (China’s Twelfth Five-Year National Important Books Project, in Chinese)
 
 
-Conference posters
+Conference Presentations & Posters
 -----------------
 
 2015. **ggtree: an *R* package for visualization and annotation of phylogenetic tree with different types of meta-data**

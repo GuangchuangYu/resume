@@ -12,6 +12,7 @@ html: index.html
 index.html: style_chmduquesne.css resume.md
 	pandoc --standalone -H style_chmduquesne.css \
         --from markdown --to html \
+	--mathjax \
         -o index.html resume.md
 
 docx: resume.docx
