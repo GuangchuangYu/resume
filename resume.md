@@ -98,7 +98,7 @@ Programming Skills
 ### Unix
 
 + More than 14 years of experience (Linux & BSD).
-+ Server setup, management and application deployment.
++ Experience of server setup, management and application deployment.
 
 ### Other
 
