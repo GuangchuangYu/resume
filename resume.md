@@ -6,7 +6,7 @@ Guangchuang Yu
 -------------------------------------------------------------    --------------------------
 School of Public Health, The University of Hong Kong                         (852)-62269693
 L5-14, 5/F, Laboratory Block, Faculty of Medicine Building       <guangchuangyu@gmail.com>
-21 Sassoon Road, Pokfulam, Hong Kong                             <http://guangchuangyu.github.io>
+22 Sassoon Road, Pokfulam, Hong Kong                             <http://guangchuangyu.github.io>
 -------------------------------------------------------------    --------------------------
 ----
 
@@ -129,14 +129,14 @@ Publications
 ![](citation.pdf)
 -->
 
-> Citation = 484,
+> Citation = 511,
 > H-index = 11,
 > I10-index = 12
 
-> (data from [Google Scholar](https://scholar.google.com/citations?user=DO5oG40AAAAJ&hl=en), Apr 2016)
+> (data from [Google Scholar](https://scholar.google.com/citations?user=DO5oG40AAAAJ&hl=en), May 2016)
 
 
-1. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. ggtree: an R package for visualization and annotation of phylogenetic tree with different types of meta-data. __*Methods in Ecology and Evolution*__. Submitted.
+1. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. ggtree: an R package for visualization and annotation of phylogenetic tree with different types of meta-data. __*Methods in Ecology and Evolution*__. Revised.
 92. __G Yu__, QY He^\*^. [ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization](http://pubs.rsc.org/en/Content/ArticleLanding/2016/MB/C5MB00663E). __*Molecular BioSystems*__. 2016, 12(2):477-479.
 93. __G Yu__^\*^, LG Wang, QY He^\*^. [ChIPseeker: an R/Bioconductor package for ChIP peak annotation, comparision and visualization](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btv145). __*Bioinformatics*__. 2015, 31(14):2382-2383.
 94.	__G Yu__^\*^, LG Wang, GR Yan, QY He^\*^. [DOSE: an R/Bioconductor package for Disease Ontology Semantic and Enrichment analysis](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btu684). __*Bioinformatics*__. 2015, 31(4):608-609.
@@ -163,6 +163,7 @@ arine cyclopeptide analogs](http://www.eurekaselect.com/107734/article). __*Curr
 999. GR Yan^†^, FY Zhou^†^, BL Dang, Y Zhang, __G Yu__, X Liu, QY He^\*^. [Genistein-induced mitotic arrest of gastric cancer cells by downregulating KIF20A, a proteomics study](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201100652/abstract). __*Proteomics*__. 2012, 12(14):2391-2399. 
 1000. X Sun^†^, XY Yang^†^, XF Yin, __G Yu__, CL Xiao, X He, QY He^\*^. [Proteomic Analysis of Membrane Proteins from *Streptococcus pneumoniae* with Multiple Separation Methods plus High Accuracy Mass Spectrometry](http://www.liebertonline.com/doi/abs/10.1089/omi.2010.0133). __*OMICS: A Journal of Integrative Biology*__. 2011, 15(10):683-694.
 
+
 Book Chapters
 -----------------
 1. __G Yu__, "Bioinformatics II", in "Functional Protein Research", 385-425, Qing-Yu He (Eds), __*Science Press*__, 2012.
@@ -170,9 +171,14 @@ Book Chapters
     (China’s Twelfth Five-Year National Important Books Project, in Chinese)
 
 
-Conference Presentations & Posters
+Conference Presentations
 -----------------
+2016. **ggtree for visualization and annotation of phylogenetic trees** (invited)
 
+	The 9^th^ China-R Conference, Renmin University of China, Beijing, May. 2016
+
+Conference Posters
+-----------------
 2015. **ggtree: an *R* package for visualization and annotation of phylogenetic tree with different types of meta-data**
 
 	The 20^th^ Research Postgraduate Symposium, The University of Hong Kong, Hong Kong, Dec. 2015
