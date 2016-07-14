@@ -125,114 +125,80 @@ English
 Publications
 ------------
 
-<!--
-<img src="citation.png" width=600 align="middle"/>
-
-![](citation.pdf)
--->
-
-<!--
 > Citation = 542,
 > H-index = 11,
 > I10-index = 13
 
 > (data from [Google Scholar](https://scholar.google.com/citations?user=DO5oG40AAAAJ&hl=en), July 2016)
--->
 
-<!-- ColumnChart generated in R 3.3.0 by googleVis 0.6.0 package -->
-<!-- Thu Jul 14 13:34:28 2016 -->
-
-
-<!-- jsHeader -->
-<script type="text/javascript">
- 
-// jsData 
-function gvisDataColumnChartID36752124d43 () {
-var data = new google.visualization.DataTable();
-var datajson =
-[
- [ "2010",9 ],
-[ "2011",17 ],
-[ "2012",62 ],
-[ "2013",81 ],
-[ "2014",110 ],
-[ "2015",134 ],
-[ "2016",108 ] 
-];
-data.addColumn('string','year');
-data.addColumn('number','cites');
-data.addRows(datajson);
-return(data);
-}
- 
-// jsDrawChart
-function drawChartColumnChartID36752124d43() {
-var data = gvisDataColumnChartID36752124d43();
-var options = {};
-options["allowHtml"] = [true];
-options["title"] = ["Citations = 542, h-index = 11, i10-index = 13 \n data from Google Scholar"];
-options["titleTextStyle"] = {color:'firebrick'};
-options["legend"] = {position: 'none'};
+<link rel='stylesheet' href=css/morris.css>
+<script src='css/jquery.min.js' type='text/javascript'></script>
+<script src='css/raphael-min.js' type='text/javascript'></script>
+<script src='css/morris-0.4.2.min.js' type='text/javascript'></script>
 
 
-    var chart = new google.visualization.ColumnChart(
-    document.getElementById('ColumnChartID36752124d43')
-    );
-    chart.draw(data,options);
-    
-
-}
-  
- 
-// jsDisplayChart
-(function() {
-var pkgs = window.__gvisPackages = window.__gvisPackages || [];
-var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
-var chartid = "corechart";
-  
-// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
-var i, newPackage = true;
-for (i = 0; newPackage && i < pkgs.length; i++) {
-if (pkgs[i] === chartid)
-newPackage = false;
-}
-if (newPackage)
-  pkgs.push(chartid);
-  
-// Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartColumnChartID36752124d43);
-})();
-function displayChartColumnChartID36752124d43() {
-  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
-  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
-  window.clearTimeout(window.__gvisLoad);
-  // The timeout is set to 100 because otherwise the container div we are
-  // targeting might not be part of the document yet
-  window.__gvisLoad = setTimeout(function() {
-  var pkgCount = pkgs.length;
-  google.load("visualization", "1", { packages:pkgs, callback: function() {
-  if (pkgCount != pkgs.length) {
-  // Race condition where another setTimeout call snuck in after us; if
-  // that call added a package, we must not shift its callback
-  return;
-}
-while (callbacks.length > 0)
-callbacks.shift()();
-} });
-}, 100);
-}
- 
-// jsFooter
+<style>
+  .rChart {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 800px;
+    height: 300px;
+  }  
+</style>
+<div id = 'chart36710f2a805' class = 'rChart morris'></div>
+<script type='text/javascript'>
+    var chartParams = {
+ "element": "chart36710f2a805",
+"width":            800,
+"height":            300,
+"xkey": "year",
+"ykeys": [
+ "cites" 
+],
+"data": [
+ {
+ "year": "2010",
+"cites":              9 
+},
+{
+ "year": "2011",
+"cites":             17 
+},
+{
+ "year": "2012",
+"cites":             62 
+},
+{
+ "year": "2013",
+"cites":             81 
+},
+{
+ "year": "2014",
+"cites":            110 
+},
+{
+ "year": "2015",
+"cites":            134 
+},
+{
+ "year": "2016",
+"cites":            108 
+} 
+],
+"hideHover": "auto",
+"id": "chart36710f2a805",
+"labels": "cites" 
+},
+      chartType = "Bar"
+    new Morris[chartType](chartParams)
 </script>
- 
-<!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartColumnChartID36752124d43"></script>
- 
-<!-- divChart -->
-  
-<div id="ColumnChartID36752124d43" 
-  style="width: 500; height: automatic;">
-</div>
+
+<!--
+<img src="citation.png" width=600 align="middle"/>
+
+![](citation.pdf)
+-->
 1. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data. __*Methods in Ecology and Evolution*__. revised.
 92. __G Yu__, QY He^\*^. [ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization](http://pubs.rsc.org/en/Content/ArticleLanding/2016/MB/C5MB00663E). __*Molecular BioSystems*__. 2016, 12(2):477-479.
 93. __G Yu__^\*^, LG Wang, QY He^\*^. [ChIPseeker: an R/Bioconductor package for ChIP peak annotation, comparision and visualization](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btv145). __*Bioinformatics*__. 2015, 31(14):2382-2383.
