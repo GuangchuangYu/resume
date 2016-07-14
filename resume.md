@@ -6,7 +6,7 @@ Guangchuang Yu
 -------------------------------------------------------------    --------------------------
 School of Public Health, The University of Hong Kong                         (852)-62269693
 L5-14, 5/F, Laboratory Block, Faculty of Medicine Building       <guangchuangyu@gmail.com>
-22 Sassoon Road, Pokfulam, Hong Kong                             <http://guangchuangyu.github.io>
+22 Sassoon Road, Pokfulam, Hong Kong                             <https://guangchuangyu.github.io>
 -------------------------------------------------------------    --------------------------
 ----
 
@@ -41,25 +41,25 @@ Professional Experience
 Software Development
 --------------------
 
-[ChIPseeker](http://www.bioconductor.org/packages/ChIPseeker)
+[ChIPseeker](https://guangchuangyu.github.io/ChIPseeker)
 :   ChIP peak Annotation, Comparison and Visualization
 
-[clusterProfiler](http://www.bioconductor.org/packages/clusterProfiler)
-:   Comparing biological themes among gene clusters
+[clusterProfiler](https://guangchuangyu.github.io/clusterProfiler)
+:   Statistical analysis and visualization of functional profiles for genes and gene clusters
 
-[DOSE](http://www.bioconductor.org/packages/DOSE)
+[DOSE](https://guangchuangyu.github.io/DOSE)
 :   Disease Ontology Semantic and Enrichment analysis
 
 [emojifont](https://cran.r-project.org/web/packages/emojifont/index.html)
-:   Using emoji font in both base and ggplot2 graphics
+:   Using emoji font in both 'base' and 'ggplot2' graphics
 
-[ggtree](http://www.bioconductor.org/packages/ggtree)
-:   Phylogenetic tree viewer for different types of tree annotations
+[ggtree](https://guangchuangyu.github.io/ggtree)
+:   Visualization and annotation of phylogenetic trees with their covariates and other associated data
 
-[GOSemSim](http://www.bioconductor.org/packages/GOSemSim)
-:   GO-terms and gene samantic similarity measures
+[GOSemSim](https://guangchuangyu.github.io/GOSemSim)
+:   GO and gene samantic similarity measurement
 
-[ReactomePA](http://www.bioconductor.org/packages/ReactomePA)
+[ReactomePA](https://guangchuangyu.github.io/ReactomePA)
 :   Reactome pathway analysis
 
 
@@ -84,8 +84,9 @@ Grants
 
 Professional Services
 ------------------
-**Reviewer**. BMC Bioinformatics, Computational Biology and Chemistry, R Journal 
+**Reviewer:** BMC Bioinformatics, Computational Biology and Chemistry, R Journal 
 
+<!--
 Programming Skills
 -----------------
 
@@ -119,6 +120,7 @@ Cantoese
 English
 :   fluent.
 
+-->
 
 Publications
 ------------
@@ -129,13 +131,108 @@ Publications
 ![](citation.pdf)
 -->
 
-> Citation = 511,
+<!--
+> Citation = 542,
 > H-index = 11,
-> I10-index = 12
+> I10-index = 13
 
-> (data from [Google Scholar](https://scholar.google.com/citations?user=DO5oG40AAAAJ&hl=en), May 2016)
+> (data from [Google Scholar](https://scholar.google.com/citations?user=DO5oG40AAAAJ&hl=en), July 2016)
+-->
+
+<!-- ColumnChart generated in R 3.3.0 by googleVis 0.6.0 package -->
+<!-- Thu Jul 14 13:34:28 2016 -->
 
 
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataColumnChartID36752124d43 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [ "2010",9 ],
+[ "2011",17 ],
+[ "2012",62 ],
+[ "2013",81 ],
+[ "2014",110 ],
+[ "2015",134 ],
+[ "2016",108 ] 
+];
+data.addColumn('string','year');
+data.addColumn('number','cites');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartColumnChartID36752124d43() {
+var data = gvisDataColumnChartID36752124d43();
+var options = {};
+options["allowHtml"] = [true];
+options["title"] = ["Citations = 542, h-index = 11, i10-index = 13 \n data from Google Scholar"];
+options["titleTextStyle"] = {color:'firebrick'};
+options["legend"] = {position: 'none'};
+
+
+    var chart = new google.visualization.ColumnChart(
+    document.getElementById('ColumnChartID36752124d43')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartColumnChartID36752124d43);
+})();
+function displayChartColumnChartID36752124d43() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartColumnChartID36752124d43"></script>
+ 
+<!-- divChart -->
+  
+<div id="ColumnChartID36752124d43" 
+  style="width: 500; height: automatic;">
+</div>
 1. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data. __*Methods in Ecology and Evolution*__. revised.
 92. __G Yu__, QY He^\*^. [ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization](http://pubs.rsc.org/en/Content/ArticleLanding/2016/MB/C5MB00663E). __*Molecular BioSystems*__. 2016, 12(2):477-479.
 93. __G Yu__^\*^, LG Wang, QY He^\*^. [ChIPseeker: an R/Bioconductor package for ChIP peak annotation, comparision and visualization](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btv145). __*Bioinformatics*__. 2015, 31(14):2382-2383.
@@ -166,19 +263,19 @@ arine cyclopeptide analogs](http://www.eurekaselect.com/107734/article). __*Curr
 
 Book Chapters
 -----------------
-1. __G Yu__, "Bioinformatics II", in "Functional Protein Research", 385-425, Qing-Yu He (Eds), __*Science Press*__, 2012.
+1. __G Yu__, "Bioinformatics II", in "Functional Protein Research", 385-425, Qing-Yu He (*Eds*), __*Science Press*__, 2012.
 
     (China’s Twelfth Five-Year National Important Books Project, in Chinese)
 
 
 Conference Presentations
 -----------------
-2016. **ggtree for visualization and annotation of phylogenetic trees** (invited)
-
+2016
+:   **ggtree for visualization and annotation of phylogenetic trees** (invited), 
 	The 9^th^ China-R Conference, Renmin University of China, Beijing, May. 2016
 
 Conference Posters
 -----------------
-2015. **ggtree: an *R* package for visualization and annotation of phylogenetic tree with different types of meta-data**
-
+2015
+:   **ggtree: an *R* package for visualization and annotation of phylogenetic tree with different types of meta-data**, 
 	The 20^th^ Research Postgraduate Symposium, The University of Hong Kong, Hong Kong, Dec. 2015
