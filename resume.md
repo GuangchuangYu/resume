@@ -28,6 +28,9 @@ Education
 Professional Experience
 ----------
 
+2016-
+:   **Member**; International Society for Influenza and other Respiratory Virus Diseases
+
 2015
 :   **INDA Steering Committee**; International Network for Data Analysis, Institut Pasteur
 
@@ -125,7 +128,7 @@ English
 Publications
 ------------
 
-> Citation = 542,
+> Citation = 553,
 > H-index = 11,
 > I10-index = 13
 
@@ -183,7 +186,7 @@ Publications
 },
 {
  "year": "2016",
-"cites":            108 
+"cites":            119 
 } 
 ],
 "hideHover": "auto",
