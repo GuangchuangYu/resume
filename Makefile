@@ -23,6 +23,11 @@ rtf: resume.rtf
 resume.rtf: resume.md
 	pandoc -s -S resume.md -o resume.rtf
 
+resume.md: update_citation
+
+update_citation:
+	Rscript add_citation_history.R
+
 clean:
 	rm index.html
 	rm resume.tex
