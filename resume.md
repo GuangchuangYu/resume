@@ -128,11 +128,14 @@ English
 Publications
 ------------
 
+
+
 > Citation = 559,
 > H-index = 11,
 > I10-index = 12
 
-> (data from [Google Scholar](https://scholar.google.com/citations?user=DO5oG40AAAAJ&hl=en), Aug 2016)
+> (data from [Google Scholar](https://scholar.google.com/citations?user=DO5oG40AAAAJ&hl=en), Aug 2016
+
 
 <link rel='stylesheet' href=css/morris.css>
 <script src='css/jquery.min.js' type='text/javascript'></script>
@@ -150,11 +153,10 @@ Publications
   }  
 </style>
 
-
-<div id = 'chart46f57e5abb6c' class = 'rChart morris'></div>
+<div id = 'chart4f0d728f310e' class = 'rChart morris'></div>
 <script type='text/javascript'>
     var chartParams = {
- "element": "chart46f57e5abb6c",
+ "element": "chart4f0d728f310e",
 "width":            800,
 "height":            400,
 "xkey": "year",
@@ -191,7 +193,7 @@ Publications
 "cites":            127 
 } 
 ],
-"id": "chart46f57e5abb6c",
+"id": "chart4f0d728f310e",
 "labels": "cites" 
 },
       chartType = "Bar"
