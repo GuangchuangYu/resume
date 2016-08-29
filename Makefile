@@ -23,7 +23,9 @@ rtf: resume.rtf
 resume.rtf: resume2.md
 	pandoc -s -S resume2.md -o resume.rtf
 
-resume2.md: resume.md
+resume2.md: resume
+
+resume:
 	Rscript -e 'library(ypages); gendoc("resume.md", outfile="resume2.md")'
 
 
