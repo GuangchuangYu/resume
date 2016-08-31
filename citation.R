@@ -1,3 +1,6 @@
+#!/usr/local/bin/Rscript
+
+library(methods)
 library(scholar)
 library(ggplot2)
 library(ggthemes)
@@ -6,8 +9,20 @@ id <- 'DO5oG40AAAAJ'
 ygc <- get_profile(id)
 df <- get_citation_history(id)
 
+dd <- strsplit(date(), " ")[[1]]
+subtitle <- paste("data from Google Scholar,", dd[2], dd[5])
 title <- paste0("Citation = ", ygc$total_cites, ", H-index = ", ygc$h_index, ", I10-index = ", ygc$i10_index)
-p <- ggplot(df, aes(year, cites)) + geom_line() + theme_fivethirtyeight() + geom_point(size=3) + ggtitle(title)
+p <- ggplot(df, aes(year, cites)) + geom_line() + theme_fivethirtyeight() + geom_point(size=3) + ggtitle(title, subtitle=subtitle)
 
-ggsave(p, file="citation.pdf", width=6, height=3)
-ggsave(p, file="citation.png", width=6, height=3)
+ggsave(p, file="citation_trend.pdf", width=6, height=3)
+
+x <- readLines("resume.md")
+idx <- grep("^\\s*<!\\-\\-.+:=.+\\-\\->$", x)
+
+x[idx[1]] <- "![](citation_trend.pdf)"
+x <- x[-idx[-1]]
+
+out <- file("resume3.md")
+writeLines(x, out)
+close(out)
+
