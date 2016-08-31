@@ -87,7 +87,7 @@ Grants
 
 Professional Services
 ------------------
-**Reviewer:** BMC Bioinformatics, Computational Biology and Chemistry, R Journal 
+**Reviewer:** Bioinformatics, BMC Bioinformatics, Computational Biology and Chemistry, R Journal 
 
 <!--
 Programming Skills
@@ -128,7 +128,7 @@ English
 Publications
 ------------
 
-> Citation = 564,
+> Citation = 565,
 > H-index = 11,
 > I10-index = 12
 
@@ -150,10 +150,10 @@ Publications
   }  
   </style>
 
-<div id = 'chart5d372de3a50' class = 'rChart morris'></div>
+<div id = 'chart2221356fcad6' class = 'rChart morris'></div>
 <script type='text/javascript'>
     var chartParams = {
- "element": "chart5d372de3a50",
+ "element": "chart2221356fcad6",
 "width":            800,
 "height":            400,
 "xkey": "year",
@@ -187,10 +187,10 @@ Publications
 },
 {
  "year":           2016,
-"cites":            131 
+"cites":            133 
 } 
 ],
-"id": "chart5d372de3a50",
+"id": "chart2221356fcad6",
 "labels": "cites" 
 },
       chartType = "Bar"
@@ -227,9 +227,7 @@ arine cyclopeptide analogs](http://www.eurekaselect.com/107734/article). __*Curr
 
 Book Chapters
 -----------------
-1. __G Yu__, "Bioinformatics II", in "Functional Protein Research", 385-425, Qing-Yu He (*Eds*), __*Science Press*__, 2012.
-
-    (China’s Twelfth Five-Year National Important Books Project, in Chinese)
+1. __G Yu__, "Bioinformatics II", in "Functional Protein Research", 385-425, Qing-Yu He (*Eds*), __*Science Press*__, 2012. (China’s Twelfth Five-Year National Important Books Project, in Chinese)
 
 
 Conference Presentations
@@ -240,6 +238,10 @@ Conference Presentations
 
 Conference Posters
 -----------------
+2016
+:   **Phylogeny-guided genome assembly method for short read nucleotide sequences from co-infecting influenza A viruses**,
+	Options IX for the control of influenza, International Society for Influenza and other Respiratory Virus Disease, Chicago, Aug. 2016
+	
 2015
 :   **ggtree: an *R* package for visualization and annotation of phylogenetic tree with different types of meta-data**, 
 	The 20^th^ Research Postgraduate Symposium, The University of Hong Kong, Hong Kong, Dec. 2015

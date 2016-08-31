@@ -1,7 +1,7 @@
 all: html pdf docx rtf
 
 pdf: resume.pdf
-resume.pdf: resume2.md 
+resume.pdf: resume2.md resume.md
 	pandoc --standalone --template style_chmduquesne.tex \
 	--from markdown --to context \
 	-V papersize=A4 \
@@ -9,18 +9,18 @@ resume.pdf: resume2.md
 	context resume.tex
 
 html: index.html
-index.html: style_chmduquesne.css resume2.md
+index.html: style_chmduquesne.css resume2.md resume.md
 	pandoc --standalone -H style_chmduquesne.css \
         --from markdown --to html \
 	--mathjax \
         -o index.html resume2.md
 
 docx: resume.docx
-resume.docx: resume2.md
+resume.docx: resume2.md resume.md
 	pandoc -s -S resume2.md -o resume.docx
 
 rtf: resume.rtf
-resume.rtf: resume2.md
+resume.rtf: resume2.md resume.md
 	pandoc -s -S resume2.md -o resume.rtf
 
 resume2.md: resume
