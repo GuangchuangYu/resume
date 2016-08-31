@@ -1,7 +1,7 @@
 all: html pdf docx rtf
 
 pdf: resume.pdf
-resume.pdf: resume3.md
+resume.pdf: resumePDF resume3.md 
 	pandoc --standalone --template style_chmduquesne.tex \
 	--from markdown --to context \
 	-V papersize=A4 \
@@ -22,8 +22,6 @@ resume.docx: resume2.md resume.md
 rtf: resume.rtf
 resume.rtf: resume2.md resume.md
 	pandoc -s -S resume2.md -o resume.rtf
-
-resume3.md: resumePDF
 
 resumePDF: 
 	Rscript citation.R
