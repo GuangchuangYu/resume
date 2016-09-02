@@ -9,7 +9,7 @@ resume.pdf: resumePDF resume3.md
 	context resume.tex
 
 html: index.html
-index.html: style_chmduquesne.css resume2.md resume.md
+index.html: style_chmduquesne.css resume resume.md resume2.md
 	pandoc --standalone -H style_chmduquesne.css \
         --from markdown --to html \
 	--mathjax \
