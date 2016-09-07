@@ -78,11 +78,11 @@ Awards
 
 Grants
 ------
-2013 (completed)
-:   PI, Investigate functions of hnRNPK in regulating cytokinesis of human lung cancer cell, Fundamental Research Funds for the Central Universities (21613414), ￥100,000
+2013
+:   (completed) PI, Investigate functions of hnRNPK in regulating cytokinesis of human lung cancer cell, Fundamental Research Funds for the Central Universities (21613414), ￥100,000
 
-2011 (completed)
-:   PI, Dynamic proteomic analysis of HeLa cell cycle, Fundamental Research Funds for the Central Universities (21611303), ￥20,000
+2011 
+:   (completed) PI, Dynamic proteomic analysis of HeLa cell cycle, Fundamental Research Funds for the Central Universities (21611303), ￥20,000
 
 
 Professional Services
