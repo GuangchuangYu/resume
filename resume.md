@@ -170,7 +170,7 @@ Book Chapters
 Conference Presentations
 -----------------
 2016
-:   **ggtree for visualization and annotation of phylogenetic trees** (invited),
+:   **[ggtree for visualization and annotation of phylogenetic trees](https://guangchuangyu.github.io/presentation/2016-ggtree-chinar/)** (invited),
 	The 9^th^ China-R Conference, Renmin University of China, Beijing, May. 2016
 
 Conference Posters
