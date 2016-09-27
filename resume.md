@@ -81,13 +81,13 @@ Grants
 2013
 :   (completed) PI, Investigate functions of hnRNPK in regulating cytokinesis of human lung cancer cell, Fundamental Research Funds for the Central Universities (21613414), ￥100,000
 
-2011 
+2011
 :   (completed) PI, Dynamic proteomic analysis of HeLa cell cycle, Fundamental Research Funds for the Central Universities (21611303), ￥20,000
 
 
 Professional Services
 ------------------
-**Reviewer:** Bioinformatics, BMC Bioinformatics, Computational Biology and Chemistry, R Journal 
+**Reviewer:** Bioinformatics, BMC Bioinformatics, Computational Biology and Chemistry, R Journal
 
 <!--
 Programming Skills
@@ -138,10 +138,12 @@ Publications
 94.	__G Yu__^\*^, LG Wang, GR Yan, QY He^\*^. [DOSE: an R/Bioconductor package for Disease Ontology Semantic and Enrichment analysis](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btu684). __*Bioinformatics*__. 2015, 31(4):608-609.
 95.	__G Yu__^†^, LG Wang^†^, XH Meng, QY He^\*^. [LXtoo: an integrated live Linux distribution for the bioinformatics community](http://www.biomedcentral.com/1756-0500/5/360/). __*BMC Research Notes*__. 2012, 5(1):360.
 96.	__G Yu__, LG Wang, Y Han, QY He^\*^. [clusterProfiler: an R package for comparing biological themes among gene clusters](http://online.liebertpub.com/doi/abs/10.1089/omi.2011.0118). __*OMICS: A Journal of Integrative Biology*__. 2012, 16(5):284-287.
+<!-- citation:=MLfJN-KU85MC:=2349076811020942117 -->
 97.	__G Yu__, QY He^\*^. [Functional similarity analysis of human virus-encoded miRNAs](http://www.jclinbioinformatics.com/content/1/1/15/abstract). __*Journal of Clinical Bioinformatics*__. 2011, 1(1):15.
 98.	__G Yu__^†^, CL Xiao^†^, X Bo, CH Lu, Y Qin, S Zhan, QY He^\*^. [A new method for measuring functional similarity of microRNAs](http://www.jiomics.com/index.php/jio/article/view/21). __*Journal of Integrated OMICS*__. 2011, 1(1):49-54.
 99.	__G Yu__^†^, CL Xiao^†^, CH Lu^†^, HT Jia, F Ge, W Wang, XF Yin, HL Jia, JX He^\*^, QY He^\*^. [Phosphoproteome profile of human lung cancer cell line A549](http://pubs.rsc.org/en/Content/ArticleLanding/2011/MB/C0MB00055H). __*Molecular BioSystems*__. 2011, 7(2):472-479.
 100. __G Yu__^†^, F Li^†^, Y Qin, X Bo^\*^, Y Wu, S Wang^\*^. [GOSemSim: an R package for measuring semantic similarity among GO terms and gene products](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/26/7/976). __*Bioinformatics*__. 2010, 26(7):976-978.
+<!-- citation:=tuHXwOkdijsC:=9484177541993722322 -->
 199. X Sun^†^, __G Yu__^†^, Q Xu, N Li, C Xiao, X Yin, K Cao, J Han, QY He^\*^. [Putative cobalt- and nickel-binding proteins and motifs in *Streptococcus pneumonia*](http://pubs.rsc.org/en/content/articlelanding/2013/mt/c3mt00126a). __*Metallomics*__. 2013, 5(7):928-935.
 200. YY Zhu^†^, __G Yu__^†^, Y Zhang, Z Xu, YQ Huang, GR Yan^\*^, QY He^\*^. [A novel andrographolide derivative AL-1 exerts its cytotoxicity on K562 cells through a ROS-dependent mechanism](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201200273/abstract). __*Proteomics*__, 2013, 13(1):169-178.
 988. XY Yang, K He, G Du, X Wu, __G Yu__, Y Pan, G Zhang, X Sun, QY He. Integrated Translatomics with Proteomics to Identify Novel Iron–Transporting Proteins in *Streptococcus pneumoniae*. __*Frontiers Microbiology*__. 2016, 7:78.
@@ -153,10 +155,10 @@ Publications
 994. H Sun^\*^, J Weng, __G Yu__, RH Massawe. [A DNA-Based Semantic Fusion Model for Remote Sensing Data](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0077090). __*PLoS One*__. 2013, 8(10):e77090.
 995. GR Yan^†^, Z Tan^†^, Y Wang, ML Xu, __G Yu__, Y Li^\*^, QY He^\*^. [Quantitative Proteomics Characterization on the Anti-tumor Effects of Isodexyelephantopin against Nasopharyngeal Carcinoma](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201300152/abstract). __*Proteomics*__. 2013, 13(21):3222-3232.
 996. J Li, X Lu, Q Wu, __G Yu__, Z Xu, L Qiu, Z Pei, Y Lin, J Pang^\*^. [Design, SAR, angiogenic activities evaluation and pro-angiogenic mechanism of new m
-arine cyclopeptide analogs](http://www.eurekaselect.com/107734/article). __*Current Medicinal Chemistry*__. 2013, 20(9):1183-1194. 
+arine cyclopeptide analogs](http://www.eurekaselect.com/107734/article). __*Current Medicinal Chemistry*__. 2013, 20(9):1183-1194.
 997. Y Han, __G Yu__, H Sarioglu, A Caballero-Martinez, F Schlott, M Ueffing, H Haase, C Peschel, AM Krackhardt^\*^. [Proteomic investigation of the interactome of FMNL1 in hematopoietic cells unveils a role in calcium-dependent membrane plasticity](http://www.sciencedirect.com/science/article/pii/S1874391912007567). __*Journal of Proteomics*__. 2013, 78:72-82.
 998. Y Ma^†^, J Yang^†^, X Fan^†^, H Zhao, W Hu, Z Li, __G Yu__, X Ding, J Wang, X Bo, X Zheng, Z Zhou^\*^, S Wang^\*^. [Cellular MicroRNA let-7c Inhibits M1 Protein Expression of the H1N1 Influenza A Virus in Infected Human Lung Epithelial Cells](http://onlinelibrary.wiley.com/doi/10.1111/j.1582-4934.2012.01572.x/abstract). __*Journal of Cellular and Molecular Medicine*__. 2012, 16(10):2539-2546.
-999. GR Yan^†^, FY Zhou^†^, BL Dang, Y Zhang, __G Yu__, X Liu, QY He^\*^. [Genistein-induced mitotic arrest of gastric cancer cells by downregulating KIF20A, a proteomics study](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201100652/abstract). __*Proteomics*__. 2012, 12(14):2391-2399. 
+999. GR Yan^†^, FY Zhou^†^, BL Dang, Y Zhang, __G Yu__, X Liu, QY He^\*^. [Genistein-induced mitotic arrest of gastric cancer cells by downregulating KIF20A, a proteomics study](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201100652/abstract). __*Proteomics*__. 2012, 12(14):2391-2399.
 1000. X Sun^†^, XY Yang^†^, XF Yin, __G Yu__, CL Xiao, X He, QY He^\*^. [Proteomic Analysis of Membrane Proteins from *Streptococcus pneumoniae* with Multiple Separation Methods plus High Accuracy Mass Spectrometry](http://www.liebertonline.com/doi/abs/10.1089/omi.2010.0133). __*OMICS: A Journal of Integrative Biology*__. 2011, 15(10):683-694.
 
 
@@ -168,7 +170,7 @@ Book Chapters
 Conference Presentations
 -----------------
 2016
-:   **ggtree for visualization and annotation of phylogenetic trees** (invited), 
+:   **ggtree for visualization and annotation of phylogenetic trees** (invited),
 	The 9^th^ China-R Conference, Renmin University of China, Beijing, May. 2016
 
 Conference Posters
@@ -176,7 +178,7 @@ Conference Posters
 2016
 :   **Phylogeny-guided genome assembly method for short read nucleotide sequences from co-infecting influenza A viruses**,
 	Options IX for the control of influenza, International Society for Influenza and other Respiratory Virus Disease, Chicago, Aug. 2016
-	
+
 2015
-:   **ggtree: an *R* package for visualization and annotation of phylogenetic tree with different types of meta-data**, 
+:   **ggtree: an *R* package for visualization and annotation of phylogenetic tree with different types of meta-data**,
 	The 20^th^ Research Postgraduate Symposium, The University of Hong Kong, Hong Kong, Dec. 2015
