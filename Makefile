@@ -8,7 +8,7 @@ resume.pdf: resumePDF resume3.md
 	-o resume.tex resume3.md; \
 	context resume.tex
 
-html: index.html
+html: index.html resume2.md
 index.html: style_chmduquesne.css resume resume.md resume2.md
 	pandoc --standalone -H style_chmduquesne.css \
         --from markdown --to html \
