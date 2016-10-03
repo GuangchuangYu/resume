@@ -87,7 +87,12 @@ Grants
 
 Professional Services
 ------------------
-**Reviewer:** Bioinformatics, BMC Bioinformatics, Computational Biology and Chemistry, R Journal
+**Reviewer**
+:   Bioinformatics<br>
+    BMC Bioinformatics<br>
+	Computational Biology and Chemistry<br>
+	Current Bioinformatics<br>
+	R Journal
 
 <!--
 Programming Skills
