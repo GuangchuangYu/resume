@@ -57,7 +57,7 @@ Software Development
 :   Using emoji font in both 'base' and 'ggplot2' graphics
 
 [ggtree](https://guangchuangyu.github.io/ggtree)
-:   Visualization and annotation of phylogenetic trees with their covariates and other associated data
+:   Visualization and annotation of phylogenetic trees with associated data
 
 [GOSemSim](https://guangchuangyu.github.io/GOSemSim)
 :   GO and gene samantic similarity measurement
