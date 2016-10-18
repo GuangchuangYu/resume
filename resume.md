@@ -53,7 +53,7 @@ Software Development
 [DOSE](https://guangchuangyu.github.io/DOSE)
 :   Disease Ontology Semantic and Enrichment analysis
 
-[emojifont](https://cran.r-project.org/web/packages/emojifont/index.html)
+[emojifont](https://guangchuangyu.github.io/emojifont)
 :   Using emoji font in both 'base' and 'ggplot2' graphics
 
 [ggtree](https://guangchuangyu.github.io/ggtree)
