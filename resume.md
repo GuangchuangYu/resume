@@ -41,6 +41,26 @@ Professional Experience
 :   **Visiting Student**; Beijing Institute of Radiation Medicine
 
 
+Programming Skills
+-----------------
+
+![](https://projecteuler.net/profile/guangchuangyu.png)
+![](http://www.codeabbey.com/index/user_banner/guangchuang-yu.png)
+
+
+**R**
+:   More than 8 years of experience.<br>
+    Developed 11 packages (3 in CRAN and 8 in Bioconductor)
+
+**Unix**
+:   More than 14 years of experience (Linux & BSD).<br>
+    Experience of server setup, management and application deployment.
+
+**Other**
+:   Good knowledge of Git, $\LaTeX$ Bash, C++ and Java.<br>
+	Basic knowledge of C, Perl, Python and Matlab.
+
+
 Software Development
 --------------------
 
@@ -68,6 +88,10 @@ Software Development
 [ReactomePA](https://guangchuangyu.github.io/ReactomePA)
 :   Reactome pathway analysis
 
+Contributions to open source libraries
+--------------------------------------
+[MSnbase](https://bioconductor.org/packages/MSnbase/)
+:   Base Functions and Classes for MS-based Proteomics
 
 Awards
 ------
@@ -97,26 +121,6 @@ Professional Services
 	Current Bioinformatics<br>
 	R Journal
 
-<!--
-Programming Skills
------------------
-
-### R
-
-+ More than 8 years of experience programming in R.
-+ developed packages in font support (emojifont), semantic similarity measure (GOSemSim, DOSE), ontology & pathway analysis (DOSE, clusterProfiler, ReactomePA), ChIP-seq analysis (ChIPseeker), phylogenetic data import and visualization (ggtree).
-+ Contribution to MSnbase (MS-based Proteomics).
-
-### Unix
-
-+ More than 14 years of experience (Linux & BSD).
-+ Experience of server setup, management and application deployment.
-
-### Other
-
-+ Good knowledge of Git, $\LaTeX$ Bash and Java.
-+ Basic knowledge of C, Perl, Python and Matlab.
-
 Languages
 --------------
 Teochew
@@ -131,7 +135,6 @@ Cantoese
 English
 :   fluent.
 
--->
 
 Publications
 ------------
