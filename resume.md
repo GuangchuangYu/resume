@@ -45,7 +45,7 @@ Programming Skills
 -----------------
 
 ![](https://projecteuler.net/profile/guangchuangyu.png)
-![](http://www.codeabbey.com/index/user_banner/guangchuang-yu.png)
+[![](http://www.codeabbey.com/index/user_banner/guangchuang-yu.png)](http://www.codeabbey.com/index/user_profile/guangchuang-yu)
 
 
 **R**
