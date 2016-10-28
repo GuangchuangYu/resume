@@ -57,8 +57,8 @@ Programming Skills
     Experience of server setup, management and application deployment.
 
 **Other**
-:   Good knowledge of Git, $\LaTeX$ Bash, C++ and Java.<br>
-	Basic knowledge of C, Perl, Python and Matlab.
+:   Good knowledge of Git, $\LaTeX$ Bash, C/C++ and Java.<br>
+	Basic knowledge of Perl, Python and Matlab.
 
 
 Software Development
@@ -123,13 +123,13 @@ Professional Services
 
 Languages
 --------------
-Teochew
+[Teochew](https://en.wikipedia.org/wiki/Teochew_dialect)
 :   Native language
 
 Chinese Mandarin
 :   Very fluent. Complete professional competence.
 
-Cantoese
+[Cantonese](https://en.wikipedia.org/wiki/Cantonese)
 :   Very fluent.
 
 English
