@@ -50,7 +50,7 @@ Programming Skills
 
 **R**
 :   More than 8 years of experience.<br>
-    Developed 11 packages (3 in CRAN and 8 in Bioconductor)
+    Developed 10 packages (3 in CRAN and 7 in Bioconductor)
 
 **Unix**
 :   More than 14 years of experience (Linux & BSD).<br>
