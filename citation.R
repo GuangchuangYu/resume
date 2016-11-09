@@ -24,6 +24,7 @@ idx <- grep("^\\s*<!\\-\\-.+:=.+\\-\\->$", x)
 x[idx[1]] <- "![](citation_trend.pdf)"
 x <- x[-idx[-1]]
 
+x <- x[-grep("projecteuler|codeabbey", x)]
 
 out <- file("resume3.md")
 writeLines(x, out)
