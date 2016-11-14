@@ -119,6 +119,7 @@ Professional Services
     BMC Bioinformatics<br>
 	Computational Biology and Chemistry<br>
 	Current Bioinformatics<br>
+	Gastroenterology Research and Practice<br>
 	R Journal
 
 Languages
