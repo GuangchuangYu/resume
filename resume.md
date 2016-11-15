@@ -28,7 +28,7 @@ Education
 Professional Experience
 ----------
 
-2016-
+2016
 :   **Member**; International Society for Influenza and other Respiratory Virus Diseases
 
 2015
