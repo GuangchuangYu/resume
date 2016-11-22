@@ -1,3 +1,6 @@
+update_html: html
+	git add .; git commit -m 'update'; git push -u origin gh-pages
+
 all: html pdf docx rtf
 
 pdf: resume.pdf
