@@ -13,7 +13,7 @@ L5-14, 5/F, Laboratory Block, Faculty of Medicine Building       <guangchuangyu@
 Education
 ---------
 
-2013-2017 (expected)
+2013-2017
 :   **PhD**; The University of Hong Kong; *Evolution Study of Influenza A Virus*
 
 2006-2009
@@ -40,6 +40,15 @@ Professional Experience
 2007-2009
 :   **Visiting Student**; Beijing Institute of Radiation Medicine
 
+Teaching Experience
+-------------------
+2013-2014
+:   **Student Helper**; BIOL6001 Presentation Skills and Research
+Seminars in Biological Sciences (postgraduate course), The University
+of Hong Kong
+
+2011-2012
+:   **Lecturer**; Functional Proteomics (postgraduate course), Jinan University
 
 Programming Skills
 -----------------
@@ -88,6 +97,8 @@ Software Development
 [ReactomePA](https://guangchuangyu.github.io/ReactomePA)
 :   Reactome pathway analysis
 
+<!--dlstats-->
+
 Contributions to open source libraries
 --------------------------------------
 [MSnbase](https://bioconductor.org/packages/MSnbase/)
@@ -112,14 +123,67 @@ Grants
 :   (completed) PI, Dynamic proteomic analysis of HeLa cell cycle, Fundamental Research Funds for the Central Universities (21611303), ￥20,000
 
 
+Research Highlights
+-------------------
+
+25 peer-reviewed publications with total citations: 645 (google
+scholar), 336 (Web of Science), including *Methods in Ecology of
+Evolution* (X1), *Bioinformatics* (X3), *Proteomics* (X3), *Metallomics*
+(X3),
+*Molecular BioSystems* (X2)
+
+**Ontology Semantic Similarity Analysis**
+
++ developed 3 packages: *GOSemSim*, *DOSE* and *meshes*
++ propose a method for measuring functional similarity of microRNAs
+and applied it to analyze human virus-encoded miRNAs
++ published 4 papers, including 2 in ***Bioinformatics*** (rank 4 in *Computer
+   Science*, 5 year IF = 7.685)
+
+**Pathway Analysis**
+
++ developed 2 packages: *clusterProfiler* and *ReactomePA*
++ published 2 papers in *OMICS: A Journal of Integrative Biology*
+   and *Molecular BioSystems*
+
+**Genomic Analysis**
+
++ developed *ChIPseeker* for ChIP-seq data annotation,
+   visualization and data mining (by integrated GEO database)
++ published 1 paper in *Bioinformatics*
+
+**Proteomic Analysis**
+
++ contributed to open source library, *MSnbase*, developed by Laurent
+   Gatto (University of Cambridge)
++ published 3 papers in *Molecular BioSystems*, *Metallomics* and *Proteomics*
+
+**Evolutionary Analysis**
+
++ developed *ggtree* for parsing tree files and supporting tree visualization
+   and annotation by grammar of graphics
++ devleloping phylogeny-guided genome assembly method for short read
+  nucleotide sequences from co-infecting influenza viruses
++ published 1 paper in *Methods in Ecology and Evolution* (rank 11 in
+   *Environment Ecology*, 5 year IF = 8.121)
+
+
 Professional Services
 ------------------
+**Associate Editor**
+:   Journal of Integrated OMICS, 2011-
+
 **Reviewer**
 :   Bioinformatics<br>
+
     BMC Bioinformatics<br>
+
 	Computational Biology and Chemistry<br>
+
 	Current Bioinformatics<br>
+
 	Gastroenterology Research and Practice<br>
+
 	R Journal
 
 Languages
@@ -143,6 +207,7 @@ Publications
 <!-- citation_info:=DO5oG40AAAAJ -->
 
 <!-- citation_trend:=DO5oG40AAAAJ -->
+
 
 1. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. [ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract). __*Methods in Ecology and Evolution*__. *Accepted*
 92. __G Yu__, QY He^\*^. [ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization](http://pubs.rsc.org/en/Content/ArticleLanding/2016/MB/C5MB00663E). __*Molecular BioSystems*__. 2016, 12(2):477-479.
@@ -194,3 +259,7 @@ Conference Posters
 2015
 :   **ggtree: an *R* package for visualization and annotation of phylogenetic tree with different types of meta-data**,
 	The 20^th^ Research Postgraduate Symposium, The University of Hong Kong, Hong Kong, Dec. 2015
+
+
+
+

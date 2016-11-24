@@ -27,7 +27,8 @@ resume.rtf: resume2.md resume.md
 	pandoc -s -S resume2.md -o resume.rtf
 
 resumePDF:
-	Rscript citation.R
+	Rscript citation.R;\
+	Rscript dlstat.R
 
 resume2.md: resume
 
