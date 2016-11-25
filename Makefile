@@ -3,13 +3,14 @@ update_html: html
 
 all: html pdf docx rtf
 
-pdf: resume.pdf
-resume.pdf: resumePDF resume3.md
+pdf: YGC.pdf
+YGC.pdf: resumePDF resume3.md
 	pandoc --standalone --template style_chmduquesne.tex \
 	--from markdown --to context \
 	-V papersize=A4 \
 	-o resume.tex resume3.md; \
-	context resume.tex
+	context resume.tex;\
+	mv resume.pdf YGC.pdf
 
 html: index.html resume2.md
 index.html: style_chmduquesne.css resume resume.md resume2.md
@@ -41,7 +42,7 @@ clean:
 	rm resume.tex
 	rm resume.tuc
 	rm resume.log
-	rm resume.pdf
+	rm YGC.pdf
 	rm resume.docx
 	rm resume.rtf
 

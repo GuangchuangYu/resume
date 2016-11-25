@@ -19,10 +19,10 @@ p <- ggplot(df, aes(year, cites)) + geom_line() + theme_minimal() + geom_label(a
 ggsave(p, file="citation_trend.pdf", width=6.6, height=3)
 
 x <- readLines("resume.md")
-idx <- grep("^\\s*<!\\-\\-.+:=.+\\-\\->$", x)
+#  grep("^\\s*<!\\-\\-.+:=.+\\-\\->$", x)
+idx <- grep("<!-- citation_trend:=DO5oG40AAAAJ -->", x)
 
-x[idx[1]] <- "![](citation_trend.pdf)"
-x <- x[-idx[-1]]
+x[idx] <- "![](citation_trend.pdf)"
 
 x <- x[-grep("projecteuler|codeabbey", x)]
 

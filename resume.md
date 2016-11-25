@@ -40,6 +40,7 @@ Professional Experience
 2007-2009
 :   **Visiting Student**; Beijing Institute of Radiation Medicine
 
+
 Teaching Experience
 -------------------
 2013-2014
@@ -49,6 +50,59 @@ of Hong Kong
 
 2011-2012
 :   **Lecturer**; Functional Proteomics (postgraduate course), Jinan University
+
+
+Awards
+------
+
+2013-2017
+:   Postgraduate Studentships (for PhD students at The University of Hong Kong)
+
+2012
+:   Best paper of the year 2010, Journal of Integrated OMICS.
+
+
+Grants
+------
+2013
+:   (completed) PI, Investigate functions of hnRNPK in regulating cytokinesis of human lung cancer cell, Fundamental Research Funds for the Central Universities (21613414), ￥100,000
+
+2011
+:   (completed) PI, Dynamic proteomic analysis of HeLa cell cycle, Fundamental Research Funds for the Central Universities (21611303), ￥20,000
+
+
+Professional Services
+------------------
+**Associate Editor**
+:   Journal of Integrated OMICS, 2011-
+
+**Reviewer**
+:   Bioinformatics<br>
+
+    BMC Bioinformatics<br>
+
+	Computational Biology and Chemistry<br>
+
+	Current Bioinformatics<br>
+
+	Gastroenterology Research and Practice<br>
+
+	R Journal
+
+Languages
+--------------
+[Teochew](https://en.wikipedia.org/wiki/Teochew_dialect)
+:   Native language
+
+Chinese Mandarin
+:   Very fluent, complete professional competence
+
+[Cantonese](https://en.wikipedia.org/wiki/Cantonese)
+:   Very fluent
+
+English
+:   fluent
+
 
 Programming Skills
 -----------------
@@ -106,41 +160,29 @@ Contributions to open source libraries
 [MSnbase](https://bioconductor.org/packages/MSnbase/)
 :   Base Functions and Classes for MS-based Proteomics
 
-Awards
-------
-
-2013-2017
-:   Postgraduate Studentships (for PhD students at The University of Hong Kong)
-
-2012
-:   Best paper of the year 2010, Journal of Integrated OMICS.
-
-
-Grants
-------
-2013
-:   (completed) PI, Investigate functions of hnRNPK in regulating cytokinesis of human lung cancer cell, Fundamental Research Funds for the Central Universities (21613414), ￥100,000
-
-2011
-:   (completed) PI, Dynamic proteomic analysis of HeLa cell cycle, Fundamental Research Funds for the Central Universities (21611303), ￥20,000
 
 
 Research Highlights
 -------------------
 
-25 peer-reviewed publications with total citations: 645 (google
-scholar), 336 (Web of Science), including *Methods in Ecology of
-Evolution* (X1), *Bioinformatics* (X3), *Proteomics* (X3), *Metallomics*
-(X3),
-*Molecular BioSystems* (X2)
+<!-- citation_info:=DO5oG40AAAAJ -->
+
+<!-- citation_trend:=DO5oG40AAAAJ -->
+
+
+25 peer-reviewed publications, including *Methods in Ecology of
+Evolution* (X1, rank 11 in *Environment Ecology*, 5 year IF = 8.121), 
+*Bioinformatics* (X3, rank 4 in *Computer Science*, 5 year IF = 7.685), 
+*Proteomics* (X3), *Metallomics* (X3),
+*Molecular BioSystems* (X2). 4 papers of first authors with IF >= 5.
+
 
 **Ontology Semantic Similarity Analysis**
 
 + developed 3 packages: *GOSemSim*, *DOSE* and *meshes*
 + propose a method for measuring functional similarity of microRNAs
 and applied it to analyze human virus-encoded miRNAs
-+ published 4 papers, including 2 in ***Bioinformatics*** (rank 4 in *Computer
-   Science*, 5 year IF = 7.685)
++ published 4 papers, including 2 in ***Bioinformatics***
 
 **Pathway Analysis**
 
@@ -166,50 +208,12 @@ and applied it to analyze human virus-encoded miRNAs
    and annotation by grammar of graphics
 + devleloping phylogeny-guided genome assembly method for short read
   nucleotide sequences from co-infecting influenza viruses
-+ published 1 paper in *Methods in Ecology and Evolution* (rank 11 in
-   *Environment Ecology*, 5 year IF = 8.121)
++ published 1 paper in *Methods in Ecology and Evolution* 
 
-
-Professional Services
-------------------
-**Associate Editor**
-:   Journal of Integrated OMICS, 2011-
-
-**Reviewer**
-:   Bioinformatics<br>
-
-    BMC Bioinformatics<br>
-
-	Computational Biology and Chemistry<br>
-
-	Current Bioinformatics<br>
-
-	Gastroenterology Research and Practice<br>
-
-	R Journal
-
-Languages
---------------
-[Teochew](https://en.wikipedia.org/wiki/Teochew_dialect)
-:   Native language
-
-Chinese Mandarin
-:   Very fluent. Complete professional competence.
-
-[Cantonese](https://en.wikipedia.org/wiki/Cantonese)
-:   Very fluent.
-
-English
-:   fluent.
 
 
 Publications
 ------------
-
-<!-- citation_info:=DO5oG40AAAAJ -->
-
-<!-- citation_trend:=DO5oG40AAAAJ -->
-
 
 1. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. [ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract). __*Methods in Ecology and Evolution*__. *Accepted*
 92. __G Yu__, QY He^\*^. [ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization](http://pubs.rsc.org/en/Content/ArticleLanding/2016/MB/C5MB00663E). __*Molecular BioSystems*__. 2016, 12(2):477-479.
