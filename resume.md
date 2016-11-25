@@ -112,16 +112,16 @@ Programming Skills
 
 
 **R**
-:   More than 8 years of experience.<br>
+:   More than 8 years of experience<br>
     Developed 10 packages (3 in CRAN and 7 in Bioconductor)
 
 **Unix**
-:   More than 14 years of experience (Linux & BSD).<br>
-    Experience of server setup, management and application deployment.
+:   More than 14 years of experience (Linux & BSD)<br>
+    Experience of server setup, management and application deployment
 
 **Other**
-:   Good knowledge of Git, $\LaTeX$ Bash, C/C++ and Java.<br>
-	Basic knowledge of Perl, Python and Matlab.
+:   Good knowledge of Git, $\LaTeX$ Bash, C/C++ and Java<br>
+	Basic knowledge of Perl, Python and Matlab
 
 
 Software Development
@@ -170,11 +170,18 @@ Research Highlights
 <!-- citation_trend:=DO5oG40AAAAJ -->
 
 
-25 peer-reviewed publications, including *Methods in Ecology of
-Evolution* (X1, rank 11 in *Environment Ecology*, 5 year IF = 8.121), 
-*Bioinformatics* (X3, rank 4 in *Computer Science*, 5 year IF = 7.685), 
-*Proteomics* (X3), *Metallomics* (X3),
-*Molecular BioSystems* (X2). 4 papers of first authors with IF >= 5.
++ 25 peer-reviewed publications (IF5 = 5-year Impact Factor)
+	- *Methods in Ecology of Evolution* (X1, rank 11 in *Environment
+      Ecology*, IF5 = 8.121)
+	- *Bioinformatics* (X3, rank 4 in *Computer Science*, IF5 = 7.685)
+	- *Frontiers in Microbiology* (X1, rank 21 in *Microbiolgy*, IF5 = 4.36)
+	- *Proteomics* (X3)
+	- *Journal of Proteomics* (X2)
+	- *Metallomics* (X3)
+	- *Molecular BioSystems* (X2)
++ 11 peer-reviewed publications of first author
++ 4 papers of first author with IF5 >= 5
++ 2 papers of first author with citations >= 100
 
 
 **Ontology Semantic Similarity Analysis**
@@ -182,7 +189,7 @@ Evolution* (X1, rank 11 in *Environment Ecology*, 5 year IF = 8.121),
 + developed 3 packages: *GOSemSim*, *DOSE* and *meshes*
 + propose a method for measuring functional similarity of microRNAs
 and applied it to analyze human virus-encoded miRNAs
-+ published 4 papers, including 2 in ***Bioinformatics***
++ published 4 papers, including 2 in *Bioinformatics*
 
 **Pathway Analysis**
 
@@ -200,7 +207,8 @@ and applied it to analyze human virus-encoded miRNAs
 
 + contributed to open source library, *MSnbase*, developed by Laurent
    Gatto (University of Cambridge)
-+ published 3 papers in *Molecular BioSystems*, *Metallomics* and *Proteomics*
++ published 9 papers in *Molecular BioSystems*, *Metallomics*,
+  *Proteomics* and *Journal of Proteomics*
 
 **Evolutionary Analysis**
 
@@ -208,7 +216,7 @@ and applied it to analyze human virus-encoded miRNAs
    and annotation by grammar of graphics
 + devleloping phylogeny-guided genome assembly method for short read
   nucleotide sequences from co-infecting influenza viruses
-+ published 1 paper in *Methods in Ecology and Evolution* 
++ published 1 paper in *Methods in Ecology and Evolution*
 
 
 
@@ -229,7 +237,8 @@ Publications
 <!-- citation:=tuHXwOkdijsC:=9484177541993722322 -->
 199. X Sun^†^, __G Yu__^†^, Q Xu, N Li, C Xiao, X Yin, K Cao, J Han, QY He^\*^. [Putative cobalt- and nickel-binding proteins and motifs in *Streptococcus pneumonia*](http://pubs.rsc.org/en/content/articlelanding/2013/mt/c3mt00126a). __*Metallomics*__. 2013, 5(7):928-935.
 200. YY Zhu^†^, __G Yu__^†^, Y Zhang, Z Xu, YQ Huang, GR Yan^\*^, QY He^\*^. [A novel andrographolide derivative AL-1 exerts its cytotoxicity on K562 cells through a ROS-dependent mechanism](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201200273/abstract). __*Proteomics*__, 2013, 13(1):169-178.
-988. XY Yang, K He, G Du, X Wu, __G Yu__, Y Pan, G Zhang, X Sun, QY He. [Integrated Translatomics with Proteomics to Identify Novel Iron–Transporting Proteins in *Streptococcus pneumoniae*](http://journal.frontiersin.org/article/10.3389/fmicb.2016.00078/full). __*Frontiers Microbiology*__. 2016, 7:78.
+988. XY Yang, K He, G Du, X Wu, __G Yu__, Y Pan, G Zhang, X Sun, QY
+     He. [Integrated Translatomics with Proteomics to Identify Novel Iron–Transporting Proteins in *Streptococcus pneumoniae*](http://journal.frontiersin.org/article/10.3389/fmicb.2016.00078/full). __*Frontiers in Microbiology*__. 2016, 7:78.
 989. PY Huang, CCD Lee, CH Yip, CL Cheung, __G Yu__, TTY Lam, DK Smith, H Zhu^\*^, Y Guan^\*^. [Genetic characterization of highly pathogenic H5 influenza viruses from poultry in Taiwan, 2015](http://www.sciencedirect.com/science/article/pii/S1567134815300721). __*Infection, Genetics and Evolution*__. 2016, 38:96-100.
 990. SH Xu, JZ Huang, ML Xu, __G Yu__, XF Yin, D Chen^\*^, GR Yan^\*^. [ACK1 Promotes Gastric Cancer Epithelial-Mesenchymal Transition and Metastasis through AKT-POU2F1-ECD Signaling](http://onlinelibrary.wiley.com/doi/10.1002/path.4515/abstract). __*The Journal of Pathology*__. 2015, 236(2):175-185.
 991. Z Guo, J Han, XY Yang, K Cao, K He, G Du, G Zeng, L Zhang, __G Yu__, Z Sun, QY He^\*^, X Sun^\*^. [Proteomic analysis on the copper resistance of *Streptococcus pneumonia*](http://pubs.rsc.org/en/content/articlelanding/2015/mt/C4MT00276H). __*Metallomics*__. 2015, 7(3):448-454.
@@ -237,8 +246,7 @@ Publications
 993. N Wang^†^, J Zhang^†^, L Zhang, XY Yang, N Li, __G Yu__, J Han, K Cao, Z Guo, X Sun^\*^, QY He^\*^. [Proteomic analysis of putative heme-binding proteins in *Streptococcus pyogenes*](http://pubs.rsc.org/en/content/articlelanding/2014/mt/c4mt00027g). __*Metallomics*__. 2014, 6(8):1451-1459.
 994. H Sun^\*^, J Weng, __G Yu__, RH Massawe. [A DNA-Based Semantic Fusion Model for Remote Sensing Data](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0077090). __*PLoS One*__. 2013, 8(10):e77090.
 995. GR Yan^†^, Z Tan^†^, Y Wang, ML Xu, __G Yu__, Y Li^\*^, QY He^\*^. [Quantitative Proteomics Characterization on the Anti-tumor Effects of Isodexyelephantopin against Nasopharyngeal Carcinoma](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201300152/abstract). __*Proteomics*__. 2013, 13(21):3222-3232.
-996. J Li, X Lu, Q Wu, __G Yu__, Z Xu, L Qiu, Z Pei, Y Lin, J Pang^\*^. [Design, SAR, angiogenic activities evaluation and pro-angiogenic mechanism of new m
-arine cyclopeptide analogs](http://www.eurekaselect.com/107734/article). __*Current Medicinal Chemistry*__. 2013, 20(9):1183-1194.
+996. J Li, X Lu, Q Wu, __G Yu__, Z Xu, L Qiu, Z Pei, Y Lin, J Pang^\*^. [Design, SAR, angiogenic activities evaluation and pro-angiogenic mechanism of new marine cyclopeptide analogs](http://www.eurekaselect.com/107734/article). __*Current Medicinal Chemistry*__. 2013, 20(9):1183-1194.
 997. Y Han, __G Yu__, H Sarioglu, A Caballero-Martinez, F Schlott, M Ueffing, H Haase, C Peschel, AM Krackhardt^\*^. [Proteomic investigation of the interactome of FMNL1 in hematopoietic cells unveils a role in calcium-dependent membrane plasticity](http://www.sciencedirect.com/science/article/pii/S1874391912007567). __*Journal of Proteomics*__. 2013, 78:72-82.
 998. Y Ma^†^, J Yang^†^, X Fan^†^, H Zhao, W Hu, Z Li, __G Yu__, X Ding, J Wang, X Bo, X Zheng, Z Zhou^\*^, S Wang^\*^. [Cellular MicroRNA let-7c Inhibits M1 Protein Expression of the H1N1 Influenza A Virus in Infected Human Lung Epithelial Cells](http://onlinelibrary.wiley.com/doi/10.1111/j.1582-4934.2012.01572.x/abstract). __*Journal of Cellular and Molecular Medicine*__. 2012, 16(10):2539-2546.
 999. GR Yan^†^, FY Zhou^†^, BL Dang, Y Zhang, __G Yu__, X Liu, QY He^\*^. [Genistein-induced mitotic arrest of gastric cancer cells by downregulating KIF20A, a proteomics study](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201100652/abstract). __*Proteomics*__. 2012, 12(14):2391-2399.
