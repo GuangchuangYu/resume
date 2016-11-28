@@ -179,7 +179,7 @@ Research Highlights
 	- *Journal of Proteomics* (X2)
 	- *Metallomics* (X3)
 	- *Molecular BioSystems* (X2)
-+ 11 peer-reviewed publications of first author
++ 12 peer-reviewed publications of first author
 + 4 papers of first author with IF5 >= 5
 + 2 papers of first author with citations >= 100
 
@@ -260,18 +260,15 @@ Book Chapters
 
 Conference Presentations
 -----------------
-2016
-:   **[ggtree for visualization and annotation of phylogenetic trees](https://guangchuangyu.github.io/presentation/2016-ggtree-chinar/)** (invited),
+1. **[ggtree for visualization and annotation of phylogenetic trees](https://guangchuangyu.github.io/presentation/2016-ggtree-chinar/)** (invited),
 	The 9^th^ China-R Conference, Renmin University of China, Beijing, May. 2016
 
 Conference Posters
 -----------------
-2016
-:   **Phylogeny-guided genome assembly method for short read nucleotide sequences from co-infecting influenza A viruses**,
+1. **Phylogeny-guided genome assembly method for short read nucleotide sequences from co-infecting influenza A viruses**,
 	Options IX for the control of influenza, International Society for Influenza and other Respiratory Virus Disease, Chicago, Aug. 2016
 
-2015
-:   **ggtree: an *R* package for visualization and annotation of phylogenetic tree with different types of meta-data**,
+101. **ggtree: an *R* package for visualization and annotation of phylogenetic tree with different types of meta-data**,
 	The 20^th^ Research Postgraduate Symposium, The University of Hong Kong, Hong Kong, Dec. 2015
 
 
