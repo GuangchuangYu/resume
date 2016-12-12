@@ -157,9 +157,11 @@ Software Development
 
 Contributions to open source libraries
 --------------------------------------
+[cowsay](https://cran.r-project.org/package=cowsay)
+:   Messages, Warnings, Strings with Ascii Animals
+
 [MSnbase](https://bioconductor.org/packages/MSnbase/)
 :   Base Functions and Classes for MS-based Proteomics
-
 
 
 Research Highlights
