@@ -95,7 +95,7 @@ Languages
 :   Native language
 
 Chinese Mandarin
-:   Very fluent, complete professional competence
+:   Very fluent
 
 [Cantonese](https://en.wikipedia.org/wiki/Cantonese)
 :   Very fluent
@@ -113,7 +113,7 @@ Programming Skills
 
 **R**
 :   More than 8 years of experience<br>
-    Developed 10 packages (3 in CRAN and 7 in Bioconductor)
+    Developed 11 packages (4 on CRAN and 7 on Bioconductor)
 
 **Unix**
 :   More than 14 years of experience (Linux & BSD)<br>
