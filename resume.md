@@ -113,7 +113,7 @@ Programming Skills
 
 **R**
 :   More than 8 years of experience<br>
-    Developed 11 packages (4 on CRAN and 7 on Bioconductor)
+    Developed 12 packages (4 on CRAN and 8 on Bioconductor)
 
 **Unix**
 :   More than 14 years of experience (Linux & BSD)<br>
@@ -133,6 +133,9 @@ Software Development
 [clusterProfiler](https://guangchuangyu.github.io/clusterProfiler)
 :   Statistical analysis and visualization of functional profiles for genes and gene clusters
 
+[dlstats](https://cran.r-project.org/package=dlstats)
+:   Monthly download stats of 'CRAN' and 'Bioconductor' packages
+
 [DOSE](https://guangchuangyu.github.io/DOSE)
 :   Disease Ontology Semantic and Enrichment analysis
 
@@ -150,6 +153,15 @@ Software Development
 
 [ReactomePA](https://guangchuangyu.github.io/ReactomePA)
 :   Reactome pathway analysis
+
+[rvcheck](https://cran.r-project.org/package=rvcheck)
+:   Check latest release version of R and R package
+
+[scatterpie](https://cran.r-project.org/package=scatterpie)
+:   Creates scatterpie plots, especially useful for plotting pies on a map
+
+[treeio](https://bioconductor.org/packages/treeio)
+:   Base Classes and Functions for Phylogenetic Tree Input and Output
 
 <!-- dlstats_trend:=YGC -->
 
