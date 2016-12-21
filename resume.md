@@ -160,6 +160,9 @@ Software Development
 [scatterpie](https://cran.r-project.org/package=scatterpie)
 :   Creates scatterpie plots, especially useful for plotting pies on a map
 
+[TIPars](https://github.com/id-bioinfo/TIPars)
+:   Taxa Insertion by Parsimony
+
 [treeio](https://bioconductor.org/packages/treeio)
 :   Base Classes and Functions for Phylogenetic Tree Input and Output
 
