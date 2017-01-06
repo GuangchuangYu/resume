@@ -4,7 +4,7 @@ library(cowplot)
 library(magrittr)
 library(ggthemes)
 
-pkg <- c("GOSemSim", "DOSE", "clusterProfiler", "ReactomePA", "ChIPseeker", "ggtree", "meshes")
+pkg <- c("GOSemSim", "DOSE", "clusterProfiler", "ReactomePA", "ChIPseeker", "ggtree", "meshes", "treeio")
 nb <- bioc_stats(pkg)
 nb <- nb[-grep(max(nb$start), nb$start),]
 if (FALSE) {
