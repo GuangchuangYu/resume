@@ -142,6 +142,9 @@ Software Development
 [emojifont](https://guangchuangyu.github.io/emojifont)
 :   Using emoji font in both 'base' and 'ggplot2' graphics
 
+[ggimage](https://cran.r-project.org/package=ggimage)
+:   Use images in 'ggplot2' graphic system
+
 [ggtree](https://guangchuangyu.github.io/ggtree)
 :   Visualization and annotation of phylogenetic trees with associated data
 
@@ -254,7 +257,7 @@ Publications
 <!-- citation:=tuHXwOkdijsC:=9484177541993722322 -->
 199. X Sun^†^, __G Yu__^†^, Q Xu, N Li, C Xiao, X Yin, K Cao, J Han, QY He^\*^. [Putative cobalt- and nickel-binding proteins and motifs in *Streptococcus pneumonia*](http://pubs.rsc.org/en/content/articlelanding/2013/mt/c3mt00126a). __*Metallomics*__. 2013, 5(7):928-935.
 200. YY Zhu^†^, __G Yu__^†^, Y Zhang, Z Xu, YQ Huang, GR Yan^\*^, QY He^\*^. [A novel andrographolide derivative AL-1 exerts its cytotoxicity on K562 cells through a ROS-dependent mechanism](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201200273/abstract). __*Proteomics*__, 2013, 13(1):169-178.
-<!-- 
+<!--
 987. M Tang, S Weng, __G Yu__, K Yang, M Pan, S He, Q Liu^\*^. [RE: Sequence features of the virulence protein VP24 of Ebola virus](http://science.sciencemag.org/content/351/6279/1339/tab-e-letters). __*Science*__. 2017.
 -->
 988. XY Yang, K He, G Du, X Wu, __G Yu__, Y Pan, G Zhang^\*^, X Sun^\*^, QY He^\*^. [Integrated Translatomics with Proteomics to Identify Novel Iron–Transporting Proteins in *Streptococcus pneumoniae*](http://journal.frontiersin.org/article/10.3389/fmicb.2016.00078/full). __*Frontiers in Microbiology*__. 2016, 7:78.

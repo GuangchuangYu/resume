@@ -24,7 +24,7 @@ for (i in seq_along(pkg)) {
 
 cols <- RColorBrewer::brewer.pal(length(pkg), 'Dark2')
 
-p <- ggplot(nb, aes(end, Nb_of_downloads, group=package, color=package)) +
+p <- ggplot(nb, aes(end, Nb_of_distinct_IPs, group=package, color=package)) +
     geom_line() + geom_point() + theme_minimal()
 
 ii <- order(rank, decreasing=F)
@@ -34,7 +34,7 @@ p <- p + scale_color_manual(breaks=pkg[ii],
                        values=cols)
 
 p <- p + xlab(NULL) + ylab(NULL) + theme(legend.position=c(.3, .6)) +
-    labs(captions=paste0("downloads: ", scales::comma(sum(nb$Nb_of_downloads)), "/total, ",
+    labs(captions=paste0("Downloads by distinct IPs: ", scales::comma(sum(nb$Nb_of_distinct_IPs)), "/total, ",
                          "access date: ", format(Sys.time(), "%b %Y")),
          title="Monthly download stats")
 
