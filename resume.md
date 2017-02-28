@@ -244,13 +244,14 @@ Publications
 ------------
 
 1. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. [ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract). __*Methods in Ecology and Evolution*__. 2017, 8(1):28-36.
+[![](https://img.shields.io/badge/2nd%20highest%20Almetric%20score-in%20MEE-blue.svg?style=flat)](https://www.altmetric.com/details/10533079#score)
 92. __G Yu__, QY He^\*^. [ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization](http://pubs.rsc.org/en/Content/ArticleLanding/2016/MB/C5MB00663E). __*Molecular BioSystems*__. 2016, 12(2):477-479.
 93. __G Yu__^\*^, LG Wang, QY He^\*^. [ChIPseeker: an R/Bioconductor package for ChIP peak annotation, comparision and visualization](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btv145). __*Bioinformatics*__. 2015, 31(14):2382-2383.
 94.	__G Yu__^\*^, LG Wang, GR Yan, QY He^\*^. [DOSE: an R/Bioconductor package for Disease Ontology Semantic and Enrichment analysis](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btu684). __*Bioinformatics*__. 2015, 31(4):608-609.
 95.	__G Yu__^†^, LG Wang^†^, XH Meng, QY He^\*^. [LXtoo: an integrated live Linux distribution for the bioinformatics community](http://www.biomedcentral.com/1756-0500/5/360/). __*BMC Research Notes*__. 2012, 5(1):360.
 96.	__G Yu__, LG Wang, Y Han, QY He^\*^. [clusterProfiler: an R package for comparing biological themes among gene clusters](http://online.liebertpub.com/doi/abs/10.1089/omi.2011.0118). __*OMICS: A Journal of Integrative Biology*__. 2012, 16(5):284-287.
 <!-- citation:=MLfJN-KU85MC:=2349076811020942117 -->
-![](https://img.shields.io/badge/2nd%20most%20cited%20paper-in%20OMICS-blue.svg?style=flat)
+[![](https://img.shields.io/badge/2nd%20most%20cited%20paper-in%20OMICS-blue.svg?style=flat)](http://online.liebertpub.com/action/showMostCitedArticles?journalCode=omi)
 97.	__G Yu__, QY He^\*^. [Functional similarity analysis of human virus-encoded miRNAs](http://www.jclinbioinformatics.com/content/1/1/15/abstract). __*Journal of Clinical Bioinformatics*__. 2011, 1(1):15.
 98.	__G Yu__^†^, CL Xiao^†^, X Bo, CH Lu, Y Qin, S Zhan, QY He^\*^. [A new method for measuring functional similarity of microRNAs](http://www.jiomics.com/index.php/jio/article/view/21). __*Journal of Integrated OMICS*__. 2011, 1(1):49-54.
 99.	__G Yu__^†^, CL Xiao^†^, CH Lu^†^, HT Jia, F Ge, W Wang, XF Yin, HL Jia, JX He^\*^, QY He^\*^. [Phosphoproteome profile of human lung cancer cell line A549](http://pubs.rsc.org/en/Content/ArticleLanding/2011/MB/C0MB00055H). __*Molecular BioSystems*__. 2011, 7(2):472-479.
