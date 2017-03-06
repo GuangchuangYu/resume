@@ -127,23 +127,34 @@ Programming Skills
 Software Development
 --------------------
 
-[ChIPseeker](https://guangchuangyu.github.io/ChIPseeker)
-:   ChIP peak Annotation, Comparison and Visualization
-
-[clusterProfiler](https://guangchuangyu.github.io/clusterProfiler)
-:   Statistical analysis and visualization of functional profiles for genes and gene clusters
+![](figures/Rlogo.png)
 
 [dlstats](https://cran.r-project.org/package=dlstats)
 :   Monthly download stats of 'CRAN' and 'Bioconductor' packages
-
-[DOSE](https://guangchuangyu.github.io/DOSE)
-:   Disease Ontology Semantic and Enrichment analysis
 
 [emojifont](https://guangchuangyu.github.io/emojifont)
 :   Using emoji font in both 'base' and 'ggplot2' graphics
 
 [ggimage](https://cran.r-project.org/package=ggimage)
 :   Use images in 'ggplot2' graphic system
+
+[rvcheck](https://cran.r-project.org/package=rvcheck)
+:   Check latest release version of R and R package
+
+[scatterpie](https://cran.r-project.org/package=scatterpie)
+:   Creates scatterpie plots, especially useful for plotting pies on a map
+
+
+![](figures/logo_bioconductor.png)
+
+[ChIPseeker](https://guangchuangyu.github.io/ChIPseeker)
+:   ChIP peak Annotation, Comparison and Visualization
+
+[clusterProfiler](https://guangchuangyu.github.io/clusterProfiler)
+:   Statistical analysis and visualization of functional profiles for genes and gene clusters
+
+[DOSE](https://guangchuangyu.github.io/DOSE)
+:   Disease Ontology Semantic and Enrichment analysis
 
 [ggtree](https://guangchuangyu.github.io/ggtree)
 :   Visualization and annotation of phylogenetic trees with associated data
@@ -157,21 +168,17 @@ Software Development
 [ReactomePA](https://guangchuangyu.github.io/ReactomePA)
 :   Reactome pathway analysis
 
-[rvcheck](https://cran.r-project.org/package=rvcheck)
-:   Check latest release version of R and R package
-
-[scatterpie](https://cran.r-project.org/package=scatterpie)
-:   Creates scatterpie plots, especially useful for plotting pies on a map
-
-[TIPars](https://github.com/id-bioinfo/TIPars)
-:   Taxa Insertion by Parsimony
-
 [treeio](https://bioconductor.org/packages/treeio)
 :   Base Classes and Functions for Phylogenetic Tree Input and Output
 
 <!-- dlstats_trend:=YGC -->
 
 <!--dlstats-->
+
+![](figures/java.png)
+
+[TIPars](https://github.com/id-bioinfo/TIPars)
+:   Taxa Insertion by Parsimony
 
 Contributions to open source libraries
 --------------------------------------
