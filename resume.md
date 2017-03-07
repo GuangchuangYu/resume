@@ -114,17 +114,20 @@ Programming Skills
 
 
 **R**
-:   More than 8 years of experience<br>
-    Developed 13 packages (5 on CRAN and 8 on Bioconductor)<br>
-	Ranked 75/59652 worldwide by [GitHub Awards](http://git-awards.com/users/guangchuangyu) as of Mar. 2017.
+
++ More than 8 years of experience<br>
++ Developed 13 packages (5 on CRAN and 8 on Bioconductor)<br>
++ Ranked 75/59652 worldwide by [GitHub Awards](http://git-awards.com/users/guangchuangyu) as of Mar. 2017
 
 **Unix**
-:   More than 14 years of experience (Linux & BSD)<br>
-    Experience of server setup, management and application deployment
+
++ More than 14 years of experience (Linux & BSD)<br>
++ Experience of server setup, management and application deployment
 
 **Other**
-:   Good knowledge of Git, $\LaTeX$ Bash, C/C++ and Java<br>
-	Basic knowledge of Perl, Python and Matlab
+
++ Good knowledge of Git, $\LaTeX$ Bash, C/C++ and Java<br>
++ Basic knowledge of Perl, Python and Matlab
 
 
 Software Development
