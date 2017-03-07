@@ -115,7 +115,8 @@ Programming Skills
 
 **R**
 :   More than 8 years of experience<br>
-    Developed 13 packages (5 on CRAN and 8 on Bioconductor)
+    Developed 13 packages (5 on CRAN and 8 on Bioconductor)<br>
+	Ranked 75/59652 worldwide by [GitHub Awards](http://git-awards.com/users/guangchuangyu) as of Mar. 2017.
 
 **Unix**
 :   More than 14 years of experience (Linux & BSD)<br>
