@@ -55,11 +55,11 @@ ggsave(p, filename="dlstats.pdf", width=6.6, height=4)
 ##           base_width = 6.6)
 
 
-x <- readLines("resume3.md")
-idx <- grep("<!--dlstats-->", x)
+## x <- readLines("resume3.md")
+## idx <- grep("<!--dlstats-->", x)
 
-x[idx] <- "![](dlstats.pdf)"
+## x[idx] <- "![](dlstats.pdf)"
 
-out <- file("resume3.md", "w")
-writeLines(x, out)
-close(out)
+## out <- file("resume3.md", "w")
+## writeLines(x, out)
+## close(out)

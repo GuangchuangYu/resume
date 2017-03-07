@@ -18,14 +18,14 @@ p <- ggplot(df, aes(year, cites)) + geom_line() + theme_minimal() + geom_label(a
 
 ggsave(p, file="citation_trend.pdf", width=6.6, height=3)
 
-x <- readLines("resume.md")
-#  grep("^\\s*<!\\-\\-.+:=.+\\-\\->$", x)
-idx <- grep("<!-- citation_trend:=DO5oG40AAAAJ -->", x)
+## x <- readLines("resume.md")
+## #  grep("^\\s*<!\\-\\-.+:=.+\\-\\->$", x)
+## idx <- grep("<!-- citation_trend:=DO5oG40AAAAJ -->", x)
 
-x[idx] <- "![](citation_trend.pdf)"
+## x[idx] <- "![](citation_trend.pdf)"
 
-x <- x[-grep("projecteuler|codeabbey", x)]
+## x <- x[-grep("projecteuler|codeabbey", x)]
 
-out <- file("resume3.md")
-writeLines(x, out)
-close(out)
+## out <- file("resume3.md")
+## writeLines(x, out)
+## close(out)

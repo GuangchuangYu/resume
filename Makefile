@@ -4,45 +4,41 @@ update_html: html
 all: html pdf docx rtf
 
 pdf: YGC.pdf
-YGC.pdf: resumePDF resume3.md
+YGC.pdf: style_chmduquesne.tex render4pdf YGC.rmd YGC.md
 	pandoc --standalone --template style_chmduquesne.tex \
 	--from markdown --to context \
 	-V papersize=A4 \
-	-o resume.tex resume3.md; \
-	context resume.tex;\
-	mv resume.pdf YGC.pdf
+	-o YGC.tex YGC.md; \
+	context YGC.tex
 
-html: index.html resume2.md
-index.html: style_chmduquesne.css resume resume.md resume2.md
+
+html: index.html
+index.html: style_chmduquesne.css render4html YGC.rmd YGC.md
 	pandoc --standalone -H style_chmduquesne.css \
         --from markdown --to html \
 	--mathjax \
-        -o index.html resume2.md
+        -o index.html YGC.md
 
-docx: resume.docx
-resume.docx: resume2.md resume.md
-	pandoc -s -S resume2.md -o resume.docx
+docx: YGC.docx
+resume.docx: YGC.rmd YGC.md render4pdf
+	pandoc -s -S YGC.md -o YGC.docx
 
-rtf: resume.rtf
-resume.rtf: resume2.md resume.md
-	pandoc -s -S resume2.md -o resume.rtf
+rtf: YGC.rtf
+resume.rtf: YGC.md YGC.rmd render4pdf
+	pandoc -s -S YGC.md -o YGC.rtf
 
-resumePDF:
-	Rscript citation.R;\
-	Rscript dlstat.R
+render4pdf:
+	./render4pdf.R
 
-resume2.md: resume
-
-resume:
-	Rscript -e 'library(ypages); gendoc("resume.md", outfile="resume2.md")'
-
+render4html:
+	./render4html.R
 
 clean:
 	rm index.html
-	rm resume.tex
-	rm resume.tuc
-	rm resume.log
+	rm YGC.tex
+	rm YGC.tuc
+	rm YGC.log
 	rm YGC.pdf
-	rm resume.docx
-	rm resume.rtf
+	rm YGC.docx
+	rm YGC.rtf
 

@@ -117,9 +117,7 @@ Programming Skills
 
 + More than 8 years of experience<br>
 + Developed 13 packages (5 on CRAN and 8 on Bioconductor)<br>
-+ Ranked
-<!-- gitaward:=guangchuangyu:=r -->
-worldwide by [Git Awards](http://git-awards.com/users/guangchuangyu)
++ Ranked `r gitaward("guangchuangyu", "r")` worldwide by [Git Awards](http://git-awards.com/users/guangchuangyu)
 
 **Unix**
 
@@ -135,7 +133,7 @@ worldwide by [Git Awards](http://git-awards.com/users/guangchuangyu)
 Software Development
 --------------------
 
-![](figures/Rlogo.png)
+<img src="figures/Rlogo.png" height="60">
 
 [dlstats](https://cran.r-project.org/package=dlstats)
 :   Monthly download stats of 'CRAN' and 'Bioconductor' packages
@@ -153,7 +151,7 @@ Software Development
 :   Creates scatterpie plots, especially useful for plotting pies on a map
 
 
-![](figures/logo_bioconductor.png)
+<img src="figures/logo_bioconductor.gif" height="60">
 
 [ChIPseeker](https://guangchuangyu.github.io/ChIPseeker)
 :   ChIP peak Annotation, Comparison and Visualization
@@ -179,11 +177,10 @@ Software Development
 [treeio](https://bioconductor.org/packages/treeio)
 :   Base Classes and Functions for Phylogenetic Tree Input and Output
 
-<!-- dlstats_trend:=YGC -->
+`r dlstats_trend("YGC")`
 
-<!--dlstats-->
 
-![](figures/java.png)
+<img src="figures/java.png" height=60>
 
 [TIPars](https://github.com/id-bioinfo/TIPars)
 :   Taxa Insertion by Parsimony
@@ -200,9 +197,10 @@ Contributions to open source libraries
 Research Highlights
 -------------------
 
-<!-- citation_info:=DO5oG40AAAAJ -->
 
-<!-- citation_trend:=DO5oG40AAAAJ -->
+`r ypages:::citation_info("DO5oG40AAAAJ")`
+
+`r ypages:::citation_trend("DO5oG40AAAAJ")`
 
 
 + 25 peer-reviewed publications (IF5 = 5-year Impact Factor)
@@ -258,20 +256,20 @@ and applied it to analyze human virus-encoded miRNAs
 Publications
 ------------
 
-1. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. [ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract). __*Methods in Ecology and Evolution*__. 2017, 8(1):28-36.
-[![](https://img.shields.io/badge/2nd%20highest%20Almetric%20score-in%20MEE-blue.svg?style=flat)](https://www.altmetric.com/details/10533079#score)
+1. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. [ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract). __*Methods in Ecology and Evolution*__. 2017, 8(1):28-36. 
+`r badge_altmetric("10533079", "blue")`
 92. __G Yu__, QY He^\*^. [ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization](http://pubs.rsc.org/en/Content/ArticleLanding/2016/MB/C5MB00663E). __*Molecular BioSystems*__. 2016, 12(2):477-479.
 93. __G Yu__^\*^, LG Wang, QY He^\*^. [ChIPseeker: an R/Bioconductor package for ChIP peak annotation, comparision and visualization](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btv145). __*Bioinformatics*__. 2015, 31(14):2382-2383.
 94.	__G Yu__^\*^, LG Wang, GR Yan, QY He^\*^. [DOSE: an R/Bioconductor package for Disease Ontology Semantic and Enrichment analysis](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btu684). __*Bioinformatics*__. 2015, 31(4):608-609.
 95.	__G Yu__^†^, LG Wang^†^, XH Meng, QY He^\*^. [LXtoo: an integrated live Linux distribution for the bioinformatics community](http://www.biomedcentral.com/1756-0500/5/360/). __*BMC Research Notes*__. 2012, 5(1):360.
-96.	__G Yu__, LG Wang, Y Han, QY He^\*^. [clusterProfiler: an R package for comparing biological themes among gene clusters](http://online.liebertpub.com/doi/abs/10.1089/omi.2011.0118). __*OMICS: A Journal of Integrative Biology*__. 2012, 16(5):284-287.
-<!-- citation:=MLfJN-KU85MC:=2349076811020942117 -->
-[![](https://img.shields.io/badge/2nd%20most%20cited%20paper-in%20OMICS-blue.svg?style=flat)](http://online.liebertpub.com/action/showMostCitedArticles?journalCode=omi)
+96.	__G Yu__, LG Wang, Y Han, QY He^\*^. [clusterProfiler: an R package for comparing biological themes among gene clusters](http://online.liebertpub.com/doi/abs/10.1089/omi.2011.0118). __*OMICS: A Journal of Integrative Biology*__. 2012, 16(5):284-287. 
+`r badge_citation("MLfJN-KU85MC", "2349076811020942117", "blue")`
+`r badge_custom("2nd most cited paper", "in OMICS", "blue", "http://online.liebertpub.com/action/showMostCitedArticles?journalCode=omi")`
 97.	__G Yu__, QY He^\*^. [Functional similarity analysis of human virus-encoded miRNAs](http://www.jclinbioinformatics.com/content/1/1/15/abstract). __*Journal of Clinical Bioinformatics*__. 2011, 1(1):15.
 98.	__G Yu__^†^, CL Xiao^†^, X Bo, CH Lu, Y Qin, S Zhan, QY He^\*^. [A new method for measuring functional similarity of microRNAs](http://www.jiomics.com/index.php/jio/article/view/21). __*Journal of Integrated OMICS*__. 2011, 1(1):49-54.
 99.	__G Yu__^†^, CL Xiao^†^, CH Lu^†^, HT Jia, F Ge, W Wang, XF Yin, HL Jia, JX He^\*^, QY He^\*^. [Phosphoproteome profile of human lung cancer cell line A549](http://pubs.rsc.org/en/Content/ArticleLanding/2011/MB/C0MB00055H). __*Molecular BioSystems*__. 2011, 7(2):472-479.
-100. __G Yu__^†^, F Li^†^, Y Qin, X Bo^\*^, Y Wu, S Wang^\*^. [GOSemSim: an R package for measuring semantic similarity among GO terms and gene products](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/26/7/976). __*Bioinformatics*__. 2010, 26(7):976-978.
-<!-- citation:=tuHXwOkdijsC:=9484177541993722322 -->
+100. __G Yu__^†^, F Li^†^, Y Qin, X Bo^\*^, Y Wu, S Wang^\*^. [GOSemSim: an R package for measuring semantic similarity among GO terms and gene products](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/26/7/976). __*Bioinformatics*__. 2010, 26(7):976-978. 
+`r badge_citation("tuHXwOkdijsC", "9484177541993722322", "blue")`
 199. X Sun^†^, __G Yu__^†^, Q Xu, N Li, C Xiao, X Yin, K Cao, J Han, QY He^\*^. [Putative cobalt- and nickel-binding proteins and motifs in *Streptococcus pneumonia*](http://pubs.rsc.org/en/content/articlelanding/2013/mt/c3mt00126a). __*Metallomics*__. 2013, 5(7):928-935.
 200. YY Zhu^†^, __G Yu__^†^, Y Zhang, Z Xu, YQ Huang, GR Yan^\*^, QY He^\*^. [A novel andrographolide derivative AL-1 exerts its cytotoxicity on K562 cells through a ROS-dependent mechanism](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201200273/abstract). __*Proteomics*__, 2013, 13(1):169-178.
 <!--
