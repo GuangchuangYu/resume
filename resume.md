@@ -119,7 +119,7 @@ Programming Skills
 + Developed 13 packages (5 on CRAN and 8 on Bioconductor)<br>
 + Ranked
 <!-- gitaward:=guangchuangyu:=r -->
-worldwide by [GitHub Awards](http://git-awards.com/users/guangchuangyu)
+worldwide by [Git Awards](http://git-awards.com/users/guangchuangyu)
 
 **Unix**
 
