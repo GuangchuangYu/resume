@@ -73,6 +73,7 @@ Grants
 
 Professional Services
 ------------------
+
 **Associate Editor**
 :   Journal of Integrated OMICS, 2011-
 
@@ -91,6 +92,7 @@ Professional Services
 
 Languages
 --------------
+
 [Teochew](https://en.wikipedia.org/wiki/Teochew_dialect)
 :   Native language
 
@@ -113,7 +115,7 @@ Programming Skills
 
 **R**
 :   More than 8 years of experience<br>
-    Developed 12 packages (4 on CRAN and 8 on Bioconductor)
+    Developed 13 packages (5 on CRAN and 8 on Bioconductor)
 
 **Unix**
 :   More than 14 years of experience (Linux & BSD)<br>
