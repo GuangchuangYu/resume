@@ -215,7 +215,7 @@ Research Highlights
 + 12 peer-reviewed publications of first author
 + 4 papers of first author with IF5 >= 5
 + 2 papers of first author with citations >= 100
-+ View my publication impact on [Impactstory](https://impactstory.org/u/0000-0002-6485-8781/achievements)
++ view my publication impact on [Impactstory](https://impactstory.org/u/0000-0002-6485-8781/achievements)
 
 **Ontology Semantic Similarity Analysis**
 

@@ -41,4 +41,5 @@ clean:
 	rm YGC.pdf
 	rm YGC.docx
 	rm YGC.rtf
+        rm YGC.md
 
