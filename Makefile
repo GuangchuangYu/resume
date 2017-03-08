@@ -28,10 +28,10 @@ resume.rtf: YGC.md YGC.rmd render4pdf
 	pandoc -s -S YGC.md -o YGC.rtf
 
 render4pdf:
-	./render4pdf.R
+	Rscript -e 'source("render4pdf.R")'
 
 render4html:
-	./render4html.R
+	Rscript -e 'source("render4html.R")'
 
 clean:
 	rm index.html

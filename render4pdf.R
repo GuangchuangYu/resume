@@ -11,7 +11,7 @@ x[grep("java.png", x)] <- "**Java**"
 x <- x[!grepl("^\\[!", x)]
 x <- x[!grepl("^!", x)]
 
-## add citation and dlstats 
+## add citation and dlstats
 x[grep("citation_trend", x)] <- "![](citation_trend.pdf)"
 x[grep("dlstats_trend", x)] <- "![](dlstats.pdf)"
 
@@ -27,6 +27,7 @@ source("citation.R")
 
 require(rmarkdown)
 require(ypages)
+require(badger)
 
 render("YGC2.rmd", md_document("markdown"), "YGC.md")
 unlink("YGC2.rmd")
