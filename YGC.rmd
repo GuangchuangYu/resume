@@ -116,7 +116,7 @@ Programming Skills
 **R**
 
 + More than 8 years of experience<br>
-+ Developed 13 packages (5 on CRAN and 8 on Bioconductor)<br>
++ Developed 14 packages (6 on CRAN and 8 on Bioconductor)<br>
 + Ranked `r gitaward("guangchuangyu", "r")` worldwide by [Git Awards](http://git-awards.com/users/guangchuangyu)
 
 **Unix**
@@ -134,6 +134,9 @@ Software Development
 --------------------
 
 <img src="figures/Rlogo.png" height="60">
+
+[badger](https://cran.r-project.org/package=badger)
+:   Badge for R Package
 
 [dlstats](https://cran.r-project.org/package=dlstats)
 :   Monthly download stats of 'CRAN' and 'Bioconductor' packages
