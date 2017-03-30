@@ -1,4 +1,5 @@
 library(dlstats)
+library(ggplot2)
 ## library(cowplot)
 ## library(magrittr)
 ## library(ggthemes)
