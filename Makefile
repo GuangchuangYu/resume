@@ -20,7 +20,7 @@ index.html: style_chmduquesne.css render4html YGC.rmd YGC.md
         -o index.html YGC.md
 
 docx: YGC.docx
-resume.docx: YGC.rmd YGC.md render4pdf
+YGC.docx: YGC.rmd YGC.md render4pdf
 	pandoc -s -S YGC.md -o YGC.docx
 
 rtf: YGC.rtf

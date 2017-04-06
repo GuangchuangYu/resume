@@ -171,7 +171,7 @@ Software Development
 :   Visualization and annotation of phylogenetic trees with associated data
 
 [GOSemSim](https://guangchuangyu.github.io/GOSemSim)
-:   GO and gene samantic similarity measurement
+:   GO and gene semantic similarity measurement
 
 [meshes](https://guangchuangyu.github.io/meshes)
 :   MeSH enrichment and semantic analyses
@@ -250,7 +250,8 @@ and applied it to analyze human virus-encoded miRNAs
 
 **Evolutionary Analysis**
 
-+ developed *ggtree* for parsing tree files and supporting tree visualization
++ developed *treeio* for parsing tree files
++ developed *ggtree* for supporting tree visualization
    and annotation by grammar of graphics
 + devleloping phylogeny-guided genome assembly method for short read
   nucleotide sequences from co-infecting influenza viruses
