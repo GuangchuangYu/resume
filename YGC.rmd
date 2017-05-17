@@ -303,11 +303,11 @@ Book Chapters
 
 Conference Presentations
 -----------------
-1. **ggtree for tree visualization & annotation] (invited),
-    Phylogenetic tree visualization workshop/hackathon at the Field Museum,
+1. **ggtree for tree visualization & annotation** (invited),
+    Phylogenetic tree visualization workshop/hackathon, The Field Museum,
     Chicago, May. 2017
 100. **Computational Methods in Ecology and Evolution**,
-    The Second International Workshop on Environmental Microbiomes at Sun
+    The Second International Workshop on Environmental Microbiomes, Sun
     Yat-sen University, Guangzhou, April. 2017
 
 101. **[ggtree for visualization and annotation of phylogenetic trees](https://guangchuangyu.github.io/presentation/2016-ggtree-chinar/)** (invited),
