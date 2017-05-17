@@ -303,7 +303,10 @@ Book Chapters
 
 Conference Presentations
 -----------------
-1. **Computational Methods in Ecology and Evolution**,
+1. **ggtree for tree visualization & annotation] (invited),
+    Phylogenetic tree visualization workshop/hackathon at the Field Museum,
+    Chicago, May. 2017
+100. **Computational Methods in Ecology and Evolution**,
     The Second International Workshop on Environmental Microbiomes at Sun
     Yat-sen University, Guangzhou, April. 2017
 
