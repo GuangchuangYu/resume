@@ -28,6 +28,11 @@ Education
 Professional Experience
 ----------
 
+2017
+:   **Research Assistant I**;  State Key Laboratory of Emerging Infectious
+Diseases, The University of Hong Kong
+
+
 2016
 :   **Member**; International Society for Influenza and other Respiratory Virus Diseases
 
@@ -137,50 +142,58 @@ Software Development
 
 <img src="figures/Rlogo.png" height="60">
 
+```{r echo=F, message=F}
+packageTitle <- ypages:::packageTitle
+```
+
+
 [badger](https://cran.r-project.org/package=badger)
-:   Badge for R Package
+:   `r packageTitle('badger', 'CRAN')`
 
 [dlstats](https://cran.r-project.org/package=dlstats)
-:   Monthly download stats of 'CRAN' and 'Bioconductor' packages
+:   `r packageTitle('dlstats', 'CRAN')`
 
 [emojifont](https://guangchuangyu.github.io/emojifont)
-:   Using emoji font in both 'base' and 'ggplot2' graphics
+:   `r packageTitle('emojifont', 'CRAN')`
 
 [ggimage](https://cran.r-project.org/package=ggimage)
-:   Use images in 'ggplot2' graphic system
+:   `r packageTitle('ggimage', 'CRAN')`
 
 [rvcheck](https://cran.r-project.org/package=rvcheck)
-:   Check latest release version of R and R package
+:   `r packageTitle('rvcheck', 'CRAN')`
 
 [scatterpie](https://cran.r-project.org/package=scatterpie)
-:   Creates scatterpie plots, especially useful for plotting pies on a map
+:   r packageTitle('scatterpie', 'CRAN')`
 
 
 <img src="figures/logo_bioconductor.gif" height="60">
 
 [ChIPseeker](https://guangchuangyu.github.io/ChIPseeker)
-:   ChIP peak Annotation, Comparison and Visualization
+:   `r packageTitle('ChIPseeker', 'BioC')`
 
 [clusterProfiler](https://guangchuangyu.github.io/clusterProfiler)
-:   Statistical analysis and visualization of functional profiles for genes and gene clusters
+:   `r packageTitle('clusterProfiler', 'BioC')`
 
 [DOSE](https://guangchuangyu.github.io/DOSE)
-:   Disease Ontology Semantic and Enrichment analysis
+:   `r packageTitle('DOSE', 'BioC')`
 
 [ggtree](https://guangchuangyu.github.io/ggtree)
-:   Visualization and annotation of phylogenetic trees with associated data
+:   `r packageTitle('ggtree', 'BioC')`
 
 [GOSemSim](https://guangchuangyu.github.io/GOSemSim)
-:   GO and gene semantic similarity measurement
+:   `r packageTitle('GOSemSim', 'BioC')`
 
 [meshes](https://guangchuangyu.github.io/meshes)
-:   MeSH enrichment and semantic analyses
+:   `r packageTitle('meshes', 'BioC')`
 
 [ReactomePA](https://guangchuangyu.github.io/ReactomePA)
-:   Reactome pathway analysis
+:   `r packageTitle('ReactomePA', 'BioC')`
+
+[seqcombo](https://www.bioconductor.org/packages/seqcombo)
+:   `r packageTitle('seqcombo', 'BioC')`
 
 [treeio](https://bioconductor.org/packages/treeio)
-:   Base Classes and Functions for Phylogenetic Tree Input and Output
+:   `r packageTitle('treeio', 'BioC')`
 
 `r dlstats_trend("YGC")`
 
@@ -193,10 +206,10 @@ Software Development
 Contributions to open source libraries
 --------------------------------------
 [cowsay](https://cran.r-project.org/package=cowsay)
-:   Messages, Warnings, Strings with Ascii Animals
+:   `r packageTitle('cowsay', 'CRAN')`
 
 [MSnbase](https://bioconductor.org/packages/MSnbase/)
-:   Base Functions and Classes for MS-based Proteomics
+:   `r packageTitle('MSnbase', 'BioC')`
 
 
 Research Highlights
