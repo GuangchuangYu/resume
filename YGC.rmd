@@ -211,7 +211,8 @@ Contributions to open source libraries
 [MSnbase](https://bioconductor.org/packages/MSnbase/)
 :   `r packageTitle('MSnbase', 'BioC')`
 
-<!--
+
+
 Research Highlights
 -------------------
 
@@ -270,29 +271,10 @@ and applied it to analyze human virus-encoded miRNAs
   nucleotide sequences from co-infecting influenza viruses
 + published 1 paper in *Methods in Ecology and Evolution*
 
--->
+
 
 Publications
 ------------
-
-`r ypages:::citation_info("DO5oG40AAAAJ")`
-
-`r ypages:::citation_trend("DO5oG40AAAAJ")`
-
-
-+ 25 peer-reviewed publications
-	- *Methods in Ecology of Evolution* (X1, rank 11 in *Environment
-      Ecology*, IF = 5.708)
-	- *Bioinformatics* (X3, rank 4 in *Computer Science*, IF = 7.307)
-	- *Frontiers in Microbiology* (X1, rank 21 in *Microbiolgy*, IF = 4.076)
-	- *Proteomics* (X3)
-	- *Journal of Proteomics* (X2)
-	- *Metallomics* (X3)
-	- *Molecular BioSystems* (X2)
-+ 12 peer-reviewed publications of first author
-+ 3 papers of first author with IF >= 5
-+ 2 papers of first author with citations >= 200
-+ view my publication impact on [Impactstory](https://impactstory.org/u/0000-0002-6485-8781/achievements)
 
 1. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. [ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract). __*Methods in Ecology and Evolution*__. 2017, 8(1):28-36.
 `r badge_altmetric("10533079", "blue")`
