@@ -159,6 +159,9 @@ packageTitle <- ypages:::packageTitle
 [ggimage](https://cran.r-project.org/package=ggimage)
 :   `r packageTitle('ggimage', 'CRAN')`
 
+[meme](http://cran.r-project.org/package=meme)
+:   `r packageTitle('meme', 'CRAN')`
+
 [rvcheck](https://cran.r-project.org/package=rvcheck)
 :   `r packageTitle('rvcheck', 'CRAN')`
 
