@@ -166,8 +166,10 @@ packageTitle <- ypages:::packageTitle
 :   `r packageTitle('rvcheck', 'CRAN')`
 
 [scatterpie](https://cran.r-project.org/package=scatterpie)
-:   r packageTitle('scatterpie', 'CRAN')`
+:   `r packageTitle('scatterpie', 'CRAN')`
 
+[shadowtext](http://cran.r-project.org/package=shadowtext)
+:   `r packageTitle('shadowtext', 'CRAN')`
 
 <img src="figures/logo_bioconductor.gif" height="60">
 
