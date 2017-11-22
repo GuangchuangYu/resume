@@ -12,8 +12,9 @@ x <- x[!grepl("^\\[!", x)]
 x <- x[!grepl("^!", x)]
 
 ## add citation and dlstats
+# x[grep("dlstats_trend", x)] <- "![](dlstats.pdf)"
 x[grep("citation_trend", x)] <- "![](citation_trend.pdf)"
-x[grep("dlstats_trend", x)] <- "![](dlstats.pdf)"
+
 
 ## remove r code to generate badge
 x <- x[!grepl("^`r", x)]

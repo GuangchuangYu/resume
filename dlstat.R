@@ -10,7 +10,7 @@ plot_ly(nb, x=~end, y=~Nb_of_downloads, color=~package) %>%
 }
 
 p <- plot_bioc_stats()
-ggsave(p, filename="dlstats.pdf", width=6.6, height=4)
+ggsave(p, filename="dlstats.pdf", width=6.6, height=3.6)
 
 
 ## pp <- lapply(seq_along(pkg), function(i) {

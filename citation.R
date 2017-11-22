@@ -16,7 +16,7 @@ p <- ggplot(df, aes(year, cites)) + geom_line() + theme_minimal() + geom_label(a
 	ylim(NA, round(max(df$cites) * 1.1)) + ggtitle(title, subtitle=subtitle) +
 	scale_x_continuous(breaks = df$year) + theme(plot.title=element_text(size=10)) + labs(caption="Guangchuang Yu")
 
-ggsave(p, file="citation_trend.pdf", width=6.6, height=3)
+ggsave(p, file="citation_trend.pdf", width=6.6, height=4)
 
 ## x <- readLines("resume.md")
 ## #  grep("^\\s*<!\\-\\-.+:=.+\\-\\->$", x)
