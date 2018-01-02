@@ -1,7 +1,7 @@
 update_html: html pdf2
 	git add .; git commit -m 'update'; git push -u origin gh-pages
 
-all: html pdf docx rtf
+all: html pdf2
 
 pdf: YGC.pdf
 YGC.pdf: style_chmduquesne.tex render4pdf YGC.rmd YGC.md
