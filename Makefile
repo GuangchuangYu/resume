@@ -1,4 +1,4 @@
-update_html: html
+update_html: html pdf2
 	git add .; git commit -m 'update'; git push -u origin gh-pages
 
 all: html pdf docx rtf
@@ -11,6 +11,9 @@ YGC.pdf: style_chmduquesne.tex render4pdf YGC.rmd YGC.md
 	-o YGC.tex YGC.md; \
 	context YGC.tex
 
+pdf2:
+	Rscript -e 'rmarkdown::render("ygc_pdf_resume.Rmd")';\
+	mv ygc_pdf_resume.pdf YGC.pdf
 
 html: index.html
 index.html: style_chmduquesne.css render4html YGC.rmd YGC.md
