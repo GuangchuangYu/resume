@@ -76,11 +76,12 @@ urlcolor: blue
 
 ## **Journal Articles**
 
-```{r echo=F, message=F, fig.asp=0.5}
+```{r echo=F, message=F, fig.asp=0.618}
 library(methods)
 library(scholar)
 library(ggplot2)
 library(ggthemes)
+library(ypages)
 
 id <- 'DO5oG40AAAAJ'
 ygc <- get_profile(id)
@@ -89,13 +90,13 @@ df <- get_citation_history(id)
 dd <- strsplit(date(), "\\s+")[[1]]
 subtitle <- paste("data from Google Scholar,", dd[2], dd[5])
 title <- paste0("Citation = ", ygc$total_cites, ", H-index = ", ygc$h_index, ", I10-index = ", ygc$i10_index)
-ggplot(df, aes(year, cites)) + 
+ggplot(df, aes(year, cites)) +
   geom_segment(aes(xend=year, yend=0), size=1, color='grey') +
-  geom_point(size=8, color="#96B56C") + 
-  theme_minimal() + 
-  geom_text(aes(label=cites), size=3) + 
+  geom_point(size=8, color="#96B56C") +
+  theme_minimal() +
+  geom_text(aes(label=cites), size=3) +
   xlab(NULL) + ylab(NULL) +
-	ylim(NA, round(max(df$cites) * 1.1)) + 
+	ylim(NA, round(max(df$cites) * 1.1)) +
   ggtitle(title) +
 	scale_x_continuous(breaks = df$year) +
   theme(plot.title=element_text(size=10)) +
@@ -104,20 +105,28 @@ ggplot(df, aes(year, cites)) +
         panel.grid.minor = element_blank())
 ```
 
-> \emph{\color{OrangeRed}\faFire} : ESI Hot Paper
 
-> \emph{\color{BurntOrange}\faTrophy} : ESI Highly Cited Paper 
+> \emph{\color{OrangeRed}\faFire} : ESI Hot Paper (X2)
 
-1. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. [ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract). __*Methods in Ecology and Evolution*__. 2017, 8(1):28-36. \emph{\color{OrangeRed}\faFire} \emph{\color{BurntOrange}\faTrophy} 
-92. __G Yu__, QY He^\*^. [ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization](http://pubs.rsc.org/en/Content/ArticleLanding/2016/MB/C5MB00663E). __*Molecular BioSystems*__. 2016, 12(2):477-479. \emph{\color{BurntOrange}\faTrophy} 
-93. __G Yu__^\*^, LG Wang, QY He^\*^. [ChIPseeker: an R/Bioconductor package for ChIP peak annotation, comparision and visualization](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btv145). __*Bioinformatics*__. 2015, 31(14):2382-2383. \emph{\color{OrangeRed}\faFire} \emph{\color{BurntOrange}\faTrophy} 
+> \emph{\color{BurntOrange}\faTrophy} : ESI Highly Cited Paper (X5)
+
+> *Methods in Ecology and Evolution* (X1, rank 11 in *Environment Ecology*, IF = 5.708)
+
+> *Bioinformatics* (X3, rank 4 in *Computer Science*, IF = 7.307)
+
+> (^†^ indicates equal contribution, ^\*^ indicates corresponding)
+
+
+1. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. [ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract). __*Methods in Ecology and Evolution*__. 2017, 8(1):28-36. \emph{\color{OrangeRed}\faFire} \emph{\color{BurntOrange}\faTrophy}
+92. __G Yu__, QY He^\*^. [ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization](http://pubs.rsc.org/en/Content/ArticleLanding/2016/MB/C5MB00663E). __*Molecular BioSystems*__. 2016, 12(2):477-479. \emph{\color{BurntOrange}\faTrophy}
+93. __G Yu__^\*^, LG Wang, QY He^\*^. [ChIPseeker: an R/Bioconductor package for ChIP peak annotation, comparision and visualization](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btv145). __*Bioinformatics*__. 2015, 31(14):2382-2383. \emph{\color{OrangeRed}\faFire} \emph{\color{BurntOrange}\faTrophy}
 94.	__G Yu__^\*^, LG Wang, GR Yan, QY He^\*^. [DOSE: an R/Bioconductor package for Disease Ontology Semantic and Enrichment analysis](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btu684). __*Bioinformatics*__. 2015, 31(4):608-609.
 95.	__G Yu__^†^, LG Wang^†^, XH Meng, QY He^\*^. [LXtoo: an integrated live Linux distribution for the bioinformatics community](http://www.biomedcentral.com/1756-0500/5/360/). __*BMC Research Notes*__. 2012, 5(1):360.
-96.	__G Yu__, LG Wang, Y Han, QY He^\*^. [clusterProfiler: an R package for comparing biological themes among gene clusters](http://online.liebertpub.com/doi/abs/10.1089/omi.2011.0118). __*OMICS: A Journal of Integrative Biology*__. 2012, 16(5):284-287. \emph{\color{BurntOrange}\faTrophy} 
+96.	__G Yu__, LG Wang, Y Han, QY He^\*^. [clusterProfiler: an R package for comparing biological themes among gene clusters](http://online.liebertpub.com/doi/abs/10.1089/omi.2011.0118). __*OMICS: A Journal of Integrative Biology*__. 2012, 16(5):284-287. \emph{\color{BurntOrange}\faTrophy}
 97.	__G Yu__, QY He^\*^. [Functional similarity analysis of human virus-encoded miRNAs](http://www.jclinbioinformatics.com/content/1/1/15/abstract). __*Journal of Clinical Bioinformatics*__. 2011, 1(1):15.
 98.	__G Yu__^†^, CL Xiao^†^, X Bo, CH Lu, Y Qin, S Zhan, QY He^\*^. [A new method for measuring functional similarity of microRNAs](http://www.jiomics.com/index.php/jio/article/view/21). __*Journal of Integrated OMICS*__. 2011, 1(1):49-54.
 99.	__G Yu__^†^, CL Xiao^†^, CH Lu^†^, HT Jia, F Ge, W Wang, XF Yin, HL Jia, JX He^\*^, QY He^\*^. [Phosphoproteome profile of human lung cancer cell line A549](http://pubs.rsc.org/en/Content/ArticleLanding/2011/MB/C0MB00055H). __*Molecular BioSystems*__. 2011, 7(2):472-479.
-100. __G Yu__^†^, F Li^†^, Y Qin, X Bo^\*^, Y Wu, S Wang^\*^. [GOSemSim: an R package for measuring semantic similarity among GO terms and gene products](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/26/7/976). __*Bioinformatics*__. 2010, 26(7):976-978. \emph{\color{BurntOrange}\faTrophy} 
+100. __G Yu__^†^, F Li^†^, Y Qin, X Bo^\*^, Y Wu, S Wang^\*^. [GOSemSim: an R package for measuring semantic similarity among GO terms and gene products](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/26/7/976). __*Bioinformatics*__. 2010, 26(7):976-978. \emph{\color{BurntOrange}\faTrophy}
 199. X Sun^†^, __G Yu__^†^, Q Xu, N Li, C Xiao, X Yin, K Cao, J Han, QY He^\*^. [Putative cobalt- and nickel-binding proteins and motifs in *Streptococcus pneumonia*](http://pubs.rsc.org/en/content/articlelanding/2013/mt/c3mt00126a). __*Metallomics*__. 2013, 5(7):928-935.
 200. YY Zhu^†^, __G Yu__^†^, Y Zhang, Z Xu, YQ Huang, GR Yan^\*^, QY He^\*^. [A novel andrographolide derivative AL-1 exerts its cytotoxicity on K562 cells through a ROS-dependent mechanism](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201200273/abstract). __*Proteomics*__, 2013, 13(1):169-178.
 988. XY Yang, K He, G Du, X Wu, __G Yu__, Y Pan, G Zhang^\*^, X Sun^\*^, QY He^\*^. [Integrated Translatomics with Proteomics to Identify Novel Iron–Transporting Proteins in *Streptococcus pneumoniae*](http://journal.frontiersin.org/article/10.3389/fmicb.2016.00078/full). __*Frontiers in Microbiology*__. 2016, 7:78.
@@ -171,14 +180,17 @@ https://youtu.be/tqspAXM0UQE
 
 
 # PROFESSIONAL AFFILIATIONS
-  - Member, International Society for influenza and other Respiratory Virus Disease, 2016
-  - Steering Committee, International Network for Data Analysis, Institut Pasteur, 2015
+  - **Member**, International Society for influenza and other Respiratory Virus
+    Disease \hfill 2016
+  - **Steering Committee**, International Network for Data Analysis, Institut
+    Pasteur \hfill 2015
+  - **Visiting student**, Beijing Institute of Radiation Medicine \hfill 2007-2009
 
 # PROFESSIONAL SERVICES
 
 ## **Associate Editor**
   - Journal of Integrated OMICS, 2011-present
-  
+
 ## **Reviewer**
   - Bioinformatics
   - BMC Bioinformatics
@@ -187,7 +199,7 @@ https://youtu.be/tqspAXM0UQE
   - Gastroenterology Research and Practice
   - Molecular BioSystems
   - R Journal
-  
+
 # SOFTWARE DEVELOPMENT
 
 ```{r echo=F, message=F, fig.asp=0.5}
@@ -223,4 +235,4 @@ packageTitle = ypages:::packageTitle
 + [kableExtra](https://cran.r-project.org/package=kableExtra):   `r packageTitle('kableExtra', 'CRAN')`
 + [MSnbase](https://bioconductor.org/packages/MSnbase/):   `r packageTitle('MSnbase', 'BioC')`
 + [scholar](https://github.com/jkeirstead/scholar):   `r packageTitle('scholar', 'CRAN')`
-  
+
