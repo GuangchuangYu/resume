@@ -216,7 +216,7 @@ https://youtu.be/tqspAXM0UQE
 packageTitle = ypages:::packageTitle
 ```
 
-> **R ranking**: ranked `r gitaward("guangchuangyu", "r")` worldwide by [Git Awards](http://git-awards.com/users/guangchuangyu)
+> **\textsf{R} ranking**: ranked `r gitaward("guangchuangyu", "r")` worldwide by [Git Awards](http://git-awards.com/users/guangchuangyu)
 
 + [badger](https://cran.r-project.org/package=badger):   `r packageTitle('badger', 'CRAN')`
 + [dlstats](https://cran.r-project.org/package=dlstats):   `r packageTitle('dlstats', 'CRAN')`
