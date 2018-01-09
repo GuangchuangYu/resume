@@ -26,7 +26,7 @@ linkcolor: blue
 urlcolor: blue
 ---
 
-# EDUCATION
+# \faGraduationCap \hspace{2pt} EDUCATION
 
 *The University of Hong Kong*, \hspace{40pt} Ph.D. Evolution Study of Influenza A virus \hfill 2017
 
@@ -36,11 +36,11 @@ urlcolor: blue
 
 *Institut Pasteur, Paris*, \hspace{70pt} Train the Trainers \hfill 2015
 
-# CERTIFICATE
+# \faBook \hspace{2pt} CERTIFICATE
 
 *Certificate of Teaching and Learning in Higher Education*, Centre for Enhancement of Teaching and Learning, The University of Hong Kong \hfill 2015
 
-# EMPLOYMENT
+# \faUniversity \hspace{2pt} EMPLOYMENT
 
 *State Key Laboratory of Infectious Diseases, School of Public Health, The University of Hong Kong:*
 
@@ -50,7 +50,7 @@ urlcolor: blue
 
  > Bioinformatician \hfill 2009--2013
 
-# TEACHING
+# \faSlideshare \hspace{2pt} TEACHING
 
 *Student Helper, The University of Hong Kong* \hfill 2013--2014
 
@@ -60,19 +60,19 @@ urlcolor: blue
 
 > Functional Proteomics
 
-# AWARDS
+# \faTrophy \hspace{2pt} AWARDS
 
 **2013--2017**  *Postgraduate Studentships*. The University of Hong Kong.
 
 **2012**  *Best paper of the year 2010*. Journal of Integrated OMICS.
 
-# GRANTS
+# \faDatabase \hspace{2pt} GRANTS
 
 **2013**  *(completed) PI*, Investigate functions of hnRNPK in regulating cytokinesis of human lung cancer cell. Fundamental Research Funds for the Central Universities (21613414), CNY 100,000
 
 **2011**  *(completed) PI*, Dynamic proteomic analysis of HeLA cell cycle, Fundamental Research Funds for the Central Universities (21611303), CNY 20,000
 
-# PUBLICATIONS
+# \faFileText \hspace{2pt} PUBLICATIONS
 
 ## **Journal Articles**
 
@@ -157,7 +157,7 @@ ggplot(df, aes(year, cites)) +
 
 __G Yu__, "Bioinformatics II", in "Functional Protein Research", 385-425, Qing-Yu He (*Eds*), __*Science Press*__, 2012. (China’s Twelfth Five-Year National Important Books Project, in Chinese)
 
-# CONFERENCE PROCEEDINGS
+# \faGroup \hspace{2pt} CONFERENCE PROCEEDINGS
 
 ## **Presentations**
 
@@ -182,21 +182,21 @@ __G Yu__, "Bioinformatics II", in "Functional Protein Research", 385-425, Qing-Y
 101. **ggtree: an *R* package for visualization and annotation of phylogenetic tree with different types of meta-data**,
 	The 20^th^ Research Postgraduate Symposium, The University of Hong Kong, Hong Kong, Dec. 2015
 
-# PUBLIC MEDIA
+# \faVideoCamera \hspace{2pt} PUBLIC MEDIA
 
 "Plotting trees + data" lecture by Guangchuang Yu.
 https://youtu.be/tqspAXM0UQE
 <!-- or https://v.qq.com/x/page/k0565r0qiyy.html -->
 
 
-# PROFESSIONAL AFFILIATIONS
+# \faHome \hspace{2pt} PROFESSIONAL AFFILIATIONS
   - **Member**, International Society for influenza and other Respiratory Virus
     Disease \hfill 2016
   - **Steering Committee**, International Network for Data Analysis, Institut
     Pasteur \hfill 2015
   - **Visiting student**, Beijing Institute of Radiation Medicine \hfill 2005-2009
 
-# PROFESSIONAL SERVICES
+# \faUser \hspace{2pt} PROFESSIONAL SERVICES
 
 ## **Associate Editor**
   - Journal of Integrated OMICS, 2011-present
@@ -210,7 +210,7 @@ https://youtu.be/tqspAXM0UQE
   - Molecular BioSystems
   - R Journal
 
-# SOFTWARE DEVELOPMENT
+# \faGears \hspace{2pt} SOFTWARE DEVELOPMENT
 
 ```{r echo=F, message=F, fig.asp=0.5}
 packageTitle = ypages:::packageTitle
