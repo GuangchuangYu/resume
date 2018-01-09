@@ -83,6 +83,10 @@ library(ggplot2)
 library(ggthemes)
 library(ypages)
 
+cite <- function(article_id) {
+    sprintf("cited by **%d**", sum(get_article_cite_history("DO5oG40AAAAJ", article_id)$cites))
+}
+
 id <- 'DO5oG40AAAAJ'
 ygc <- get_profile(id)
 df <- get_citation_history(id)
@@ -118,15 +122,21 @@ ggplot(df, aes(year, cites)) +
 
 
 1. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. [ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract). __*Methods in Ecology and Evolution*__. 2017, 8(1):28-36. \emph{\color{OrangeRed}\faFire} \emph{\color{BurntOrange}\faTrophy}
+ \hfill `r cite("HtEfBTGE9r8C")`
 92. __G Yu__, QY He^\*^. [ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization](http://pubs.rsc.org/en/Content/ArticleLanding/2016/MB/C5MB00663E). __*Molecular BioSystems*__. 2016, 12(2):477-479. \emph{\color{BurntOrange}\faTrophy}
+ \hfill `r cite("8d8msizDQcsC")`
 93. __G Yu__^\*^, LG Wang, QY He^\*^. [ChIPseeker: an R/Bioconductor package for ChIP peak annotation, comparision and visualization](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btv145). __*Bioinformatics*__. 2015, 31(14):2382-2383. \emph{\color{OrangeRed}\faFire} \emph{\color{BurntOrange}\faTrophy}
+ \hfill `r cite("9pM33mqn1YgC")`
 94.	__G Yu__^\*^, LG Wang, GR Yan, QY He^\*^. [DOSE: an R/Bioconductor package for Disease Ontology Semantic and Enrichment analysis](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btu684). __*Bioinformatics*__. 2015, 31(4):608-609.
+ \hfill `r cite("Ug5p-4gJ2f0C")`
 95.	__G Yu__^†^, LG Wang^†^, XH Meng, QY He^\*^. [LXtoo: an integrated live Linux distribution for the bioinformatics community](http://www.biomedcentral.com/1756-0500/5/360/). __*BMC Research Notes*__. 2012, 5(1):360.
 96.	__G Yu__, LG Wang, Y Han, QY He^\*^. [clusterProfiler: an R package for comparing biological themes among gene clusters](http://online.liebertpub.com/doi/abs/10.1089/omi.2011.0118). __*OMICS: A Journal of Integrative Biology*__. 2012, 16(5):284-287. \emph{\color{BurntOrange}\faTrophy}
+ \hfill `r cite("MLfJN-KU85MC")`
 97.	__G Yu__, QY He^\*^. [Functional similarity analysis of human virus-encoded miRNAs](http://www.jclinbioinformatics.com/content/1/1/15/abstract). __*Journal of Clinical Bioinformatics*__. 2011, 1(1):15.
 98.	__G Yu__^†^, CL Xiao^†^, X Bo, CH Lu, Y Qin, S Zhan, QY He^\*^. [A new method for measuring functional similarity of microRNAs](http://www.jiomics.com/index.php/jio/article/view/21). __*Journal of Integrated OMICS*__. 2011, 1(1):49-54.
 99.	__G Yu__^†^, CL Xiao^†^, CH Lu^†^, HT Jia, F Ge, W Wang, XF Yin, HL Jia, JX He^\*^, QY He^\*^. [Phosphoproteome profile of human lung cancer cell line A549](http://pubs.rsc.org/en/Content/ArticleLanding/2011/MB/C0MB00055H). __*Molecular BioSystems*__. 2011, 7(2):472-479.
 100. __G Yu__^†^, F Li^†^, Y Qin, X Bo^\*^, Y Wu, S Wang^\*^. [GOSemSim: an R package for measuring semantic similarity among GO terms and gene products](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/26/7/976). __*Bioinformatics*__. 2010, 26(7):976-978. \emph{\color{BurntOrange}\faTrophy}
+ \hfill `r cite("tuHXwOkdijsC")`
 199. X Sun^†^, __G Yu__^†^, Q Xu, N Li, C Xiao, X Yin, K Cao, J Han, QY He^\*^. [Putative cobalt- and nickel-binding proteins and motifs in *Streptococcus pneumonia*](http://pubs.rsc.org/en/content/articlelanding/2013/mt/c3mt00126a). __*Metallomics*__. 2013, 5(7):928-935.
 200. YY Zhu^†^, __G Yu__^†^, Y Zhang, Z Xu, YQ Huang, GR Yan^\*^, QY He^\*^. [A novel andrographolide derivative AL-1 exerts its cytotoxicity on K562 cells through a ROS-dependent mechanism](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201200273/abstract). __*Proteomics*__, 2013, 13(1):169-178.
 988. XY Yang, K He, G Du, X Wu, __G Yu__, Y Pan, G Zhang^\*^, X Sun^\*^, QY He^\*^. [Integrated Translatomics with Proteomics to Identify Novel Iron–Transporting Proteins in *Streptococcus pneumoniae*](http://journal.frontiersin.org/article/10.3389/fmicb.2016.00078/full). __*Frontiers in Microbiology*__. 2016, 7:78.
