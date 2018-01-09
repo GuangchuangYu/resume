@@ -28,13 +28,13 @@ urlcolor: blue
 
 # \faGraduationCap \hspace{2pt} EDUCATION
 
-*The University of Hong Kong*, \hspace{40pt} Ph.D. Evolution Study of Influenza A virus \hfill 2017
+*The University of Hong Kong* \hspace{40pt} Ph.D. Evolution Study of Influenza A virus \hfill 2017
 
-*Anhui Medical University*, \hspace{55pt} M.S. Biochemistry and Molecular Biology \hfill 2009
+*Anhui Medical University* \hspace{55pt} M.S. Biochemistry and Molecular Biology \hfill 2009
 
-*South China Agricultural University*, \hspace{10pt} B.S. Biotechnology \hfill 2005
+*South China Agricultural University* \hspace{10pt} B.S. Biotechnology \hfill 2005
 
-*Institut Pasteur, Paris*, \hspace{70pt} Train the Trainers \hfill 2015
+*Institut Pasteur, Paris* \hspace{70pt} Train the Trainers \hfill 2015
 
 # \faBook \hspace{2pt} CERTIFICATE
 
@@ -199,9 +199,10 @@ https://youtu.be/tqspAXM0UQE
 # \faUser \hspace{2pt} PROFESSIONAL SERVICES
 
 ## **Associate Editor**
-  - Journal of Integrated OMICS, 2011-present
+  - *Journal of Integrated OMICS*, 2011-present
 
 ## **Reviewer**
+
   - Bioinformatics
   - BMC Bioinformatics
   - Computational Biology and Chemistry
@@ -209,6 +210,13 @@ https://youtu.be/tqspAXM0UQE
   - Gastroenterology Research and Practice
   - Molecular BioSystems
   - R Journal
+
+<!--
+> *Bioinformatics*, *BMC Bioinformatics*, *Computational Biology and Chemistry*,
+> *Current Bioinformatics*, *Gastroenterology Research and Practice*, *Molecular
+> BioSystems*, *R Journal*
+-->
+
 
 # \faGears \hspace{2pt} SOFTWARE DEVELOPMENT
 
