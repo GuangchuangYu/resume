@@ -47,7 +47,7 @@ L5-14, 5/F, Laboratory Block, Faculty of Medicine Building       <guangchuangyu@
 :   Bioinformatician, *College of Life Science and Technology, Jinan University:*
 
 
-<i class="fa fa-slide-share"></i> Teaching
+<i class="fa fa-slideshare"></i> Teaching
 -------------------
 
 2013-2014
