@@ -97,9 +97,9 @@ hcitepaper <- function() {
 ```
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="red"><i class="fa fa-fire"></i></font>: ESI Hot Paper (X2)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="red"><i class="fa fa-fire"></i></font> ESI Hot Paper (X2)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="orange"><i class="fa fa-trophy"></i></font>: ESI Highly Cited Paper (X5)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="orange"><i class="fa fa-trophy"></i></font> ESI Highly Cited Paper (X5)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Methods in Ecology and
 Evolution* (X1, rank 11 in *Environment Ecology*, IF = 5.708)
