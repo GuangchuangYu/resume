@@ -166,7 +166,7 @@ ggplot(df, aes(year, cites)) +
 
 ## **Books**
 
-__G Yu__, "Bioinformatics II", in "Functional Protein Research", 385-425, Qing-Yu He (*Eds*), __*Science Press*__, 2012. (China’s Twelfth Five-Year National Important Books Project, in Chinese)
+  - __G Yu__, "Bioinformatics II", in "Functional Protein Research", 385-425, Qing-Yu He (*Eds*), __*Science Press*__, 2012. (China’s Twelfth Five-Year National Important Books Project, in Chinese)
 
 # \faGroup \hspace{2pt} CONFERENCE PROCEEDINGS
 
@@ -195,7 +195,7 @@ __G Yu__, "Bioinformatics II", in "Functional Protein Research", 385-425, Qing-Y
 
 # \faVideoCamera \hspace{2pt} PUBLIC MEDIA
 
-"Plotting trees + data" lecture by Guangchuang Yu.
+  - "Plotting trees + data" lecture by Guangchuang Yu.
 https://youtu.be/tqspAXM0UQE
 <!-- or https://v.qq.com/x/page/k0565r0qiyy.html -->
 
