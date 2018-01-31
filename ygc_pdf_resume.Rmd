@@ -153,6 +153,17 @@ ggplot(df, aes(year, cites)) +
 999. GR Yan^†^, FY Zhou^†^, BL Dang, Y Zhang, __G Yu__, X Liu, QY He^\*^. [Genistein-induced mitotic arrest of gastric cancer cells by downregulating KIF20A, a proteomics study](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201100652/abstract). __*Proteomics*__. 2012, 12(14):2391-2399.
 1000. X Sun^†^, XY Yang^†^, XF Yin, __G Yu__, CL Xiao, X He, QY He^\*^. [Proteomic Analysis of Membrane Proteins from *Streptococcus pneumoniae* with Multiple Separation Methods plus High Accuracy Mass Spectrometry](http://www.liebertonline.com/doi/abs/10.1089/omi.2010.0133). __*OMICS: A Journal of Integrative Biology*__. 2011, 15(10):683-694.
 
+## **E-Letters**
+
+1. Y Wan^†^, __G Yu__^†^, J Zou^†^, W Liu^†^, Q Liu^\*^, Why animals
+   have escaped the Indian Ocean tsunami? __*Science*__. 2017,
+   http://science.sciencemag.org/content/356/6340/841/tab-e-letters
+100. M Tang, S Weng, __G Yu__, K Yang, M Pan, S He,
+   Q Liu^\*^, RE: Sequence features of the virulence protein VP24 of Ebola
+   virus. __*Science*__. 2017,
+   http://science.sciencemag.org/content/351/6279/1339/tab-e-letters
+
+
 ## **Books**
 
 __G Yu__, "Bioinformatics II", in "Functional Protein Research", 385-425, Qing-Yu He (*Eds*), __*Science Press*__, 2012. (China’s Twelfth Five-Year National Important Books Project, in Chinese)
@@ -203,19 +214,10 @@ https://youtu.be/tqspAXM0UQE
 
 ## **Reviewer**
 
-  - Bioinformatics
-  - BMC Bioinformatics
-  - Computational Biology and Chemistry
-  - Current Bioinformatics
-  - Gastroenterology Research and Practice
-  - Molecular BioSystems
-  - R Journal
-
-<!--
 > *Bioinformatics*, *BMC Bioinformatics*, *Computational Biology and Chemistry*,
 > *Current Bioinformatics*, *Gastroenterology Research and Practice*, *Molecular
 > BioSystems*, *R Journal*
--->
+
 
 
 # \faGears \hspace{2pt} SOFTWARE DEVELOPMENT
