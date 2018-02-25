@@ -29,13 +29,13 @@ CJKmainfont: STSong
 
 # \faGraduationCap \hspace{2pt} EDUCATION
 
-*The University of Hong Kong* \hspace{39pt} Ph.D. Evolution Study of Influenza A virus \hfill 2017
+The University of Hong Kong \hspace{39pt} Ph.D. Evolution Study of Influenza A virus \hfill 2017
 
-*Anhui Medical University* \hspace{57pt} M.S. Biochemistry and Molecular Biology \hfill 2009
+Anhui Medical University \hspace{57pt} M.S. Biochemistry and Molecular Biology \hfill 2009
 
-*South China Agricultural University* \hspace{10pt} B.S. Biotechnology \hfill 2005
+South China Agricultural University \hspace{10pt} B.S. Biotechnology \hfill 2005
 
-*Institut Pasteur, Paris* \hspace{69pt} Train the Trainers \hfill 2015
+Institut Pasteur, Paris \hspace{69pt} Train the Trainers \hfill 2015
 
 # \faBook \hspace{2pt} CERTIFICATE
 
@@ -43,21 +43,21 @@ CJKmainfont: STSong
 
 # \faUniversity \hspace{2pt} EMPLOYMENT
 
-*State Key Laboratory of Infectious Diseases, School of Public Health, The University of Hong Kong:*
+State Key Laboratory of Infectious Diseases, School of Public Health, The University of Hong Kong:
 
  > Post-doctoral Fellow \hfill 2017
 
-*College of Life Science and Technology, Jinan University:*
+College of Life Science and Technology, Jinan University:
 
  > Bioinformatician \hfill 2009--2013
 
 # \faSlideshare \hspace{2pt} TEACHING
 
-*Student Helper, The University of Hong Kong* \hfill 2013--2014
+Student Helper, The University of Hong Kong \hfill 2013--2014
 
 > BIOL6001 Presentation Skills and Research Seminars in Biological Sciences
 
-*Lecturer, Jinan University* \hfill 2011--2012
+Lecturer, Jinan University \hfill 2011--2012
 
 > Functional Proteomics
 
