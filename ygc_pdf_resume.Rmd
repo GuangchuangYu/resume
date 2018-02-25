@@ -29,13 +29,13 @@ CJKmainfont: STSong
 
 # \faGraduationCap \hspace{2pt} EDUCATION
 
-*The University of Hong Kong* \hspace{40pt} Ph.D. Evolution Study of Influenza A virus \hfill 2017
+*The University of Hong Kong* \hspace{39pt} Ph.D. Evolution Study of Influenza A virus \hfill 2017
 
-*Anhui Medical University* \hspace{55pt} M.S. Biochemistry and Molecular Biology \hfill 2009
+*Anhui Medical University* \hspace{57pt} M.S. Biochemistry and Molecular Biology \hfill 2009
 
 *South China Agricultural University* \hspace{10pt} B.S. Biotechnology \hfill 2005
 
-*Institut Pasteur, Paris* \hspace{70pt} Train the Trainers \hfill 2015
+*Institut Pasteur, Paris* \hspace{69pt} Train the Trainers \hfill 2015
 
 # \faBook \hspace{2pt} CERTIFICATE
 
@@ -69,9 +69,10 @@ CJKmainfont: STSong
 
 # \faDatabase \hspace{2pt} GRANTS
 
-**2013**  *(completed) PI*, Investigate functions of hnRNPK in regulating cytokinesis of human lung cancer cell. Fundamental Research Funds for the Central Universities (21613414), CNY 100,000
+**2013**  (*完成*) *PI*, hnRNPK蛋白在调控人肺癌细胞周期胞质分裂中的作用研究.
+中央高校基本科研业务费专项资金 (21613414), CNY 100,000
 
-**2011**  *(completed) PI*, Dynamic proteomic analysis of HeLA cell cycle, Fundamental Research Funds for the Central Universities (21611303), CNY 20,000
+**2011**  (*完成*) *PI*, Hela细胞周期动态蛋白质组学分析, 中央高校基本科研业务费专项资金 (21611303), CNY 20,000
 
 # \faFileText \hspace{2pt} PUBLICATIONS
 
@@ -85,7 +86,7 @@ library(ggthemes)
 library(ypages)
 
 cite <- function(article_id) {
-    sprintf("cited by **%d**", sum(get_article_cite_history("DO5oG40AAAAJ", article_id)$cites))
+    sprintf("cited by %d", sum(get_article_cite_history("DO5oG40AAAAJ", article_id)$cites))
 }
 
 id <- 'DO5oG40AAAAJ'
@@ -186,7 +187,8 @@ ggplot(df, aes(year, cites)) +
 
 ## **Books**
 
-  - __G Yu__, "Bioinformatics II", in "Functional Protein Research", 385-425, Qing-Yu He (*Eds*), __*Science Press*__, 2012. (China’s Twelfth Five-Year National Important Books Project, in Chinese)
+  - __余光创__, "生物信息学II", 《功能蛋白质研究》, 385-425, 何庆瑜 (*主编*),
+    __*科学出版社*__, 2012. ("十二五"国家重点图书出版规划项目)
 
 # \faGroup \hspace{2pt} CONFERENCE PROCEEDINGS
 
