@@ -274,6 +274,7 @@ packageTitle = ypages:::packageTitle
 + [basicTrendline](https://cran.r-project.org/package=basicTrendline):   `r packageTitle('basicTrendline', 'CRAN')`
 + [cowsay](https://cran.r-project.org/package=cowsay):   `r packageTitle('cowsay', 'CRAN')`
 + [kableExtra](https://cran.r-project.org/package=kableExtra):   `r packageTitle('kableExtra', 'CRAN')`
++ [microbiomeViz](https://github.com/lch14forever/microbiomeViz): Visualizing Microbiome Data
 + [MSnbase](https://bioconductor.org/packages/MSnbase/):   `r packageTitle('MSnbase', 'BioC')`
 + [scholar](https://github.com/jkeirstead/scholar):   `r packageTitle('scholar', 'CRAN')`
 

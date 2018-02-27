@@ -298,6 +298,9 @@ packageTitle <- ypages:::packageTitle
 [kableExtra](https://cran.r-project.org/package=kableExtra)
 :   `r packageTitle('kableExtra', 'CRAN')`
 
+[microbiomeViz](https://github.com/lch14forever/microbiomeViz)
+:   Visualizing Microbiome Data
+
 [MSnbase](https://bioconductor.org/packages/MSnbase/)
 :   `r packageTitle('MSnbase', 'BioC')`
 
