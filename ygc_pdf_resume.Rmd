@@ -115,7 +115,13 @@ ggplot(df, aes(year, cites)) +
 
 > \emph{\color{BurntOrange}\faTrophy} ESI Highly Cited Paper (X4)
 
-> (^†^ indicates equal contribution, ^\*^ indicates corresponding)
+> 第一作者/通讯作者SCI文章9篇：1区（X4），2区（X1）
+
+> 期刊排名与分位数来源：InCites Journal Citation Reports
+
+> 分区来源：中国科学院文献情报中心JCR期刊分区表中小类分区
+
+> ^†^ indicates equal contribution, ^\*^ indicates corresponding
 
 1. __G Yu__. [clusterProfiler: universal enrichment tool for functional and
    comparative study](https://www.biorxiv.org/content/early/2018/01/31/256784).
