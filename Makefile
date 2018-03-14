@@ -15,6 +15,10 @@ pdf2:
 	Rscript -e 'rmarkdown::render("ygc_pdf_resume.Rmd")';\
 	mv ygc_pdf_resume.pdf YGC.pdf
 
+cnpdf:
+	Rscript -e 'rmarkdown::render("ygc_pdf_resume_cn.Rmd")';\
+	mv ygc_pdf_resume_cn.pdf YGC_cn.pdf
+
 html: index.html
 index.html: style_chmduquesne.css render4html YGC.rmd YGC.md
 	pandoc --standalone -H style_chmduquesne.css \
