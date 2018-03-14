@@ -9,7 +9,7 @@ title: "简历"
 author: 余光创
 orcid: "orcid.org/0000-0002-6485-8781"
 jobtitle: "博士后 (香港大学)"
-address: "香港薄扶林道沙宣路22号，香港大学公共卫生法学院，实验楼L514"
+address: "香港薄扶林道沙宣路22号，香港大学公共卫生学院，实验楼L514"
 fontawesome: yes
 email: guangchuangyu@gmail.com
 github: GuangchuangYu
