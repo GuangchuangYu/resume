@@ -243,7 +243,7 @@ https://youtu.be/tqspAXM0UQE
 
 > *Bioinformatics*, *BMC Bioinformatics*, *Computational Biology and Chemistry*,
 > *Current Bioinformatics*, *Gastroenterology Research and Practice*, *Molecular
-> BioSystems*, *R Journal*
+> BioSystems*, *Nucleic Acids Research*, *R Journal*
 
 
 
