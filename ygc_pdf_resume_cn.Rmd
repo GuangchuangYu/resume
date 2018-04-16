@@ -77,7 +77,8 @@ Lecturer, Jinan University \hfill 2011--2012
 
 ## **Journal Articles**
 
-```{r echo=F, message=F, fig.asp=0.618, warning=F}
+
+```{r echo=F, message=F, warning=FALSE, fig.asp=0.618}
 library(methods)
 library(scholar)
 library(ggplot2)
