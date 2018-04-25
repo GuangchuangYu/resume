@@ -239,6 +239,9 @@ packageTitle <- ypages:::packageTitle
 [emojifont](https://guangchuangyu.github.io/emojifont)
 :   `r packageTitle('emojifont', 'CRAN')`
 
+[ggplotify](http://cran.r-project.org/package=ggplotify)
+:   `r packageTitle('ggplotify', 'CRAN')`
+
 [ggimage](https://cran.r-project.org/package=ggimage)
 :   `r packageTitle('ggimage', 'CRAN')`
 

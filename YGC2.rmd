@@ -109,12 +109,15 @@ Evolution* (X1, rank 11 in *Environment Ecology*, IF = 5.708)
 
 ### **Journal Articles**
 
-1. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. [ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract). __*Methods in Ecology and Evolution*__. 2017, 8(1):28-36.
+1. __G Yu__. [clusterProfiler: universal enrichment tool for functional and
+   comparative study](https://www.biorxiv.org/content/early/2018/01/31/256784).
+   __*bioRxiv*__. 2018, <https://doi.org/10.1101/256784>
+91. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. [ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract). __*Methods in Ecology and Evolution*__. 2017, 8(1):28-36.
 92. __G Yu__, QY He^\*^. [ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization](http://pubs.rsc.org/en/Content/ArticleLanding/2016/MB/C5MB00663E). __*Molecular BioSystems*__. 2016, 12(2):477-479.
  `r hcitepaper()` `r badge_citation("8d8msizDQcsC", "3311691878690959578", "blue")`
 93. __G Yu__^\*^, LG Wang, QY He^\*^. [ChIPseeker: an R/Bioconductor package for ChIP peak annotation, comparision and visualization](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btv145). __*Bioinformatics*__. 2015, 31(14):2382-2383.
 94.	__G Yu__^\*^, LG Wang, GR Yan, QY He^\*^. [DOSE: an R/Bioconductor package for Disease Ontology Semantic and Enrichment analysis](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btu684). __*Bioinformatics*__. 2015, 31(4):608-609.
- `r hcitepaper()` `r badge_citation("Ug5p-4gJ2f0C", "10904694463327099987", "blue")`
+ `r badge_citation("Ug5p-4gJ2f0C", "10904694463327099987", "blue")`
 95.	__G Yu__^†^, LG Wang^†^, XH Meng, QY He^\*^. [LXtoo: an integrated live Linux distribution for the bioinformatics community](http://www.biomedcentral.com/1756-0500/5/360/). __*BMC Research Notes*__. 2012, 5(1):360.
 96.	__G Yu__, LG Wang, Y Han, QY He^\*^. [clusterProfiler: an R package for comparing biological themes among gene clusters](http://online.liebertpub.com/doi/abs/10.1089/omi.2011.0118). __*OMICS: A Journal of Integrative Biology*__. 2012, 16(5):284-287.
  `r hcitepaper()` `r badge_citation("MLfJN-KU85MC", "2349076811020942117", "blue")`
@@ -232,6 +235,9 @@ packageTitle <- ypages:::packageTitle
 [emojifont](https://guangchuangyu.github.io/emojifont)
 :   `r packageTitle('emojifont', 'CRAN')`
 
+[ggplotify](http://cran.r-project.org/package=ggplotify)
+:   `r packageTitle('ggplotify', 'CRAN')`
+
 [ggimage](https://cran.r-project.org/package=ggimage)
 :   `r packageTitle('ggimage', 'CRAN')`
 
@@ -290,6 +296,9 @@ packageTitle <- ypages:::packageTitle
 
 [kableExtra](https://cran.r-project.org/package=kableExtra)
 :   `r packageTitle('kableExtra', 'CRAN')`
+
+[microbiomeViz](https://github.com/lch14forever/microbiomeViz)
+:   Visualizing Microbiome Data
 
 [MSnbase](https://bioconductor.org/packages/MSnbase/)
 :   `r packageTitle('MSnbase', 'BioC')`

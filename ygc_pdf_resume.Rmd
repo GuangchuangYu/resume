@@ -258,6 +258,7 @@ packageTitle = ypages:::packageTitle
 + [badger](https://cran.r-project.org/package=badger):   `r packageTitle('badger', 'CRAN')`
 + [dlstats](https://cran.r-project.org/package=dlstats):   `r packageTitle('dlstats', 'CRAN')`
 + [emojifont](https://guangchuangyu.github.io/emojifont):   `r packageTitle('emojifont', 'CRAN')`
++ [ggplotify](http://cran.r-project.org/package=ggplotify): `r packageTitle('ggplotify', 'CRAN')`
 + [ggimage](https://cran.r-project.org/package=ggimage):   `r packageTitle('ggimage', 'CRAN')`
 + [meme](http://cran.r-project.org/package=meme):   `r packageTitle('meme', 'CRAN')`
 + [rvcheck](https://cran.r-project.org/package=rvcheck):   `r packageTitle('rvcheck', 'CRAN')`
