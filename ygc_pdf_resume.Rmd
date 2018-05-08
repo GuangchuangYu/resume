@@ -77,7 +77,7 @@ Lecturer, Jinan University \hfill 2011--2012
 
 ## **Journal Articles**
 
-```{r echo=F, warning=F, message=F, fig.asp=0.53}
+```{r echo=F, warning=F, message=F, fig.asp=0.618}
 library(methods)
 library(scholar)
 library(ggplot2)
@@ -126,6 +126,8 @@ ggplot(df, aes(year, cites)) +
 1. __G Yu__. [clusterProfiler: universal enrichment tool for functional and
    comparative study](https://www.biorxiv.org/content/early/2018/01/31/256784).
    __*bioRxiv*__. 2018, <https://doi.org/10.1101/256784>
+90. __G Yu__. Using meshes for MeSH term enrichment and semantic analyses.
+    __*Bioinformatics*__. revised.
 91. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. [ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract). __*Methods in Ecology and Evolution*__. 2017, 8(1):28-36.
  \emph{\color{OrangeRed}\faFire} \emph{\color{BurntOrange}\faTrophy} `r cite("HtEfBTGE9r8C")`,
  Impact Factor: 5.708, JCR Ecology 13/153 (Q1, 1区)
@@ -199,7 +201,10 @@ ggplot(df, aes(year, cites)) +
 
 ## **Presentations**
 
-1. **ggtree for tree visualization & annotation** (invited),
+1. **Data integration and visualization of phylogenetic trees**,
+    The South Lake Innovation Forum for International Young Talents, Huazhong
+    Agricultural University, Wuhan, May, 2018
+99. **ggtree for tree visualization & annotation** (invited),
     Phylogenetic tree visualization workshop/hackathon, The Field Museum of
     Natural History, Chicago, May. 2017
 100. **Computational Methods in Ecology and Evolution**,
