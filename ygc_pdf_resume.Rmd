@@ -61,7 +61,7 @@ Lecturer, Jinan University \hfill 2011--2012
 
 > Functional Proteomics
 
-# \faTrophy \hspace{2pt} AWARDS
+# \faHeart \hspace{2pt} AWARDS
 
 **2013--2017**  *Postgraduate Studentships*. The University of Hong Kong.
 
