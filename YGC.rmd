@@ -312,6 +312,9 @@ packageTitle <- ypages:::packageTitle
 [MSnbase](https://bioconductor.org/packages/MSnbase/)
 :   `r packageTitle('MSnbase', 'BioC')`
 
+[pheatmap](https://cran.r-project.org/package=pheatmap)
+:   `r packageTitle('pheatmap', 'CRAN')`
+
 [scholar](https://github.com/jkeirstead/scholar)
 :   `r packageTitle('scholar', 'CRAN')`
 
