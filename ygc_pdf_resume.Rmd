@@ -246,7 +246,7 @@ ggplot(df, aes(year, cites)) +
 1. __G Yu__. [clusterProfiler: universal enrichment tool for functional and
    comparative study](https://www.biorxiv.org/content/early/2018/01/31/256784).
    __*bioRxiv*__. 2018, <https://doi.org/10.1101/256784>
-90. __G Yu__. Using meshes for MeSH term enrichment and semantic analyses.
+90. __G Yu__. [Using meshes for MeSH term enrichment and semantic analyses](https://doi.org/10.1093/bioinformatics/bty410).
     __*Bioinformatics*__. accepted. `r journal_info("Bioinformatics")`
 91. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. [ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract). __*Methods in Ecology and Evolution*__. 2017, 8(1):28-36.
  \emph{\color{OrangeRed}\faFire} \emph{\color{BurntOrange}\faTrophy} `r cite("HtEfBTGE9r8C")`, `r journal_info("MEE")`
