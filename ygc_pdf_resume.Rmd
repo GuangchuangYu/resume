@@ -147,7 +147,7 @@ packageTitle = ypages:::packageTitle
 ```{r echo=F, warning=F, message=F, fig.asp=0.618}
 
 cite <- function(article_id) {
-    sprintf("cited by %d", sum(get_article_cite_history("DO5oG40AAAAJ", article_id)$cites))
+    sprintf("Citation: %d", sum(get_article_cite_history("DO5oG40AAAAJ", article_id)$cites))
 }
 
 journal_info <- function(journal) {
@@ -266,9 +266,9 @@ ggplot(df, aes(year, cites)) +
 \emph{\color{BurntOrange}\faTrophy} `r cite("MLfJN-KU85MC")`, `r journal_info("OMICS")`
 99.	__G Yu__, QY He^\*^. [Functional similarity analysis of human virus-encoded miRNAs](http://www.jclinbioinformatics.com/content/1/1/15/abstract). __*Journal of Clinical Bioinformatics*__. 2011, 1(1):15.
  `r cite("lmc2jWPfTJgC")`
-100.	__G Yu__^†^, CL Xiao^†^, X Bo, CH Lu, Y Qin, S Zhan, QY He^\*^. [A new method for measuring functional similarity of microRNAs](http://www.jiomics.com/index.php/jio/article/view/21). __*Journal of Integrated OMICS*__. 2011, 1(1):49-54.
+100. __G Yu__^†^, CL Xiao^†^, X Bo, CH Lu, Y Qin, S Zhan, QY He^\*^. [A new method for measuring functional similarity of microRNAs](http://www.jiomics.com/index.php/jio/article/view/21). __*Journal of Integrated OMICS*__. 2011, 1(1):49-54.
  `r cite("M7yex6snE4oC")`
-101.	__G Yu__^†^, CL Xiao^†^, CH Lu^†^, HT Jia, F Ge, W Wang, XF Yin, HL Jia, JX He^\*^, QY He^\*^. [Phosphoproteome profile of human lung cancer cell line A549](http://pubs.rsc.org/en/Content/ArticleLanding/2011/MB/C0MB00055H). __*Molecular BioSystems*__. 2011, 7(2):472-479.
+101. __G Yu__^†^, CL Xiao^†^, CH Lu^†^, HT Jia, F Ge, W Wang, XF Yin, HL Jia, JX He^\*^, QY He^\*^. [Phosphoproteome profile of human lung cancer cell line A549](http://pubs.rsc.org/en/Content/ArticleLanding/2011/MB/C0MB00055H). __*Molecular BioSystems*__. 2011, 7(2):472-479.
  `r cite("k8Z6L05lTy4C")`, `r journal_info("Molecular BioSystems")`
 102. __G Yu__^†^, F Li^†^, Y Qin, X Bo^\*^, Y Wu, S Wang^\*^. [GOSemSim: an R package for measuring semantic similarity among GO terms and gene products](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/26/7/976). __*Bioinformatics*__. 2010, 26(7):976-978.
  `r cite("tuHXwOkdijsC")`, `r journal_info("Bioinformatics")`
