@@ -75,7 +75,7 @@ Lecturer, Jinan University \hfill 2011--2012
 
 
 # \faHome \hspace{2pt} PROFESSIONAL AFFILIATIONS
-  - **Member**, International Society for influenza and other Respiratory Virus
+  - **Member**, International Society for Influenza and other Respiratory Virus
     Disease \hfill 2016
   - **Steering Committee**, International Network for Data Analysis, Institut
     Pasteur \hfill 2015
