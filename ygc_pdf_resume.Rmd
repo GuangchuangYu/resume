@@ -55,13 +55,13 @@ College of Life Science and Technology, Jinan University:
 
 # \faSlideshare \hspace{2pt} TEACHING
 
-Student Helper, The University of Hong Kong \hfill 2013--2014
+The University of Hong Kong
 
-> BIOL6001 Presentation Skills and Research Seminars in Biological Sciences
+> Student Helper, BIOL6001 Presentation Skills and Research Seminars in Biological Sciences \hfill 2013--2014
 
-Lecturer, Jinan University \hfill 2011--2012
+Jinan University
 
-> Functional Proteomics
+> Lecturer, Functional Proteomics \hfill 2011--2012
 
 # \faHeart \hspace{2pt} AWARDS
 
