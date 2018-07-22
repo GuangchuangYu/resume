@@ -24,7 +24,7 @@ fontfamilyoptions: sc, osf
 fontsize: 10pt
 linkcolor: blue
 urlcolor: blue
-CJKmainfont: STSong
+CJKmainfont: Source Han Sans CN
 ---
 
 # \faGraduationCap \hspace{2pt} EDUCATION
