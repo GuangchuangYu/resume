@@ -112,24 +112,23 @@ Evolution* (X1, rank 11 in *Environment Ecology*, IF = 5.708)
 1. __G Yu__. [clusterProfiler: universal enrichment tool for functional and
    comparative study](https://www.biorxiv.org/content/early/2018/01/31/256784).
    __*bioRxiv*__. 2018, <https://doi.org/10.1101/256784>
+90. __G Yu__. [Using meshes for MeSH term enrichment and semantic analyses](https://doi.org/10.1093/bioinformatics/bty410).
+    __*Bioinformatics*__. accepted.
 91. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. [ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract). __*Methods in Ecology and Evolution*__. 2017, 8(1):28-36.
 92. __G Yu__, QY He^\*^. [ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization](http://pubs.rsc.org/en/Content/ArticleLanding/2016/MB/C5MB00663E). __*Molecular BioSystems*__. 2016, 12(2):477-479.
  `r hcitepaper()` `r badge_citation("8d8msizDQcsC", "3311691878690959578", "blue")`
 93. __G Yu__^\*^, LG Wang, QY He^\*^. [ChIPseeker: an R/Bioconductor package for ChIP peak annotation, comparision and visualization](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btv145). __*Bioinformatics*__. 2015, 31(14):2382-2383.
 94.	__G Yu__^\*^, LG Wang, GR Yan, QY He^\*^. [DOSE: an R/Bioconductor package for Disease Ontology Semantic and Enrichment analysis](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btu684). __*Bioinformatics*__. 2015, 31(4):608-609.
  `r badge_citation("Ug5p-4gJ2f0C", "10904694463327099987", "blue")`
-95.	__G Yu__^†^, LG Wang^†^, XH Meng, QY He^\*^. [LXtoo: an integrated live Linux distribution for the bioinformatics community](http://www.biomedcentral.com/1756-0500/5/360/). __*BMC Research Notes*__. 2012, 5(1):360.
-96.	__G Yu__, LG Wang, Y Han, QY He^\*^. [clusterProfiler: an R package for comparing biological themes among gene clusters](http://online.liebertpub.com/doi/abs/10.1089/omi.2011.0118). __*OMICS: A Journal of Integrative Biology*__. 2012, 16(5):284-287.
+95. X Sun^†^, __G Yu__^†^, Q Xu, N Li, C Xiao, X Yin, K Cao, J Han, QY He^\*^. [Putative cobalt- and nickel-binding proteins and motifs in *Streptococcus pneumonia*](http://pubs.rsc.org/en/content/articlelanding/2013/mt/c3mt00126a). __*Metallomics*__. 2013, 5(7):928-935.
+96. YY Zhu^†^, __G Yu__^†^, Y Zhang, Z Xu, YQ Huang, GR Yan^\*^, QY He^\*^. [A novel andrographolide derivative AL-1 exerts its cytotoxicity on K562 cells through a ROS-dependent mechanism](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201200273/abstract). __*Proteomics*__, 2013, 13(1):169-178.
+97.	__G Yu__^†^, LG Wang^†^, XH Meng, QY He^\*^. [LXtoo: an integrated live Linux distribution for the bioinformatics community](http://www.biomedcentral.com/1756-0500/5/360/). __*BMC Research Notes*__. 2012, 5(1):360.
+98.	__G Yu__, LG Wang, Y Han, QY He^\*^. [clusterProfiler: an R package for comparing biological themes among gene clusters](http://online.liebertpub.com/doi/abs/10.1089/omi.2011.0118). __*OMICS: A Journal of Integrative Biology*__. 2012, 16(5):284-287.
  `r hcitepaper()` `r badge_citation("MLfJN-KU85MC", "2349076811020942117", "blue")`
-97.	__G Yu__, QY He^\*^. [Functional similarity analysis of human virus-encoded miRNAs](http://www.jclinbioinformatics.com/content/1/1/15/abstract). __*Journal of Clinical Bioinformatics*__. 2011, 1(1):15.
-98.	__G Yu__^†^, CL Xiao^†^, X Bo, CH Lu, Y Qin, S Zhan, QY He^\*^. [A new method for measuring functional similarity of microRNAs](http://www.jiomics.com/index.php/jio/article/view/21). __*Journal of Integrated OMICS*__. 2011, 1(1):49-54.
-99.	__G Yu__^†^, CL Xiao^†^, CH Lu^†^, HT Jia, F Ge, W Wang, XF Yin, HL Jia, JX He^\*^, QY He^\*^. [Phosphoproteome profile of human lung cancer cell line A549](http://pubs.rsc.org/en/Content/ArticleLanding/2011/MB/C0MB00055H). __*Molecular BioSystems*__. 2011, 7(2):472-479.
-100. __G Yu__^†^, F Li^†^, Y Qin, X Bo^\*^, Y Wu, S Wang^\*^. [GOSemSim: an R package for measuring semantic similarity among GO terms and gene products](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/26/7/976). __*Bioinformatics*__. 2010, 26(7):976-978.
-199. X Sun^†^, __G Yu__^†^, Q Xu, N Li, C Xiao, X Yin, K Cao, J Han, QY He^\*^. [Putative cobalt- and nickel-binding proteins and motifs in *Streptococcus pneumonia*](http://pubs.rsc.org/en/content/articlelanding/2013/mt/c3mt00126a). __*Metallomics*__. 2013, 5(7):928-935.
-200. YY Zhu^†^, __G Yu__^†^, Y Zhang, Z Xu, YQ Huang, GR Yan^\*^, QY He^\*^. [A novel andrographolide derivative AL-1 exerts its cytotoxicity on K562 cells through a ROS-dependent mechanism](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201200273/abstract). __*Proteomics*__, 2013, 13(1):169-178.
-<!--
-987. M Tang, S Weng, __G Yu__, K Yang, M Pan, S He, Q Liu^\*^. [RE: Sequence features of the virulence protein VP24 of Ebola virus](http://science.sciencemag.org/content/351/6279/1339/tab-e-letters). __*Science*__. 2017.
--->
+99.	__G Yu__, QY He^\*^. [Functional similarity analysis of human virus-encoded miRNAs](http://www.jclinbioinformatics.com/content/1/1/15/abstract). __*Journal of Clinical Bioinformatics*__. 2011, 1(1):15.
+100.	__G Yu__^†^, CL Xiao^†^, X Bo, CH Lu, Y Qin, S Zhan, QY He^\*^. [A new method for measuring functional similarity of microRNAs](http://www.jiomics.com/index.php/jio/article/view/21). __*Journal of Integrated OMICS*__. 2011, 1(1):49-54.
+101.	__G Yu__^†^, CL Xiao^†^, CH Lu^†^, HT Jia, F Ge, W Wang, XF Yin, HL Jia, JX He^\*^, QY He^\*^. [Phosphoproteome profile of human lung cancer cell line A549](http://pubs.rsc.org/en/Content/ArticleLanding/2011/MB/C0MB00055H). __*Molecular BioSystems*__. 2011, 7(2):472-479.
+102. __G Yu__^†^, F Li^†^, Y Qin, X Bo^\*^, Y Wu, S Wang^\*^. [GOSemSim: an R package for measuring semantic similarity among GO terms and gene products](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/26/7/976). __*Bioinformatics*__. 2010, 26(7):976-978.
 988. XY Yang, K He, G Du, X Wu, __G Yu__, Y Pan, G Zhang^\*^, X Sun^\*^, QY He^\*^. [Integrated Translatomics with Proteomics to Identify Novel Iron–Transporting Proteins in *Streptococcus pneumoniae*](http://journal.frontiersin.org/article/10.3389/fmicb.2016.00078/full). __*Frontiers in Microbiology*__. 2016, 7:78.
 989. PY Huang, CCD Lee, CH Yip, CL Cheung, __G Yu__, TTY Lam, DK Smith, H Zhu^\*^, Y Guan^\*^. [Genetic characterization of highly pathogenic H5 influenza viruses from poultry in Taiwan, 2015](http://www.sciencedirect.com/science/article/pii/S1567134815300721). __*Infection, Genetics and Evolution*__. 2016, 38:96-100.
 990. SH Xu, JZ Huang, ML Xu, __G Yu__, XF Yin, D Chen^\*^, GR Yan^\*^. [ACK1 Promotes Gastric Cancer Epithelial-Mesenchymal Transition and Metastasis through AKT-POU2F1-ECD Signaling](http://onlinelibrary.wiley.com/doi/10.1002/path.4515/abstract). __*The Journal of Pathology*__. 2015, 236(2):175-185.
@@ -155,7 +154,10 @@ Evolution* (X1, rank 11 in *Environment Ecology*, IF = 5.708)
 
 ### **Presentations**
 
-1. **ggtree for tree visualization & annotation** (invited),
+1. **Data integration and visualization of phylogenetic trees**,
+    The 3^rd^ South Lake Innovation Forum for International Young Talents, Huazhong
+    Agricultural University, Wuhan, May, 2018
+99. **ggtree for tree visualization & annotation** (invited),
     Phylogenetic tree visualization workshop/hackathon, The Field Museum of
     Natural History, Chicago, May. 2017
 100. **Computational Methods in Ecology and Evolution**,
@@ -302,6 +304,9 @@ packageTitle <- ypages:::packageTitle
 
 [MSnbase](https://bioconductor.org/packages/MSnbase/)
 :   `r packageTitle('MSnbase', 'BioC')`
+
+[pheatmap](https://cran.r-project.org/package=pheatmap)
+:   `r packageTitle('pheatmap', 'CRAN')`
 
 [scholar](https://github.com/jkeirstead/scholar)
 :   `r packageTitle('scholar', 'CRAN')`

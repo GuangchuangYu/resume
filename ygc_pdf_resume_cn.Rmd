@@ -8,8 +8,8 @@ geometry: margin=1in
 title: "简历"
 author: 余光创
 orcid: "orcid.org/0000-0002-6485-8781"
-jobtitle: "博士后 (香港大学)"
-address: "香港薄扶林道沙宣路22号，香港大学公共卫生学院，实验楼L514"
+jobtitle: "教授"
+address: "广州白云区沙太南路南方医科大学生命科学楼10楼"
 fontawesome: yes
 email: guangchuangyu@gmail.com
 github: GuangchuangYu
@@ -24,34 +24,35 @@ fontfamilyoptions: sc, osf
 fontsize: 10pt
 linkcolor: blue
 urlcolor: blue
-CJKmainfont: STSong
+CJKmainfont: Source Han Sans CN
 ---
 
-# \faGraduationCap \hspace{2pt} EDUCATION
+# \faGraduationCap \hspace{2pt} 教育背景
 
-The University of Hong Kong \hspace{39pt} Ph.D. Evolution Study of Influenza A virus \hfill 2017
+香港大学 \hspace{86pt}  \hfill 生物信息学 \hfill 博士 \hfill 2017
 
-Anhui Medical University \hspace{57pt} M.S. Biochemistry and Molecular Biology \hfill 2009
+安徽医科大学 \hspace{70pt}  \hfill 生物化学与分子生物学 \hspace{46pt} 硕士 \hfill 2009
 
-South China Agricultural University \hspace{10pt} B.S. Biotechnology \hfill 2005
+华南农业大学 \hspace{69pt} \hfill 生物技术 \hspace{3pt} \hfill 学士 \hfill 2005
 
-Institut Pasteur, Paris \hspace{69pt} Train the Trainers \hfill 2015
+Institut Pasteur, Paris \hspace{109pt} Train the Trainers \hfill 2015
 
-# \faBook \hspace{2pt} CERTIFICATE
+
+# \faBook \hspace{2pt} 证书
 
 *Certificate of Teaching and Learning in Higher Education*, Centre for Enhancement of Teaching and Learning, The University of Hong Kong \hfill 2015
 
-# \faUniversity \hspace{2pt} EMPLOYMENT
+# \faUniversity \hspace{2pt} 工作经历
 
-State Key Laboratory of Infectious Diseases, School of Public Health, The University of Hong Kong:
+香港大学，公共卫生学院，新发传染性疾病国家重点实验室
 
- > Post-doctoral Fellow \hfill 2017
+ > 博士后 \hfill 2017
 
-College of Life Science and Technology, Jinan University:
+暨南大学，生命科学学院，功能蛋白质研究中心
 
- > Bioinformatician \hfill 2009--2013
+ > 生物信息技术员 \hfill 2009--2013
 
-# \faSlideshare \hspace{2pt} TEACHING
+# \faSlideshare \hspace{2pt} 教学
 
 Student Helper, The University of Hong Kong \hfill 2013--2014
 
@@ -61,13 +62,13 @@ Lecturer, Jinan University \hfill 2011--2012
 
 > Functional Proteomics
 
-# \faTrophy \hspace{2pt} AWARDS
+# \faTrophy \hspace{2pt} 奖励
 
 **2013--2017**  *Postgraduate Studentships*. The University of Hong Kong.
 
 **2012**  *Best paper of the year 2010*. Journal of Integrated OMICS.
 
-# \faDatabase \hspace{2pt} GRANTS
+# \faDatabase \hspace{2pt} 基金
 
 **2013**  (*完成*) *PI*, hnRNPK蛋白在调控人肺癌细胞周期胞质分裂中的作用研究, 中央高校基本科研业务费专项资金 (21613414), CNY 100,000
 
@@ -77,16 +78,79 @@ Lecturer, Jinan University \hfill 2011--2012
 
 ## **Journal Articles**
 
+```{r echo=F, warning=F, message=F, fig.asp=0.618}
 
-```{r echo=F, message=F, warning=FALSE, fig.asp=0.618}
 library(methods)
 library(scholar)
 library(ggplot2)
 library(ggthemes)
 library(ypages)
 
+
 cite <- function(article_id) {
-    sprintf("cited by %d", sum(get_article_cite_history("DO5oG40AAAAJ", article_id)$cites))
+    sprintf("Citation: %d", sum(get_article_cite_history("DO5oG40AAAAJ", article_id)$cites))
+}
+
+journal_info <- function(journal) {
+    ## B
+    if (journal == "Bioinformatics") {
+        info <- "Impact Factor: 7.307, JCR Mathematical & Computational Biology 2/57 (Q1, 1区)"
+    }
+
+    ## C
+    if (journal == "Current Medicinal Chemistry") {
+        info <- "Impact Factor: 3.249, JCR Pharmacology & Pharmacy 71/257 (Q2, 2区)"
+    }
+
+    ## F
+    if (journal == "Frontiers in Microbiology") {
+        info <- "Impact Factor: 4.076, JCR Microbiology 26/125 (Q1, 2区)"
+    }
+
+    ## I
+    if (journal == "Infection, Genetics and Evolution") {
+        info <- "Impact Factor: 2.885, JCR Infectious Diseases 36/84 (Q2, 3区)"
+    }
+
+    ## J
+    if (journal == "Journal of Cellular and Molecular Medicine") {
+        info <- "Impact Factor: 4.499, JCR Medicine, Research & Experimental 20/128 (Q1, 2区)"
+    } else if (journal == "Journal of Proteomics") {
+        info <- "Impact Factor: 3.914, JCR Biochemistry & Research Methods 17/78 (Q1, 2区)"
+    }
+
+    ## M
+    if (journal == "MEE" || journal == "Methods in Ecology and Evolution") {
+        info <- "Impact Factor: 5.708, JCR Ecology 13/153 (Q1, 1区)"
+    } else if (journal == "Metallomics") {
+        info <- "Impact Factor: 3.975, JCR Biochemistry & Molecular Biology 80/290 (Q2, 3区)"
+    } else if (journal == "Molecular BioSystems") {
+        info <- "Impact Factor: 2.781, JCR Biochemistry & Molecular Biology 145/290 (Q2, 3区)"
+    }
+
+    ## O
+    if (journal == "OMICS") {
+        info <- "Impact Factor: 2.723, JCR Biotechnology & Applied Microbiology 29/160 (Q2, 3区)"
+    }
+
+    ## P
+    if (journal == "pone" || journal == "PLoS One") {
+        info <- "Impact Factor: 2.806, JCR Multidisciplinary Sciences 15/64 (Q1, 3区)"
+    } else if (journal == "Proteomics") {
+        info <- "Impact Factor: 4.041, JCR Biochemistry & Research Methods 15/78 (Q1, 2区)"
+    }
+
+    ## T
+    if (journal == "The Journal of Pathology") {
+        info <- "Impact Factor: 6.894, JCR Pathology 3/79 (Q1, 1区)"
+    }
+
+    sprintf(info)
+}
+
+journal_info <- function(journal) {
+    ## 2018 impact factor in scholar pkg
+    sprintf("Impact Factor: %.3f", scholar::get_impactfactor(journal)$ImpactFactor)
 }
 
 id <- 'DO5oG40AAAAJ'
@@ -112,73 +176,73 @@ ggplot(df, aes(year, cites)) +
 ```
 
 
+
+
 > \emph{\color{OrangeRed}\faFire} ESI Hot Paper (X1)
 
 > \emph{\color{BurntOrange}\faTrophy} ESI Highly Cited Paper (X4)
 
-> 第一作者/通讯作者SCI文章9篇：1区（X4），2区（X1）
+> 第一作者/通讯作者SCI文章10篇：1区（X5），2区（X1）
 
-> 期刊排名与分位数来源：InCites Journal Citation Reports
+> ^#^ indicates equal contribution, ^\*^ indicates corresponding
 
-> 分区来源：中国科学院文献情报中心JCR期刊分区表中小类分区
 
-> ^†^ indicates equal contribution, ^\*^ indicates corresponding
 
 1. __G Yu__. [clusterProfiler: universal enrichment tool for functional and
    comparative study](https://www.biorxiv.org/content/early/2018/01/31/256784).
    __*bioRxiv*__. 2018, <https://doi.org/10.1101/256784>
+90. __G Yu__. [Using meshes for MeSH term enrichment and semantic analyses](https://doi.org/10.1093/bioinformatics/bty410).
+    __*Bioinformatics*__. accepted. `r journal_info("Bioinformatics")`
 91. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. [ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract). __*Methods in Ecology and Evolution*__. 2017, 8(1):28-36.
- \emph{\color{OrangeRed}\faFire} \emph{\color{BurntOrange}\faTrophy} `r cite("HtEfBTGE9r8C")`,
- Impact Factor: 5.708, JCR Ecology 13/153 (Q1, 1区)
+ \emph{\color{OrangeRed}\faFire} \emph{\color{BurntOrange}\faTrophy} `r cite("HtEfBTGE9r8C")`, `r journal_info("Methods in Ecology and Evolution")`
 92. __G Yu__, QY He^\*^. [ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization](http://pubs.rsc.org/en/Content/ArticleLanding/2016/MB/C5MB00663E). __*Molecular BioSystems*__. 2016, 12(2):477-479.
- \emph{\color{BurntOrange}\faTrophy} `r cite("8d8msizDQcsC")`, Impact Factor: 2.781, JCR Biochemistry & Molecular Biology 145/290 (Q2, 3区)
+ \emph{\color{BurntOrange}\faTrophy} `r cite("8d8msizDQcsC")`, `r journal_info("Molecular BioSystems")`
 93. __G Yu__^\*^, LG Wang, QY He^\*^. [ChIPseeker: an R/Bioconductor package for ChIP peak annotation, comparision and visualization](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btv145). __*Bioinformatics*__. 2015, 31(14):2382-2383.
- \emph{\color{BurntOrange}\faTrophy} `r cite("9pM33mqn1YgC")`, Impact Factor: 7.307, JCR Mathematical & Computational Biology 2/57 (Q1, 1区)
+ \emph{\color{BurntOrange}\faTrophy} `r cite("9pM33mqn1YgC")`, `r journal_info("Bioinformatics")`
 94.	__G Yu__^\*^, LG Wang, GR Yan, QY He^\*^. [DOSE: an R/Bioconductor package for Disease Ontology Semantic and Enrichment analysis](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btu684). __*Bioinformatics*__. 2015, 31(4):608-609.
- `r cite("Ug5p-4gJ2f0C")`, Impact Factor: 7.307, JCR Mathematical & Computational Biology 2/57 (Q1, 1区)
-95.	__G Yu__^†^, LG Wang^†^, XH Meng, QY He^\*^. [LXtoo: an integrated live Linux distribution for the bioinformatics community](http://www.biomedcentral.com/1756-0500/5/360/). __*BMC Research Notes*__. 2012, 5(1):360.
+ `r cite("Ug5p-4gJ2f0C")`, `r journal_info("Bioinformatics")`
+95. X Sun^#^, __G Yu__^#^, Q Xu, N Li, C Xiao, X Yin, K Cao, J Han, QY He^\*^. [Putative cobalt- and nickel-binding proteins and motifs in *Streptococcus pneumonia*](http://pubs.rsc.org/en/content/articlelanding/2013/mt/c3mt00126a). __*Metallomics*__. 2013, 5(7):928-935.
+ `r cite("oNZyr7d5Mn4C")`, `r journal_info("Metallomics")`
+96. YY Zhu^#^, __G Yu__^#^, Y Zhang, Z Xu, YQ Huang, GR Yan^\*^, QY He^\*^. [A novel andrographolide derivative AL-1 exerts its cytotoxicity on K562 cells through a ROS-dependent mechanism](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201200273/abstract). __*Proteomics*__, 2013, 13(1):169-178.
+ `r cite("VaXvl8Fpj5cC")`, `r journal_info("Proteomics")`
+97.	__G Yu__^#^, LG Wang^#^, XH Meng, QY He^\*^. [LXtoo: an integrated live Linux distribution for the bioinformatics community](http://www.biomedcentral.com/1756-0500/5/360/). __*BMC Research Notes*__. 2012, 5(1):360.
  `r cite("S16KYo8Pm5AC")`
-96.	__G Yu__, LG Wang, Y Han, QY He^\*^. [clusterProfiler: an R package for comparing biological themes among gene clusters](http://online.liebertpub.com/doi/abs/10.1089/omi.2011.0118). __*OMICS: A Journal of Integrative Biology*__. 2012, 16(5):284-287.
-\emph{\color{BurntOrange}\faTrophy} `r cite("MLfJN-KU85MC")`, Impact Factor: 2.723, JCR Biotechnology & Applied Microbiology 29/160 (Q2, 3区)
-97.	__G Yu__, QY He^\*^. [Functional similarity analysis of human virus-encoded miRNAs](http://www.jclinbioinformatics.com/content/1/1/15/abstract). __*Journal of Clinical Bioinformatics*__. 2011, 1(1):15.
+98.	__G Yu__, LG Wang, Y Han, QY He^\*^. [clusterProfiler: an R package for comparing biological themes among gene clusters](http://online.liebertpub.com/doi/abs/10.1089/omi.2011.0118). __*OMICS: A Journal of Integrative Biology*__. 2012, 16(5):284-287.
+\emph{\color{BurntOrange}\faTrophy} `r cite("MLfJN-KU85MC")`, `r journal_info("OMICS-A Journal of Integrative biology")`
+99.	__G Yu__, QY He^\*^. [Functional similarity analysis of human virus-encoded miRNAs](http://www.jclinbioinformatics.com/content/1/1/15/abstract). __*Journal of Clinical Bioinformatics*__. 2011, 1(1):15.
  `r cite("lmc2jWPfTJgC")`
-98.	__G Yu__^†^, CL Xiao^†^, X Bo, CH Lu, Y Qin, S Zhan, QY He^\*^. [A new method for measuring functional similarity of microRNAs](http://www.jiomics.com/index.php/jio/article/view/21). __*Journal of Integrated OMICS*__. 2011, 1(1):49-54.
+100. __G Yu__^#^, CL Xiao^#^, X Bo, CH Lu, Y Qin, S Zhan, QY He^\*^. [A new method for measuring functional similarity of microRNAs](http://www.jiomics.com/index.php/jio/article/view/21). __*Journal of Integrated OMICS*__. 2011, 1(1):49-54.
  `r cite("M7yex6snE4oC")`
-99.	__G Yu__^†^, CL Xiao^†^, CH Lu^†^, HT Jia, F Ge, W Wang, XF Yin, HL Jia, JX He^\*^, QY He^\*^. [Phosphoproteome profile of human lung cancer cell line A549](http://pubs.rsc.org/en/Content/ArticleLanding/2011/MB/C0MB00055H). __*Molecular BioSystems*__. 2011, 7(2):472-479.
- `r cite("k8Z6L05lTy4C")`, Impact Factor: 2.781, JCR Biochemistry & Molecular Biology 145/290 (Q2, 3区)
-100. __G Yu__^†^, F Li^†^, Y Qin, X Bo^\*^, Y Wu, S Wang^\*^. [GOSemSim: an R package for measuring semantic similarity among GO terms and gene products](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/26/7/976). __*Bioinformatics*__. 2010, 26(7):976-978.
- `r cite("tuHXwOkdijsC")`, Impact Factor: 7.307, JCR Mathematical & Computational Biology 2/57 (Q1, 1区)
-199. X Sun^†^, __G Yu__^†^, Q Xu, N Li, C Xiao, X Yin, K Cao, J Han, QY He^\*^. [Putative cobalt- and nickel-binding proteins and motifs in *Streptococcus pneumonia*](http://pubs.rsc.org/en/content/articlelanding/2013/mt/c3mt00126a). __*Metallomics*__. 2013, 5(7):928-935.
- `r cite("oNZyr7d5Mn4C")`, Impact Factor: 3.975, JCR Biochemistry & Molecular Biology 80/290 (Q2, 3区)
-200. YY Zhu^†^, __G Yu__^†^, Y Zhang, Z Xu, YQ Huang, GR Yan^\*^, QY He^\*^. [A novel andrographolide derivative AL-1 exerts its cytotoxicity on K562 cells through a ROS-dependent mechanism](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201200273/abstract). __*Proteomics*__, 2013, 13(1):169-178.
- `r cite("VaXvl8Fpj5cC")`, Impact Factor: 4.041, JCR Biochemistry & Research Methods 15/78 (Q1, 2区)
+101. __G Yu__^#^, CL Xiao^#^, CH Lu^#^, HT Jia, F Ge, W Wang, XF Yin, HL Jia, JX He^\*^, QY He^\*^. [Phosphoproteome profile of human lung cancer cell line A549](http://pubs.rsc.org/en/Content/ArticleLanding/2011/MB/C0MB00055H). __*Molecular BioSystems*__. 2011, 7(2):472-479.
+ `r cite("k8Z6L05lTy4C")`, `r journal_info("Molecular BioSystems")`
+102. __G Yu__^#^, F Li^#^, Y Qin, X Bo^\*^, Y Wu, S Wang^\*^. [GOSemSim: an R package for measuring semantic similarity among GO terms and gene products](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/26/7/976). __*Bioinformatics*__. 2010, 26(7):976-978.
+ `r cite("tuHXwOkdijsC")`, `r journal_info("Bioinformatics")`
 988. XY Yang, K He, G Du, X Wu, __G Yu__, Y Pan, G Zhang^\*^, X Sun^\*^, QY He^\*^. [Integrated Translatomics with Proteomics to Identify Novel Iron–Transporting Proteins in *Streptococcus pneumoniae*](http://journal.frontiersin.org/article/10.3389/fmicb.2016.00078/full). __*Frontiers in Microbiology*__. 2016, 7:78.
- `r cite("anf4URPfarAC")`, Impact Factor: 4.076, JCR Microbiology 26/125 (Q1, 2区)
+ `r cite("anf4URPfarAC")`, `r journal_info("Frontiers in Microbiology")`
 989. PY Huang, CCD Lee, CH Yip, CL Cheung, __G Yu__, TTY Lam, DK Smith, H Zhu^\*^, Y Guan^\*^. [Genetic characterization of highly pathogenic H5 influenza viruses from poultry in Taiwan, 2015](http://www.sciencedirect.com/science/article/pii/S1567134815300721). __*Infection, Genetics and Evolution*__. 2016, 38:96-100.
- `r cite("LO7wyVUgiFcC")`, Impact Factor: 2.885, JCR Infectious Diseases 36/84 (Q2, 3区)
-990. SH Xu, JZ Huang, ML Xu, __G Yu__, XF Yin, D Chen^\*^, GR Yan^\*^. [ACK1 Promotes Gastric Cancer Epithelial-Mesenchymal Transition and Metastasis through AKT-POU2F1-ECD Signaling](http://onlinelibrary.wiley.com/doi/10.1002/path.4515/abstract). __*The Journal of Pathology*__. 2015, 236(2):175-185.
- `r cite("_axFR9aDTf0C")`, Impact Factor: 6.894, JCR Pathology 3/79 (Q1, 1区)
+ `r cite("LO7wyVUgiFcC")`, `r journal_info("Infection, Genetics and Evolution")`
+990. SH Xu, JZ Huang, ML Xu, __G Yu__, XF Yin, D Chen^\*^, GR Yan^\*^. [ACK1 Promotes Gastric Cancer Epithelial-Mesenchymal Transition and Metastasis through AKT-POU2F1-ECD Signaling](http://onlinelibrary.wiley.com/doi/10.1002/path.4515/abstract). __*Journal of Pathology*__. 2015, 236(2):175-185.
+ `r cite("_axFR9aDTf0C")`, `r journal_info("Journal of Pathology")`
 991. Z Guo, J Han, XY Yang, K Cao, K He, G Du, G Zeng, L Zhang, __G Yu__, Z Sun, QY He^\*^, X Sun^\*^. [Proteomic analysis on the copper resistance of *Streptococcus pneumonia*](http://pubs.rsc.org/en/content/articlelanding/2015/mt/C4MT00276H). __*Metallomics*__. 2015, 7(3):448-454.
- Impact Factor: 3.975, JCR Biochemistry & Molecular Biology 80/290 (Q2, 3区)
-`r cite("86PQX7AUzd4C")`
+`r cite("86PQX7AUzd4C")`, `r journal_info("Metallomics")`
 992. XY Yang, L Zhang, J Liu, N Li, __G Yu__, K Cao, J Han, G Zeng, Y Pan, X Sun^\*^, QY He^\*^. [Proteomic analysis on the antibacterial activity of a Ru(II) complex against *Strepococcus pneumonia*](http://www.sciencedirect.com/science/article/pii/S1874391914005521). __*Journal of Proteomics*__. 2015, 115:107-116.
- `r cite("4fGpz3EwCPoC")`, Impact Factor: 3.914, JCR Biochemistry & Research Methods 17/78 (Q1, 2区)
-993. N Wang^†^, J Zhang^†^, L Zhang, XY Yang, N Li, __G Yu__, J Han, K Cao, Z Guo, X Sun^\*^, QY He^\*^. [Proteomic analysis of putative heme-binding proteins in *Streptococcus pyogenes*](http://pubs.rsc.org/en/content/articlelanding/2014/mt/c4mt00027g). __*Metallomics*__. 2014, 6(8):1451-1459.
- `r cite("SpbeaW3--B0C")`, Impact Factor: 3.975, JCR Biochemistry & Molecular Biology 80/290 (Q2, 3区)
+ `r cite("4fGpz3EwCPoC")`, `r journal_info("Journal of Proteomics")`
+993. N Wang^#^, J Zhang^#^, L Zhang, XY Yang, N Li, __G Yu__, J Han, K Cao, Z Guo, X Sun^\*^, QY He^\*^. [Proteomic analysis of putative heme-binding proteins in *Streptococcus pyogenes*](http://pubs.rsc.org/en/content/articlelanding/2014/mt/c4mt00027g). __*Metallomics*__. 2014, 6(8):1451-1459.
+ `r cite("SpbeaW3--B0C")`, `r journal_info("Metallomics")`
 994. H Sun^\*^, J Weng, __G Yu__, RH Massawe. [A DNA-Based Semantic Fusion Model for Remote Sensing Data](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0077090). __*PLoS One*__. 2013, 8(10):e77090.
- `r cite("xtoqd-5pKcoC")`, Impact Factor: 2.806, JCR Multidisciplinary Sciences 15/64 (Q1, 3区)
-995. GR Yan^†^, Z Tan^†^, Y Wang, ML Xu, __G Yu__, Y Li^\*^, QY He^\*^. [Quantitative Proteomics Characterization on the Anti-tumor Effects of Isodexyelephantopin against Nasopharyngeal Carcinoma](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201300152/abstract). __*Proteomics*__. 2013, 13(21):3222-3232.
- `r cite("Dip1O2bNi0gC")`, Impact Factor: 4.041, JCR Biochemistry & Research Methods 15/78 (Q1, 2区)
+ `r cite("xtoqd-5pKcoC")`, `r journal_info("plos one")`
+995. GR Yan^#^, Z Tan^#^, Y Wang, ML Xu, __G Yu__, Y Li^\*^, QY He^\*^. [Quantitative Proteomics Characterization on the Anti-tumor Effects of Isodexyelephantopin against Nasopharyngeal Carcinoma](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201300152/abstract). __*Proteomics*__. 2013, 13(21):3222-3232.
+ `r cite("Dip1O2bNi0gC")`, `r journal_info("Proteomics")`
 996. J Li, X Lu, Q Wu, __G Yu__, Z Xu, L Qiu, Z Pei, Y Lin, J Pang^\*^. [Design, SAR, angiogenic activities evaluation and pro-angiogenic mechanism of new marine cyclopeptide analogs](http://www.eurekaselect.com/107734/article). __*Current Medicinal Chemistry*__. 2013, 20(9):1183-1194.
- `r cite("IWHjjKOFINEC")`, Impact Factor: 3.249, JCR Pharmacology & Pharmacy 71/257 (Q2, 2区)
+ `r cite("IWHjjKOFINEC")`, `r journal_info("Current Medicinal Chemistry")`
 997. Y Han, __G Yu__, H Sarioglu, A Caballero-Martinez, F Schlott, M Ueffing, H Haase, C Peschel, AM Krackhardt^\*^. [Proteomic investigation of the interactome of FMNL1 in hematopoietic cells unveils a role in calcium-dependent membrane plasticity](http://www.sciencedirect.com/science/article/pii/S1874391912007567). __*Journal of Proteomics*__. 2013, 78:72-82.
- `r cite("WZBGuue-350C")`, Impact Factor: 3.914, JCR Biochemistry & Research Methods 17/78 (Q1, 2区)
-998. Y Ma^†^, J Yang^†^, X Fan^†^, H Zhao, W Hu, Z Li, __G Yu__, X Ding, J Wang, X Bo, X Zheng, Z Zhou^\*^, S Wang^\*^. [Cellular MicroRNA let-7c Inhibits M1 Protein Expression of the H1N1 Influenza A Virus in Infected Human Lung Epithelial Cells](http://onlinelibrary.wiley.com/doi/10.1111/j.1582-4934.2012.01572.x/abstract). __*Journal of Cellular and Molecular Medicine*__. 2012, 16(10):2539-2546.
- `r cite("ClCfbGk0d_YC")`, Impact Factor: 4.499, JCR Medicine, Research & Experimental 20/128 (Q1, 2区)
-999. GR Yan^†^, FY Zhou^†^, BL Dang, Y Zhang, __G Yu__, X Liu, QY He^\*^. [Genistein-induced mitotic arrest of gastric cancer cells by downregulating KIF20A, a proteomics study](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201100652/abstract). __*Proteomics*__. 2012, 12(14):2391-2399.
- `r cite("kz9GbA2Ns4gC")`, Impact Factor: 4.041, JCR Biochemistry & Research Methods 15/78 (Q1, 2区)
-1000. X Sun^†^, XY Yang^†^, XF Yin, __G Yu__, CL Xiao, X He, QY He^\*^. [Proteomic Analysis of Membrane Proteins from *Streptococcus pneumoniae* with Multiple Separation Methods plus High Accuracy Mass Spectrometry](http://www.liebertonline.com/doi/abs/10.1089/omi.2010.0133). __*OMICS: A Journal of Integrative Biology*__. 2011, 15(10):683-694.
- `r cite("LI9QrySNdTsC")`, Impact Factor: 2.723, JCR Biotechnology & Applied Microbiology 29/160 (Q2, 3区)
+ `r cite("WZBGuue-350C")`, `r journal_info("Journal of Proteomics")`
+998. Y Ma^#^, J Yang^#^, X Fan^#^, H Zhao, W Hu, Z Li, __G Yu__, X Ding, J Wang, X Bo, X Zheng, Z Zhou^\*^, S Wang^\*^. [Cellular MicroRNA let-7c Inhibits M1 Protein Expression of the H1N1 Influenza A Virus in Infected Human Lung Epithelial Cells](http://onlinelibrary.wiley.com/doi/10.1111/j.1582-4934.2012.01572.x/abstract). __*Journal of Cellular and Molecular Medicine*__. 2012, 16(10):2539-2546.
+ `r cite("ClCfbGk0d_YC")`, `r journal_info("Journal of Cellular and Molecular Medicine")`
+999. GR Yan^#^, FY Zhou^#^, BL Dang, Y Zhang, __G Yu__, X Liu, QY He^\*^. [Genistein-induced mitotic arrest of gastric cancer cells by downregulating KIF20A, a proteomics study](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201100652/abstract). __*Proteomics*__. 2012, 12(14):2391-2399.
+ `r cite("kz9GbA2Ns4gC")`, `r journal_info("Proteomics")`
+1000. X Sun^#^, XY Yang^#^, XF Yin, __G Yu__, CL Xiao, X He, QY He^\*^. [Proteomic Analysis of Membrane Proteins from *Streptococcus pneumoniae* with Multiple Separation Methods plus High Accuracy Mass Spectrometry](http://www.liebertonline.com/doi/abs/10.1089/omi.2010.0133). __*OMICS: A Journal of Integrative Biology*__. 2011, 15(10):683-694.
+ `r cite("LI9QrySNdTsC")`, `r journal_info("OMICS-A Journal of Integrative biology")`
 
 ## **E-Letters**
 
@@ -270,7 +334,7 @@ packageTitle = ypages:::packageTitle
 + [DOSE](https://guangchuangyu.github.io/DOSE):   `r packageTitle('DOSE', 'BioC')`
 + [ggtree](https://guangchuangyu.github.io/ggtree):   `r packageTitle('ggtree', 'BioC')`
 + [GOSemSim](https://guangchuangyu.github.io/GOSemSim):   `r packageTitle('GOSemSim', 'BioC')`
-+ [meshes](https://guangchuangyu.github.io/meshes):   `r packageTitle('meshes', 'BioC')`
++ [meshes](https://guangchuangyu.github.io/meshes):   MeSH Enrichment and Semantic analyses
 + [ReactomePA](https://guangchuangyu.github.io/ReactomePA):   `r packageTitle('ReactomePA', 'BioC')`
 + [seqcombo](https://www.bioconductor.org/packages/seqcombo):   `r packageTitle('seqcombo', 'BioC')`
 + [tidytree](https://cran.r-project.org/package=tidytree):   `r packageTitle('tidytree', 'CRAN')`
@@ -283,6 +347,7 @@ packageTitle = ypages:::packageTitle
 + [cowsay](https://cran.r-project.org/package=cowsay):   `r packageTitle('cowsay', 'CRAN')`
 + [kableExtra](https://cran.r-project.org/package=kableExtra):   `r packageTitle('kableExtra', 'CRAN')`
 + [microbiomeViz](https://github.com/lch14forever/microbiomeViz): Visualizing Microbiome Data
-+ [MSnbase](https://bioconductor.org/packages/MSnbase/):   `r packageTitle('MSnbase', 'BioC')`
++ [MSnbase](https://bioconductor.org/packages/MSnbase/):   Base Functions and Classes for Mass Spectrometry and Proteomics
++ [pheatmap](https://cran.r-project.org/package=pheatmap):  `r packageTitle('pheatmap', 'CRAN')`
 + [scholar](https://github.com/jkeirstead/scholar):   `r packageTitle('scholar', 'CRAN')`
 
