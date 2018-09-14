@@ -67,13 +67,13 @@ Jinan University
 
 # \faHeart \hspace{2pt} SCHOLARSHIPS & AWARDS
 
-+ Travel Grant for 3^rd^ South Lake Innovation Forum for International Young Talents, awarded by Huazhong Agricultural University \hfill 2018
++ Travel Grant for the 3^rd^ South Lake Innovation Forum for International Young Talents, awarded by Huazhong Agricultural University \hfill 2018
 + Travel Grant for Phylogenetic tree visualization workshop/hackathon, awarded by The Field Museum of Natural History, USA \hfill 2017
-+ Travel Grant for 2^nd^ International Workshop on Environmental Microbiomes, awarded by Sun Yat-sen University \hfill 2017
++ Travel Grant for the 2^nd^ International Workshop on Environmental Microbiomes, awarded by Sun Yat-sen University \hfill 2017
 + Travel Grant for Options IX for the control of influenza, awarded by Areas of Excellence Scheme (AoE) and Theme-based Research Scheme (TRS), Hong Kong \hfill 2016
-+ Travel Grant for China-R conference, awarded by Capital of Statistics \hfill 2016
-+ Postgraduate Studentships, The University of Hong Kong \hfill 2013--2017
-+ Best paper of the year 2010, Journal of Integrated OMICS \hfill 2012
++ Travel Grant for the 9^th^ China-R conference, awarded by Capital of Statistics \hfill 2016
++ Postgraduate Studentships, awarded by The University of Hong Kong \hfill 2013--2017
++ Best paper of the year 2010, awarded by Journal of Integrated OMICS \hfill 2012
 
 # \faDatabase \hspace{2pt} GRANTS
 
@@ -85,6 +85,14 @@ Jinan University
 ## **Journal Articles**
 
 ```{r echo=F, warning=F, message=F, fig.asp=0.618}
+
+library(methods)
+library(scholar)
+library(ggplot2)
+library(ggthemes)
+library(ypages)
+
+packageTitle = ypages:::packageTitle
 
 cite <- function(article_id) {
     sprintf("Citation: %d", sum(get_article_cite_history("DO5oG40AAAAJ", article_id)$cites))
@@ -308,16 +316,6 @@ https://youtu.be/tqspAXM0UQE
 <!-- or https://v.qq.com/x/page/k0565r0qiyy.html -->
 
 # \faGears \hspace{2pt} SOFTWARE DEVELOPMENT
-
-```{r echo=F, message=F, fig.asp=0.5}
-library(methods)
-library(scholar)
-library(ggplot2)
-library(ggthemes)
-library(ypages)
-
-packageTitle = ypages:::packageTitle
-```
 
 > **\textsf{R} ranking**: ranked `r gitaward("guangchuangyu", "r")` worldwide by [Git Awards](http://git-awards.com/users/guangchuangyu)
 
