@@ -51,34 +51,26 @@ State Key Laboratory of Infectious Diseases, School of Public Health, The Univer
 
  > Post-doctoral Fellow \hfill 2017--2018
 
-College of Life Science and Technology, Jinan University:
+Key Laboratory of Functional Protein Research of Guangdong Higher Education Institutes, College of Life Science and Technology, Jinan University:
 
  > Bioinformatician \hfill 2009--2013
 
-# \faSlideshare \hspace{2pt} TEACHING
-
-The University of Hong Kong
-
-> Student Helper, Presentation Skills and Research Seminars in Biological Sciences \hfill 2013--2014
-
-Jinan University
-
-> Lecturer, Functional Proteomics \hfill 2011--2012
-
 # \faHeart \hspace{2pt} SCHOLARSHIPS & AWARDS
 
++ 南方医科大学高层次人才引进（第三层次） \hfill 2018
 + Travel Grant for the 3^rd^ South Lake Innovation Forum for International Young Talents, awarded by Huazhong Agricultural University \hfill 2018
 + Travel Grant for Phylogenetic tree visualization workshop/hackathon, awarded by The Field Museum of Natural History, USA \hfill 2017
 + Travel Grant for the 2^nd^ International Workshop on Environmental Microbiomes, awarded by Sun Yat-sen University \hfill 2017
++ Postgraduate Studentships, awarded by The University of Hong Kong \hfill 2013--2017
 + Travel Grant for Options IX for the control of influenza, awarded by Areas of Excellence Scheme (AoE) and Theme-based Research Scheme (TRS), Hong Kong \hfill 2016
 + Travel Grant for the 9^th^ China-R conference, awarded by Capital of Statistics \hfill 2016
-+ Postgraduate Studentships, awarded by The University of Hong Kong \hfill 2013--2017
 + Best paper of the year 2010, awarded by Journal of Integrated OMICS \hfill 2012
 
 # \faDatabase \hspace{2pt} GRANTS
 
-+ (*完成*) *PI*, hnRNPK蛋白在调控人肺癌细胞周期胞质分裂中的作用研究, 中央高校基本科研业务费专项资金 (21613414), CNY 100,000 \hfill 2013
-+ (*完成*) *PI*, Hela细胞周期动态蛋白质组学分析, 中央高校基本科研业务费专项资金 (21611303), CNY 20,000 \hfill 2011
++ (在研) **PI**, _南方医科大学第三层次人才引进科研项目_, 南方医科大学 (c1051022), CNY ¥1,500,000 \hfill 2018--2019
++ (完成) **PI**, _hnRNPK蛋白在调控人肺癌细胞周期胞质分裂中的作用研究_, 中央高校基本科研业务费专项资金 (21613414), CNY ¥100,000 \hfill 2013
++ (完成) **PI**, _Hela细胞周期动态蛋白质组学分析_, 中央高校基本科研业务费专项资金 (21611303), CNY ¥20,000 \hfill 2011
 
 # \faFileText \hspace{2pt} PUBLICATIONS
 
@@ -261,60 +253,6 @@ ggplot(df, aes(year, cites)) +
   - __余光创__, "生物信息学II", 《功能蛋白质研究》, 385-425, 何庆瑜 (*主编*),
     __*科学出版社*__, 2012. ("十二五"国家重点图书出版规划项目)
 
-# \faGroup \hspace{2pt} CONFERENCE PROCEEDINGS
-
-## **Presentations**
-
-1. **Data integration and visualization of phylogenetic trees**,
-    The 3^rd^ South Lake Innovation Forum for International Young Talents, Huazhong
-    Agricultural University, Wuhan, May, 2018
-99. **ggtree for tree visualization & annotation** (invited),
-    Phylogenetic tree visualization workshop/hackathon, The Field Museum of
-    Natural History, Chicago, May. 2017
-100. **Computational Methods in Ecology and Evolution**,
-    The Second International Workshop on Environmental Microbiomes, Sun
-    Yat-sen University, Guangzhou, April. 2017
-101. **[ggtree for visualization and annotation of phylogenetic trees](https://guangchuangyu.github.io/presentation/2016-ggtree-chinar/)** (invited),
-	The 9^th^ China-R Conference, Renmin University of China, Beijing, May. 2016
-
-## **Posters**
-
-1. **ggtree: a programming package for complex data integration and analysis in
-   phylogeny to identify potential genetic markers of influenza a virus that
-   determine interspecies transmission**, Scientific Advisory Board (SAB) Meeting for the Theme-based Research
-   Scheme on Viral, Host and Environmental Determinants of Influenza Virus
-   Transmission and Pathogenesis, The University of Hong Kong, Hong Kong, Jun. 2017
-100. **Phylogeny-guided genome assembly method for short read nucleotide sequences from co-infecting influenza A viruses**,
-	Options IX for the control of influenza, International Society for Influenza and other Respiratory Virus Disease, Chicago, Aug. 2016
-101. **ggtree: an *R* package for visualization and annotation of phylogenetic tree with different types of meta-data**,
-	The 20^th^ Research Postgraduate Symposium, The University of Hong Kong, Hong Kong, Dec. 2015
-
-
-# \faHome \hspace{2pt} PROFESSIONAL AFFILIATIONS
-  - **Member**, International Society for Influenza and other Respiratory Virus
-    Disease \hfill 2016
-  - **Steering Committee**, International Network for Data Analysis, Institut
-    Pasteur \hfill 2015
-  - **Visiting student**, Beijing Institute of Radiation Medicine \hfill 2005-2009
-
-# \faUser \hspace{2pt} PROFESSIONAL SERVICES
-
-## **Associate Editor**
-  - *Journal of Integrated OMICS*, 2011-present
-
-## **Reviewer**
-
-> *Bioinformatics*, *BMC Bioinformatics*, *Computational Biology and Chemistry*,
-> *Current Bioinformatics*, *Gastroenterology Research and Practice*, *Molecular
-> BioSystems*, *Nucleic Acids Research*, *R Journal*
-
-
-# \faVideoCamera \hspace{2pt} PUBLIC MEDIA
-
-  - "Plotting trees + data" lecture by Guangchuang Yu.
-https://youtu.be/tqspAXM0UQE
-<!-- or https://v.qq.com/x/page/k0565r0qiyy.html -->
-
 # \faGears \hspace{2pt} SOFTWARE DEVELOPMENT
 
 > **\textsf{R} ranking**: ranked `r gitaward("guangchuangyu", "r")` worldwide by [Git Awards](http://git-awards.com/users/guangchuangyu)
@@ -349,3 +287,67 @@ https://youtu.be/tqspAXM0UQE
 + [MSnbase](https://bioconductor.org/packages/MSnbase/):   Base Functions and Classes for Mass Spectrometry and Proteomics
 + [pheatmap](https://cran.r-project.org/package=pheatmap):  `r packageTitle('pheatmap', 'CRAN')`
 + [scholar](https://github.com/jkeirstead/scholar):   `r packageTitle('scholar', 'CRAN')`
+
+# \faHome \hspace{2pt} PROFESSIONAL AFFILIATIONS
+  - Member, International Society for Influenza and other Respiratory Virus
+    Disease \hfill 2016
+  - Steering Committee, International Network for Data Analysis, Institut
+    Pasteur \hfill 2015
+  - Visiting student, Beijing Institute of Radiation Medicine \hfill 2005-2009
+
+# \faUser \hspace{2pt} PROFESSIONAL SERVICES
+
+## **Associate Editor**
+  - *Journal of Integrated OMICS*, 2011-present
+
+## **Reviewer**
+
+> *Bioinformatics*, *BMC Bioinformatics*, *Computational Biology and Chemistry*,
+> *Current Bioinformatics*, *Gastroenterology Research and Practice*, *Molecular
+> BioSystems*, *Nucleic Acids Research*, *R Journal*
+
+
+# \faVideoCamera \hspace{2pt} PUBLIC MEDIA
+
+  - "Plotting trees + data" lecture by Guangchuang Yu.
+https://youtu.be/tqspAXM0UQE
+<!-- or https://v.qq.com/x/page/k0565r0qiyy.html -->
+
+# \faGroup \hspace{2pt} CONFERENCE PROCEEDINGS
+
+## **Presentations**
+
+1. *Data integration and visualization of phylogenetic trees*,
+    The 3^rd^ South Lake Innovation Forum for International Young Talents, Huazhong
+    Agricultural University, Wuhan, May, 2018
+99. *ggtree for tree visualization & annotation* (invited),
+    Phylogenetic tree visualization workshop/hackathon, The Field Museum of
+    Natural History, Chicago, May. 2017
+100. *Computational Methods in Ecology and Evolution*,
+    The Second International Workshop on Environmental Microbiomes, Sun
+    Yat-sen University, Guangzhou, April. 2017
+101. *ggtree for visualization and annotation of phylogenetic trees* (invited),
+	The 9^th^ China-R Conference, Renmin University of China, Beijing, May. 2016
+
+## **Posters**
+
+1. *ggtree: a programming package for complex data integration and analysis in
+   phylogeny to identify potential genetic markers of influenza a virus that
+   determine interspecies transmission*, Scientific Advisory Board (SAB) Meeting for the Theme-based Research
+   Scheme on Viral, Host and Environmental Determinants of Influenza Virus
+   Transmission and Pathogenesis, The University of Hong Kong, Hong Kong, Jun. 2017
+100. *Phylogeny-guided genome assembly method for short read nucleotide sequences from co-infecting influenza A viruses*,
+	Options IX for the control of influenza, International Society for Influenza and other Respiratory Virus Disease, Chicago, Aug. 2016
+101. **ggtree: an *R* package for visualization and annotation of phylogenetic tree with different types of meta-data**,
+	The 20^th^ Research Postgraduate Symposium, The University of Hong Kong, Hong Kong, Dec. 2015
+
+# \faSlideshare \hspace{2pt} TEACHING
+
+The University of Hong Kong
+
+> Student Helper, Presentation Skills and Research Seminars in Biological Sciences \hfill 2013--2014
+
+Jinan University
+
+> Lecturer, Functional Proteomics \hfill 2011--2012
+
