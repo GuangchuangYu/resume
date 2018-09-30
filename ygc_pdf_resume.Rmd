@@ -338,7 +338,7 @@ https://youtu.be/tqspAXM0UQE
    Transmission and Pathogenesis, The University of Hong Kong, Hong Kong, Jun. 2017
 100. *Phylogeny-guided genome assembly method for short read nucleotide sequences from co-infecting influenza A viruses*,
 	Options IX for the control of influenza, International Society for Influenza and other Respiratory Virus Disease, Chicago, Aug. 2016
-101. *ggtree: an *R* package for visualization and annotation of phylogenetic tree with different types of meta-data*,
+101. *ggtree: an R package for visualization and annotation of phylogenetic tree with different types of meta-data*,
 	The 20^th^ Research Postgraduate Symposium, The University of Hong Kong, Hong Kong, Dec. 2015
 
 # \faSlideshare \hspace{2pt} TEACHING
