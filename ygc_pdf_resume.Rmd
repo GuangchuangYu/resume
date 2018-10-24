@@ -186,7 +186,7 @@ ggplot(df, aes(year, cites)) +
    __*bioRxiv*__. 2018, <https://doi.org/10.1101/256784>
 2. __G Yu__^\*^, TTY Lam, H Zhu, Y Guan^\*^. Two methods for mapping and visualizing associated data on phylogeny using ggtree. __*Molecular Biology and Evolution*__. accepted. `r journal_info("molecular biology and evolution")`
 90. __G Yu__. [Using meshes for MeSH term enrichment and semantic analyses](https://doi.org/10.1093/bioinformatics/bty410).
-    __*Bioinformatics*__. accepted. `r journal_info("Bioinformatics")`
+    __*Bioinformatics*__. 2018, 34(21):3766–3767. `r journal_info("Bioinformatics")`
 91. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. [ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract). __*Methods in Ecology and Evolution*__. 2017, 8(1):28-36.
  \emph{\color{OrangeRed}\faFire} \emph{\color{BurntOrange}\faTrophy} `r cite("HtEfBTGE9r8C")`, `r journal_info("Methods in Ecology and Evolution")`
 92. __G Yu__, QY He^\*^. [ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization](http://pubs.rsc.org/en/Content/ArticleLanding/2016/MB/C5MB00663E). __*Molecular BioSystems*__. 2016, 12(2):477-479.
@@ -233,10 +233,14 @@ ggplot(df, aes(year, cites)) +
  `r cite("WZBGuue-350C")`, `r journal_info("Journal of Proteomics")`
 998. Y Ma^#^, J Yang^#^, X Fan^#^, H Zhao, W Hu, Z Li, __G Yu__, X Ding, J Wang, X Bo, X Zheng, Z Zhou^\*^, S Wang^\*^. [Cellular MicroRNA let-7c Inhibits M1 Protein Expression of the H1N1 Influenza A Virus in Infected Human Lung Epithelial Cells](http://onlinelibrary.wiley.com/doi/10.1111/j.1582-4934.2012.01572.x/abstract). __*Journal of Cellular and Molecular Medicine*__. 2012, 16(10):2539-2546.
  `r cite("ClCfbGk0d_YC")`, `r journal_info("Journal of Cellular and Molecular Medicine")`
-999. GR Yan^#^, FY Zhou^#^, BL Dang, Y Zhang, __G Yu__, X Liu, QY He^\*^. [Genistein-induced mitotic arrest of gastric cancer cells by downregulating KIF20A, a proteomics study](http://onlinelibrary.wiley.com/doi/10.1002/pmic.201100652/abstract). __*Proteomics*__. 2012, 12(14):2391-2399.
+999. GR Yan^#^, FY Zhou^#^, BL Dang, Y Zhang, __G Yu__, X Liu, QY He^\*^. [Genistein-induced mitotic arrest of gastric cancer cells by downregulating KIF20A, a proteomics study](http://onlinelibrary.wil
+ey.com/doi/10.1002/pmic.201100652/abstract). __*Proteomics*__. 2012, 12(14):2391-2399.
  `r cite("kz9GbA2Ns4gC")`, `r journal_info("Proteomics")`
 1000. X Sun^#^, XY Yang^#^, XF Yin, __G Yu__, CL Xiao, X He, QY He^\*^. [Proteomic Analysis of Membrane Proteins from *Streptococcus pneumoniae* with Multiple Separation Methods plus High Accuracy Mass Spectrometry](http://www.liebertonline.com/doi/abs/10.1089/omi.2010.0133). __*OMICS: A Journal of Integrative Biology*__. 2011, 15(10):683-694.
  `r cite("LI9QrySNdTsC")`, `r journal_info("OMICS-A Journal of Integrative biology")`
+1001. __余光创__，王超，许尹，伯晓晨，王升启^\*^，秦宜德^\*^. 结合基因组分析预测炎症相关miRNA及其靶标. __*军事医学科学院院刊*__. 2009, 33(3):245-247.
+1002. __余光创__，秦宜德，伯晓晨，王升启^\*^. 依赖于5'端非编码区高级结构的真核生物mRNA翻译调控. __*中国生物化学与分子生物学报*__. 2007, 23(11):881-887.
+
 
 ## **E-Letters**
 
