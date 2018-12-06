@@ -1,0 +1,148 @@
+---
+output:
+  pdf_document:
+    latex_engine: xelatex
+    template: rap-latex-cv.tex
+geometry: margin=1in
+
+title: "简历"
+author: 余光创
+orcid: "orcid.org/0000-0002-6485-8781"
+jobtitle: "教授"
+address: "广州白云区沙太南路南方医科大学生命科学楼10楼"
+fontawesome: yes
+email: guangchuangyu@gmail.com
+github: GuangchuangYu
+phone: "+852 6226 9693"
+dateofbirth: '1982-04-12'
+updated: no
+
+keywords: RMarkdown, academic CV, template
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 10pt
+linkcolor: blue
+urlcolor: blue
+CJKmainfont: Source Han Sans CN
+---
+
+
+> 开发二十多个软件包，其中有十个收录于最大的生物信息学软件项目Bioconductor中；以第一作者在Molecular Biology and Evolution, Methods in Ecology and Evolution和Bioinformatcs等国际期刊发表多篇研究论文。
+
+# \faGraduationCap \hspace{2pt} 教育背景
+
+香港大学 \hspace{86pt}  \hfill 生物信息学 \hfill 博士 \hfill 2017
+
+安徽医科大学 \hspace{70pt}  \hfill 生物化学与分子生物学 \hspace{46pt} 硕士 \hfill 2009
+
+华南农业大学 \hspace{69pt} \hfill 生物技术 \hspace{3pt} \hfill 学士 \hfill 2005
+
+Institut Pasteur, Paris \hspace{109pt} Train the Trainers \hfill 2015
+
+
+# \faFileText \hspace{2pt} 代表性著作/论文
+
+```{r echo=F, warning=F, message=F, fig.asp=0.618}
+
+library(methods)
+library(scholar)
+library(ggplot2)
+library(ggthemes)
+library(ypages)
+
+
+cite <- function(article_id) {
+    sprintf("Citation: %d", sum(get_article_cite_history("DO5oG40AAAAJ", article_id)$cites))
+}
+
+journal_info <- function(journal) {
+    ## B
+    if (journal == "Bioinformatics") {
+        info <- "Impact Factor: 7.307, JCR Mathematical & Computational Biology 2/57 (Q1, 1区)"
+    }
+
+    ## C
+    if (journal == "Current Medicinal Chemistry") {
+        info <- "Impact Factor: 3.249, JCR Pharmacology & Pharmacy 71/257 (Q2, 2区)"
+    }
+
+    ## F
+    if (journal == "Frontiers in Microbiology") {
+        info <- "Impact Factor: 4.076, JCR Microbiology 26/125 (Q1, 2区)"
+    }
+
+    ## I
+    if (journal == "Infection, Genetics and Evolution") {
+        info <- "Impact Factor: 2.885, JCR Infectious Diseases 36/84 (Q2, 3区)"
+    }
+
+    ## J
+    if (journal == "Journal of Cellular and Molecular Medicine") {
+        info <- "Impact Factor: 4.499, JCR Medicine, Research & Experimental 20/128 (Q1, 2区)"
+    } else if (journal == "Journal of Proteomics") {
+        info <- "Impact Factor: 3.914, JCR Biochemistry & Research Methods 17/78 (Q1, 2区)"
+    }
+
+    ## M
+    if (journal == "MEE" || journal == "Methods in Ecology and Evolution") {
+        info <- "Impact Factor: 5.708, JCR Ecology 13/153 (Q1, 1区)"
+    } else if (journal == "Metallomics") {
+        info <- "Impact Factor: 3.975, JCR Biochemistry & Molecular Biology 80/290 (Q2, 3区)"
+    } else if (journal == "Molecular BioSystems") {
+        info <- "Impact Factor: 2.781, JCR Biochemistry & Molecular Biology 145/290 (Q2, 3区)"
+    }
+
+    ## O
+    if (journal == "OMICS") {
+        info <- "Impact Factor: 2.723, JCR Biotechnology & Applied Microbiology 29/160 (Q2, 3区)"
+    }
+
+    ## P
+    if (journal == "pone" || journal == "PLoS One") {
+        info <- "Impact Factor: 2.806, JCR Multidisciplinary Sciences 15/64 (Q1, 3区)"
+    } else if (journal == "Proteomics") {
+        info <- "Impact Factor: 4.041, JCR Biochemistry & Research Methods 15/78 (Q1, 2区)"
+    }
+
+    ## T
+    if (journal == "The Journal of Pathology") {
+        info <- "Impact Factor: 6.894, JCR Pathology 3/79 (Q1, 1区)"
+    }
+
+    sprintf(info)
+}
+
+journal_info <- function(journal) {
+    ## 2018 impact factor in scholar pkg
+    sprintf("Impact Factor: %.3f", scholar::get_impactfactor(journal)$ImpactFactor)
+}
+```
+
+> \emph{\color{OrangeRed}\faFire} ESI热点论文 (1篇)
+
+> \emph{\color{BurntOrange}\faTrophy} ESI高被引论文 (4篇)
+
+> 被引次数：2025, h-index = 15, i10-index = 20
+
+1. __G Yu__^\*^, TTY Lam, H Zhu, Y Guan^\*^. Two methods for mapping and visualizing associated data on phylogeny using ggtree. __*Molecular Biology and Evolution*__. accepted. `r journal_info("molecular biology and evolution")`
+90. __G Yu__. [Using meshes for MeSH term enrichment and semantic analyses](https://doi.org/10.1093/bioinformatics/bty410).
+    __*Bioinformatics*__. accepted. `r journal_info("Bioinformatics")`
+91. __G Yu__, DK Smith, H Zhu, Y Guan, TTY Lam^\*^. [ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12628/abstract). __*Methods in Ecology and Evolution*__. 2017, 8(1):28-36.
+ \emph{\color{OrangeRed}\faFire} \emph{\color{BurntOrange}\faTrophy} `r cite("HtEfBTGE9r8C")`, `r journal_info("Methods in Ecology and Evolution")`
+92. __G Yu__, QY He^\*^. [ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization](http://pubs.rsc.org/en/Content/ArticleLanding/2016/MB/C5MB00663E). __*Molecular BioSystems*__. 2016, 12(2):477-479.
+ \emph{\color{BurntOrange}\faTrophy} `r cite("8d8msizDQcsC")`, `r journal_info("Molecular BioSystems")`
+93. __G Yu__^\*^, LG Wang, QY He^\*^. [ChIPseeker: an R/Bioconductor package for ChIP peak annotation, comparision and visualization](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btv145). __*Bioinformatics*__. 2015, 31(14):2382-2383.
+ \emph{\color{BurntOrange}\faTrophy} `r cite("9pM33mqn1YgC")`, `r journal_info("Bioinformatics")`
+94.	__G Yu__^\*^, LG Wang, GR Yan, QY He^\*^. [DOSE: an R/Bioconductor package for Disease Ontology Semantic and Enrichment analysis](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btu684). __*Bioinformatics*__. 2015, 31(4):608-609.
+ `r cite("Ug5p-4gJ2f0C")`, `r journal_info("Bioinformatics")`
+98.	__G Yu__, LG Wang, Y Han, QY He^\*^. [clusterProfiler: an R package for comparing biological themes among gene clusters](http://online.liebertpub.com/doi/abs/10.1089/omi.2011.0118). __*OMICS: A Journal of Integrative Biology*__. 2012, 16(5):284-287.
+\emph{\color{BurntOrange}\faTrophy} `r cite("MLfJN-KU85MC")`, `r journal_info("OMICS-A Journal of Integrative biology")`
+102. __G Yu__^#^, F Li^#^, Y Qin, X Bo^\*^, Y Wu, S Wang^\*^. [GOSemSim: an R package for measuring semantic similarity among GO terms and gene products](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/26/7/976). __*Bioinformatics*__. 2010, 26(7):976-978.
+ `r cite("tuHXwOkdijsC")`, `r journal_info("Bioinformatics")`
+
+# \faUser 学术任责
+
+> *Bioinformatics*, *BMC Bioinformatics*, *Computational Biology and Chemistry*,
+> *Current Bioinformatics*, *Gastroenterology Research and Practice*, *Molecular
+> BioSystems*, *Nucleic Acids Research*, *R Journal* 等杂志审稿人
