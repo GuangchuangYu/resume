@@ -12,7 +12,7 @@ YGC.pdf: style_chmduquesne.tex render4pdf YGC.rmd YGC.md
 	context YGC.tex
 
 pdf2:
-	Rscript -e 'rmarkdown::render("ygc_pdf_resume.Rmd")';\
+	Rscript -e "rmarkdown::render('ygc_pdf_resume.Rmd')";\
 	mv ygc_pdf_resume.pdf YGC.pdf
 
 cnpdf:
