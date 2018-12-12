@@ -35,7 +35,7 @@ Anhui Medical University \hspace{57pt} M.S. Biochemistry and Molecular Biology \
 
 South China Agricultural University \hspace{9pt} B.S. Biotechnology \hfill 2005
 
-延安干部培训学院 \hspace{106pt} 南方医科大学高层次人才 \hspace{1pt} "不忘初心 \hspace{1pt} 牢记使命" \hspace{1pt} 学习教育 \hfill 2018
+延安干部培训学院 \hspace{106pt} 南方医科大学高层次人才"不忘初心\hspace{1pt} 牢记使命"学习教育 \hfill 2018
 
 Institut Pasteur, Paris \hspace{70pt} Train the Trainers \hfill 2015
 
@@ -73,6 +73,23 @@ Key Laboratory of Functional Protein Research of Guangdong Higher Education Inst
 + (在研) **PI**, _南方医科大学第三层次人才引进科研项目_, 南方医科大学 (c1051022), CNY ¥1,500,000 \hfill 2018--2019
 + (完成) **PI**, _hnRNPK蛋白在调控人肺癌细胞周期胞质分裂中的作用研究_, 中央高校基本科研业务费专项资金 (21613414), CNY ¥100,000 \hfill 2013
 + (完成) **PI**, _Hela细胞周期动态蛋白质组学分析_, 中央高校基本科研业务费专项资金 (21611303), CNY ¥20,000 \hfill 2011
+
+# \faSlideshare \hspace{2pt} TEACHING
+
+Southern Medical University
+
+> 基因组学 \hfill 2019
+
+> 基础医学新进展讲座 \hfill 2019
+
+University of Southern Denmark
+
+> BMB209: Workshops in Applied Bioinformatics \hfill 2019
+
+Jinan University
+
+> 功能蛋白质研究 \hfill 2011--2012
+
 
 # \faFileText \hspace{2pt} PUBLICATIONS
 
@@ -347,20 +364,4 @@ https://youtu.be/tqspAXM0UQE
 	Options IX for the control of influenza, International Society for Influenza and other Respiratory Virus Disease, Chicago, Aug. 2016
 101. *ggtree: an R package for visualization and annotation of phylogenetic tree with different types of meta-data*,
 	The 20^th^ Research Postgraduate Symposium, The University of Hong Kong, Hong Kong, Dec. 2015
-
-# \faSlideshare \hspace{2pt} TEACHING
-
-Southern Medical University
-
-> 基因组学 \hfill 2019
-
-> 基础医学新进展讲座 \hfill 2019
-
-University of Southern Denmark
-
-> BMB209: Workshops in Applied Bioinformatics \hfill 2019
-
-Jinan University
-
-> 功能蛋白质研究 \hfill 2011--2012
 
