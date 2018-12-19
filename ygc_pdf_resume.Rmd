@@ -261,16 +261,6 @@ ey.com/doi/10.1002/pmic.201100652/abstract). __*Proteomics*__. 2012, 12(14):2391
 1002. __余光创__，秦宜德，伯晓晨，王升启^\*^. 依赖于5'端非编码区高级结构的真核生物mRNA翻译调控. __*中国生物化学与分子生物学报*__. 2007, 23(11):881-887.
 
 
-## **E-Letters**
-
-1. Y Wan^#^, __G Yu__^#^, J Zou^#^, W Liu^#^, Q Liu^\*^, Why animals
-   have escaped the Indian Ocean tsunami? __*Science*__. 2017,
-   http://science.sciencemag.org/content/356/6340/841/tab-e-letters
-100. M Tang, S Weng, __G Yu__, K Yang, M Pan, S He,
-   Q Liu^\*^, RE: Sequence features of the virulence protein VP24 of Ebola
-   virus. __*Science*__. 2017,
-   http://science.sciencemag.org/content/351/6279/1339/tab-e-letters
-
 
 ## **Books**
 
@@ -310,6 +300,7 @@ ey.com/doi/10.1002/pmic.201100652/abstract). __*Proteomics*__. 2012, 12(14):2391
 + [microbiomeViz](https://github.com/lch14forever/microbiomeViz): Visualizing Microbiome Data
 + [MSnbase](https://bioconductor.org/packages/MSnbase/):   Base Functions and Classes for Mass Spectrometry and Proteomics
 + [pheatmap](https://cran.r-project.org/package=pheatmap):  `r packageTitle('pheatmap', 'CRAN')`
++ [RIdeogram](https://github.com/TickingClock1992/RIdeogram): Visualize and Map Genome Wide Data in Ideograms
 + [scholar](https://github.com/jkeirstead/scholar):   `r packageTitle('scholar', 'CRAN')`
 
 # \faHome \hspace{2pt} PROFESSIONAL AFFILIATIONS
