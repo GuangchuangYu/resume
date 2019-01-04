@@ -210,9 +210,9 @@ ggplot(df, aes(year, cites)) +
  \emph{\color{OrangeRed}\faFire} \emph{\color{BurntOrange}\faTrophy} `r cite("HtEfBTGE9r8C")`, `r journal_info("Methods in Ecology and Evolution")`
 92. __G Yu__, QY He^\*^. [ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization](http://pubs.rsc.org/en/Content/ArticleLanding/2016/MB/C5MB00663E). __*Molecular BioSystems*__. 2016, 12(2):477-479.
  \emph{\color{BurntOrange}\faTrophy} `r cite("8d8msizDQcsC")`, `r journal_info("Molecular BioSystems")`
-93. __G Yu__^\*^, LG Wang, QY He^\*^. [ChIPseeker: an R/Bioconductor package for ChIP peak annotation, comparision and visualization](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btv145). __*Bioinformatics*__. 2015, 31(14):2382-2383.
+93. __G Yu__^\*^, LG Wang, QY He^\*^. [ChIPseeker: an R/Bioconductor package for ChIP peak annotation, comparision and visualization](https://academic.oup.com/bioinformatics/article/31/14/2382/255379). __*Bioinformatics*__. 2015, 31(14):2382-2383.
  \emph{\color{BurntOrange}\faTrophy} `r cite("9pM33mqn1YgC")`, `r journal_info("Bioinformatics")`
-94.	__G Yu__^\*^, LG Wang, GR Yan, QY He^\*^. [DOSE: an R/Bioconductor package for Disease Ontology Semantic and Enrichment analysis](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/btu684). __*Bioinformatics*__. 2015, 31(4):608-609.
+94.	__G Yu__^\*^, LG Wang, GR Yan, QY He^\*^. [DOSE: an R/Bioconductor package for Disease Ontology Semantic and Enrichment analysis](https://academic.oup.com/bioinformatics/article/31/4/608/2748221). __*Bioinformatics*__. 2015, 31(4):608-609.
  `r cite("Ug5p-4gJ2f0C")`, `r journal_info("Bioinformatics")`
 95. X Sun^#^, __G Yu__^#^, Q Xu, N Li, C Xiao, X Yin, K Cao, J Han, QY He^\*^. [Putative cobalt- and nickel-binding proteins and motifs in *Streptococcus pneumonia*](http://pubs.rsc.org/en/content/articlelanding/2013/mt/c3mt00126a). __*Metallomics*__. 2013, 5(7):928-935.
  `r cite("oNZyr7d5Mn4C")`, `r journal_info("Metallomics")`
@@ -222,7 +222,7 @@ ggplot(df, aes(year, cites)) +
  `r cite("S16KYo8Pm5AC")`
 98.	__G Yu__, LG Wang, Y Han, QY He^\*^. [clusterProfiler: an R package for comparing biological themes among gene clusters](http://online.liebertpub.com/doi/abs/10.1089/omi.2011.0118). __*OMICS: A Journal of Integrative Biology*__. 2012, 16(5):284-287.
 \emph{\color{BurntOrange}\faTrophy} `r cite("MLfJN-KU85MC")`, `r journal_info("OMICS-A Journal of Integrative biology")`
-99.	__G Yu__, QY He^\*^. [Functional similarity analysis of human virus-encoded miRNAs](http://www.jclinbioinformatics.com/content/1/1/15/abstract). __*Journal of Clinical Bioinformatics*__. 2011, 1(1):15.
+99.	__G Yu__, QY He^\*^. [Functional similarity analysis of human virus-encoded miRNAs](https://jclinbioinformatics.biomedcentral.com/articles/10.1186/2043-9113-1-15). __*Journal of Clinical Bioinformatics*__. 2011, 1(1):15.
  `r cite("lmc2jWPfTJgC")`
 100. __G Yu__^#^, CL Xiao^#^, X Bo, CH Lu, Y Qin, S Zhan, QY He^\*^. [A new method for measuring functional similarity of microRNAs](http://www.jiomics.com/index.php/jio/article/view/21). __*Journal of Integrated OMICS*__. 2011, 1(1):49-54.
  `r cite("M7yex6snE4oC")`
