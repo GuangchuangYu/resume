@@ -283,6 +283,7 @@ ey.com/doi/10.1002/pmic.201100652/abstract). __*Proteomics*__. 2012, 12(14):2391
 + [ChIPseeker](https://guangchuangyu.github.io/ChIPseeker):   `r packageTitle('ChIPseeker', 'BioC')`
 + [clusterProfiler](https://guangchuangyu.github.io/clusterProfiler):   `r packageTitle('clusterProfiler', 'BioC')`
 + [DOSE](https://guangchuangyu.github.io/DOSE):   `r packageTitle('DOSE', 'BioC')`
++ [enrichplot](https://www.bioconductor.org/packages/enrichplot):   `r packageTitle('enrichplot', 'BioC')`
 + [ggtree](https://guangchuangyu.github.io/ggtree):   `r packageTitle('ggtree', 'BioC')`
 + [GOSemSim](https://guangchuangyu.github.io/GOSemSim):   `r packageTitle('GOSemSim', 'BioC')`
 + [meshes](https://guangchuangyu.github.io/meshes):   MeSH Enrichment and Semantic analyses
