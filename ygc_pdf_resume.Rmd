@@ -333,7 +333,9 @@ https://youtu.be/tqspAXM0UQE
 
 ## **Presentations**
 
-1. *Data integration and visualization of phylogenetic trees*,
+1. *Two methods for mapping and visualizing associated data on phylogeny using ggtree*,
+   第一届南方医科大学基础医学学术年会, 南方医科大学, 广州, 2019年1月
+98. *Data integration and visualization of phylogenetic trees*,
     The 3^rd^ South Lake Innovation Forum for International Young Talents, Huazhong
     Agricultural University, Wuhan, May, 2018
 99. *ggtree for tree visualization & annotation* (invited),
