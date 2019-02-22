@@ -196,7 +196,7 @@ ggplot(df, aes(year, cites)) +
 
 > \emph{\color{OrangeRed}\faFire} ESI Hot Paper (X1)
 
-> \emph{\color{BurntOrange}\faTrophy} ESI Highly Cited Paper (X4)
+> \emph{\color{BurntOrange}\faTrophy} ESI Highly Cited Paper (X5)
 
 > ^#^ indicates equal contribution, ^\*^ indicates corresponding
 
@@ -229,7 +229,7 @@ ggplot(df, aes(year, cites)) +
 101. __G Yu__^#^, CL Xiao^#^, CH Lu^#^, HT Jia, F Ge, W Wang, XF Yin, HL Jia, JX He^\*^, QY He^\*^. [Phosphoproteome profile of human lung cancer cell line A549](http://pubs.rsc.org/en/Content/ArticleLanding/2011/MB/C0MB00055H). __*Molecular BioSystems*__. 2011, 7(2):472-479.
  `r cite("k8Z6L05lTy4C")`, `r journal_info("Molecular BioSystems")`
 102. __G Yu__^#^, F Li^#^, Y Qin, X Bo^\*^, Y Wu, S Wang^\*^. [GOSemSim: an R package for measuring semantic similarity among GO terms and gene products](http://bioinformatics.oxfordjournals.org/cgi/content/abstract/26/7/976). __*Bioinformatics*__. 2010, 26(7):976-978.
- `r cite("tuHXwOkdijsC")`, `r journal_info("Bioinformatics")`
+ \emph{\color{BurntOrange}\faTrophy} `r cite("tuHXwOkdijsC")`, `r journal_info("Bioinformatics")`
 988. XY Yang, K He, G Du, X Wu, __G Yu__, Y Pan, G Zhang^\*^, X Sun^\*^, QY He^\*^. [Integrated Translatomics with Proteomics to Identify Novel Iron–Transporting Proteins in *Streptococcus pneumoniae*](http://journal.frontiersin.org/article/10.3389/fmicb.2016.00078/full). __*Frontiers in Microbiology*__. 2016, 7:78.
  `r cite("anf4URPfarAC")`, `r journal_info("Frontiers in Microbiology")`
 989. PY Huang, CCD Lee, CH Yip, CL Cheung, __G Yu__, TTY Lam, DK Smith, H Zhu^\*^, Y Guan^\*^. [Genetic characterization of highly pathogenic H5 influenza viruses from poultry in Taiwan, 2015](http://www.sciencedirect.com/science/article/pii/S1567134815300721). __*Infection, Genetics and Evolution*__. 2016, 38:96-100.
